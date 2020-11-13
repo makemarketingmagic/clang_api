@@ -1,0 +1,14 @@
+{
+    "name": "clang/clang-sdk",
+    "description": "Package generated from https://secure.myclang.com/app/api/soap/public/index.php?wsdl&version=1.24 using wsdl2phpgenerator/wsdl2phpgenerator",
+    "require": {
+        "php": ">=7.2",
+        "ext-soap": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "./src/"
+        }
+    }
+}
