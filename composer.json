@@ -5,11 +5,13 @@
     "require": {
         "php": ">=7.2",
         "ext-soap": "*",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "ext-dom": "*"
     },
     "autoload": {
         "psr-4": {
-            "ClangSdk\\": "src/"
+            "ClangSdk\\": "src/",
+            "ClangApi\\":  "api/"
         }
     }
 }
