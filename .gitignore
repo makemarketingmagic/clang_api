@@ -1,4 +1,4 @@
 /vendor
 /.idea
 /.vagrant
-test.php
+config_local.php
