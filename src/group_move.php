@@ -27,9 +27,9 @@ class group_move
      */
     public function __construct($uuid, $group, $newParentId)
     {
-      $this->uuid = $uuid;
-      $this->group = $group;
-      $this->newParentId = $newParentId;
+        $this->uuid = $uuid;
+        $this->group = $group;
+        $this->newParentId = $newParentId;
     }
 
     /**
@@ -37,7 +37,7 @@ class group_move
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class group_move
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class group_move
      */
     public function getGroup()
     {
-      return $this->group;
+        return $this->group;
     }
 
     /**
@@ -64,8 +64,8 @@ class group_move
      */
     public function setGroup($group)
     {
-      $this->group = $group;
-      return $this;
+        $this->group = $group;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class group_move
      */
     public function getNewParentId()
     {
-      return $this->newParentId;
+        return $this->newParentId;
     }
 
     /**
@@ -82,8 +82,8 @@ class group_move
      */
     public function setNewParentId($newParentId)
     {
-      $this->newParentId = $newParentId;
-      return $this;
+        $this->newParentId = $newParentId;
+        return $this;
     }
 
 }

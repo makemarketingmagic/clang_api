@@ -60,10 +60,10 @@ class Group
      */
     protected $customerCount = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -71,7 +71,7 @@ class Group
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -80,8 +80,8 @@ class Group
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -89,7 +89,7 @@ class Group
      */
     public function getParentId()
     {
-      return $this->parentId;
+        return $this->parentId;
     }
 
     /**
@@ -98,8 +98,8 @@ class Group
      */
     public function setParentId($parentId)
     {
-      $this->parentId = $parentId;
-      return $this;
+        $this->parentId = $parentId;
+        return $this;
     }
 
     /**
@@ -107,7 +107,7 @@ class Group
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -116,8 +116,8 @@ class Group
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -125,7 +125,7 @@ class Group
      */
     public function getDescription()
     {
-      return $this->description;
+        return $this->description;
     }
 
     /**
@@ -134,8 +134,8 @@ class Group
      */
     public function setDescription($description)
     {
-      $this->description = $description;
-      return $this;
+        $this->description = $description;
+        return $this;
     }
 
     /**
@@ -143,7 +143,7 @@ class Group
      */
     public function getCreatedBy()
     {
-      return $this->createdBy;
+        return $this->createdBy;
     }
 
     /**
@@ -152,8 +152,8 @@ class Group
      */
     public function setCreatedBy($createdBy)
     {
-      $this->createdBy = $createdBy;
-      return $this;
+        $this->createdBy = $createdBy;
+        return $this;
     }
 
     /**
@@ -161,7 +161,7 @@ class Group
      */
     public function getCreatedAt()
     {
-      return $this->createdAt;
+        return $this->createdAt;
     }
 
     /**
@@ -170,8 +170,8 @@ class Group
      */
     public function setCreatedAt($createdAt)
     {
-      $this->createdAt = $createdAt;
-      return $this;
+        $this->createdAt = $createdAt;
+        return $this;
     }
 
     /**
@@ -179,7 +179,7 @@ class Group
      */
     public function getModifiedBy()
     {
-      return $this->modifiedBy;
+        return $this->modifiedBy;
     }
 
     /**
@@ -188,8 +188,8 @@ class Group
      */
     public function setModifiedBy($modifiedBy)
     {
-      $this->modifiedBy = $modifiedBy;
-      return $this;
+        $this->modifiedBy = $modifiedBy;
+        return $this;
     }
 
     /**
@@ -197,7 +197,7 @@ class Group
      */
     public function getModifiedAt()
     {
-      return $this->modifiedAt;
+        return $this->modifiedAt;
     }
 
     /**
@@ -206,8 +206,8 @@ class Group
      */
     public function setModifiedAt($modifiedAt)
     {
-      $this->modifiedAt = $modifiedAt;
-      return $this;
+        $this->modifiedAt = $modifiedAt;
+        return $this;
     }
 
     /**
@@ -215,7 +215,7 @@ class Group
      */
     public function getCountDate()
     {
-      return $this->countDate;
+        return $this->countDate;
     }
 
     /**
@@ -224,8 +224,8 @@ class Group
      */
     public function setCountDate($countDate)
     {
-      $this->countDate = $countDate;
-      return $this;
+        $this->countDate = $countDate;
+        return $this;
     }
 
     /**
@@ -233,7 +233,7 @@ class Group
      */
     public function getCustomerCountRecursive()
     {
-      return $this->customerCountRecursive;
+        return $this->customerCountRecursive;
     }
 
     /**
@@ -242,8 +242,8 @@ class Group
      */
     public function setCustomerCountRecursive($customerCountRecursive)
     {
-      $this->customerCountRecursive = $customerCountRecursive;
-      return $this;
+        $this->customerCountRecursive = $customerCountRecursive;
+        return $this;
     }
 
     /**
@@ -251,7 +251,7 @@ class Group
      */
     public function getCustomerCount()
     {
-      return $this->customerCount;
+        return $this->customerCount;
     }
 
     /**
@@ -260,8 +260,8 @@ class Group
      */
     public function setCustomerCount($customerCount)
     {
-      $this->customerCount = $customerCount;
-      return $this;
+        $this->customerCount = $customerCount;
+        return $this;
     }
 
 }

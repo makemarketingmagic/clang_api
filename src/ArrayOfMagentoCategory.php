@@ -10,10 +10,10 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     protected $MagentoCategory = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function getMagentoCategory()
     {
-      return $this->MagentoCategory;
+        return $this->MagentoCategory;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function setMagentoCategory(array $MagentoCategory = null)
     {
-      $this->MagentoCategory = $MagentoCategory;
-      return $this;
+        $this->MagentoCategory = $MagentoCategory;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->MagentoCategory[$offset]);
+        return isset($this->MagentoCategory[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->MagentoCategory[$offset];
+        return $this->MagentoCategory[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->MagentoCategory[] = $value;
-      } else {
-        $this->MagentoCategory[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->MagentoCategory[] = $value;
+        } else {
+            $this->MagentoCategory[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->MagentoCategory[$offset]);
+        unset($this->MagentoCategory[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->MagentoCategory);
+        return current($this->MagentoCategory);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->MagentoCategory);
+        next($this->MagentoCategory);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->MagentoCategory);
+        return key($this->MagentoCategory);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->MagentoCategory);
+        reset($this->MagentoCategory);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfMagentoCategory implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->MagentoCategory);
+        return count($this->MagentoCategory);
     }
 
 }

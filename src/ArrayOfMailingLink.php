@@ -10,10 +10,10 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     protected $MailingLink = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function getMailingLink()
     {
-      return $this->MailingLink;
+        return $this->MailingLink;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function setMailingLink(array $MailingLink = null)
     {
-      $this->MailingLink = $MailingLink;
-      return $this;
+        $this->MailingLink = $MailingLink;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->MailingLink[$offset]);
+        return isset($this->MailingLink[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->MailingLink[$offset];
+        return $this->MailingLink[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->MailingLink[] = $value;
-      } else {
-        $this->MailingLink[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->MailingLink[] = $value;
+        } else {
+            $this->MailingLink[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->MailingLink[$offset]);
+        unset($this->MailingLink[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->MailingLink);
+        return current($this->MailingLink);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->MailingLink);
+        next($this->MailingLink);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->MailingLink);
+        return key($this->MailingLink);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->MailingLink);
+        reset($this->MailingLink);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfMailingLink implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->MailingLink);
+        return count($this->MailingLink);
     }
 
 }

@@ -25,10 +25,10 @@ class GroupMembership
      */
     protected $startedAt = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -36,7 +36,7 @@ class GroupMembership
      */
     public function getGroupId()
     {
-      return $this->groupId;
+        return $this->groupId;
     }
 
     /**
@@ -45,8 +45,8 @@ class GroupMembership
      */
     public function setGroupId($groupId)
     {
-      $this->groupId = $groupId;
-      return $this;
+        $this->groupId = $groupId;
+        return $this;
     }
 
     /**
@@ -54,7 +54,7 @@ class GroupMembership
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -63,8 +63,8 @@ class GroupMembership
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -72,7 +72,7 @@ class GroupMembership
      */
     public function getIsMember()
     {
-      return $this->isMember;
+        return $this->isMember;
     }
 
     /**
@@ -81,8 +81,8 @@ class GroupMembership
      */
     public function setIsMember($isMember)
     {
-      $this->isMember = $isMember;
-      return $this;
+        $this->isMember = $isMember;
+        return $this;
     }
 
     /**
@@ -90,7 +90,7 @@ class GroupMembership
      */
     public function getStartedAt()
     {
-      return $this->startedAt;
+        return $this->startedAt;
     }
 
     /**
@@ -99,8 +99,8 @@ class GroupMembership
      */
     public function setStartedAt($startedAt)
     {
-      $this->startedAt = $startedAt;
-      return $this;
+        $this->startedAt = $startedAt;
+        return $this;
     }
 
 }

@@ -27,9 +27,9 @@ class Struct
      */
     public function __construct($any, $id, $href)
     {
-      $this->any = $any;
-      $this->id = $id;
-      $this->href = $href;
+        $this->any = $any;
+        $this->id = $id;
+        $this->href = $href;
     }
 
     /**
@@ -37,7 +37,7 @@ class Struct
      */
     public function getAny()
     {
-      return $this->any;
+        return $this->any;
     }
 
     /**
@@ -46,8 +46,8 @@ class Struct
      */
     public function setAny($any)
     {
-      $this->any = $any;
-      return $this;
+        $this->any = $any;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class Struct
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -64,8 +64,8 @@ class Struct
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class Struct
      */
     public function getHref()
     {
-      return $this->href;
+        return $this->href;
     }
 
     /**
@@ -82,8 +82,8 @@ class Struct
      */
     public function setHref($href)
     {
-      $this->href = $href;
-      return $this;
+        $this->href = $href;
+        return $this;
     }
 
 }

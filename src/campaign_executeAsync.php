@@ -27,9 +27,9 @@ class campaign_executeAsync
      */
     public function __construct($uuid, $campaignId, $options)
     {
-      $this->uuid = $uuid;
-      $this->campaignId = $campaignId;
-      $this->options = $options;
+        $this->uuid = $uuid;
+        $this->campaignId = $campaignId;
+        $this->options = $options;
     }
 
     /**
@@ -37,7 +37,7 @@ class campaign_executeAsync
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class campaign_executeAsync
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class campaign_executeAsync
      */
     public function getCampaignId()
     {
-      return $this->campaignId;
+        return $this->campaignId;
     }
 
     /**
@@ -64,8 +64,8 @@ class campaign_executeAsync
      */
     public function setCampaignId($campaignId)
     {
-      $this->campaignId = $campaignId;
-      return $this;
+        $this->campaignId = $campaignId;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class campaign_executeAsync
      */
     public function getOptions()
     {
-      return $this->options;
+        return $this->options;
     }
 
     /**
@@ -82,8 +82,8 @@ class campaign_executeAsync
      */
     public function setOptions($options)
     {
-      $this->options = $options;
-      return $this;
+        $this->options = $options;
+        return $this;
     }
 
 }

@@ -165,10 +165,10 @@ class MagentoCreditMemoItem
      */
     protected $baseHiddenTaxAmount = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -176,7 +176,7 @@ class MagentoCreditMemoItem
      */
     public function getStoreId()
     {
-      return $this->storeId;
+        return $this->storeId;
     }
 
     /**
@@ -185,8 +185,8 @@ class MagentoCreditMemoItem
      */
     public function setStoreId($storeId)
     {
-      $this->storeId = $storeId;
-      return $this;
+        $this->storeId = $storeId;
+        return $this;
     }
 
     /**
@@ -194,7 +194,7 @@ class MagentoCreditMemoItem
      */
     public function getOrderItemId()
     {
-      return $this->orderItemId;
+        return $this->orderItemId;
     }
 
     /**
@@ -203,8 +203,8 @@ class MagentoCreditMemoItem
      */
     public function setOrderItemId($orderItemId)
     {
-      $this->orderItemId = $orderItemId;
-      return $this;
+        $this->orderItemId = $orderItemId;
+        return $this;
     }
 
     /**
@@ -212,7 +212,7 @@ class MagentoCreditMemoItem
      */
     public function getExternalProductId()
     {
-      return $this->externalProductId;
+        return $this->externalProductId;
     }
 
     /**
@@ -221,8 +221,8 @@ class MagentoCreditMemoItem
      */
     public function setExternalProductId($externalProductId)
     {
-      $this->externalProductId = $externalProductId;
-      return $this;
+        $this->externalProductId = $externalProductId;
+        return $this;
     }
 
     /**
@@ -230,7 +230,7 @@ class MagentoCreditMemoItem
      */
     public function getSku()
     {
-      return $this->sku;
+        return $this->sku;
     }
 
     /**
@@ -239,8 +239,8 @@ class MagentoCreditMemoItem
      */
     public function setSku($sku)
     {
-      $this->sku = $sku;
-      return $this;
+        $this->sku = $sku;
+        return $this;
     }
 
     /**
@@ -248,7 +248,7 @@ class MagentoCreditMemoItem
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -257,8 +257,8 @@ class MagentoCreditMemoItem
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -266,7 +266,7 @@ class MagentoCreditMemoItem
      */
     public function getPrice()
     {
-      return $this->price;
+        return $this->price;
     }
 
     /**
@@ -275,8 +275,8 @@ class MagentoCreditMemoItem
      */
     public function setPrice($price)
     {
-      $this->price = $price;
-      return $this;
+        $this->price = $price;
+        return $this;
     }
 
     /**
@@ -284,7 +284,7 @@ class MagentoCreditMemoItem
      */
     public function getPriceInclTax()
     {
-      return $this->priceInclTax;
+        return $this->priceInclTax;
     }
 
     /**
@@ -293,8 +293,8 @@ class MagentoCreditMemoItem
      */
     public function setPriceInclTax($priceInclTax)
     {
-      $this->priceInclTax = $priceInclTax;
-      return $this;
+        $this->priceInclTax = $priceInclTax;
+        return $this;
     }
 
     /**
@@ -302,7 +302,7 @@ class MagentoCreditMemoItem
      */
     public function getWeeeTaxApplied()
     {
-      return $this->weeeTaxApplied;
+        return $this->weeeTaxApplied;
     }
 
     /**
@@ -311,8 +311,8 @@ class MagentoCreditMemoItem
      */
     public function setWeeeTaxApplied($weeeTaxApplied)
     {
-      $this->weeeTaxApplied = $weeeTaxApplied;
-      return $this;
+        $this->weeeTaxApplied = $weeeTaxApplied;
+        return $this;
     }
 
     /**
@@ -320,7 +320,7 @@ class MagentoCreditMemoItem
      */
     public function getWeeeTaxAppliedAmount()
     {
-      return $this->weeeTaxAppliedAmount;
+        return $this->weeeTaxAppliedAmount;
     }
 
     /**
@@ -329,8 +329,8 @@ class MagentoCreditMemoItem
      */
     public function setWeeeTaxAppliedAmount($weeeTaxAppliedAmount)
     {
-      $this->weeeTaxAppliedAmount = $weeeTaxAppliedAmount;
-      return $this;
+        $this->weeeTaxAppliedAmount = $weeeTaxAppliedAmount;
+        return $this;
     }
 
     /**
@@ -338,7 +338,7 @@ class MagentoCreditMemoItem
      */
     public function getWeeeTaxAppliedRowAmount()
     {
-      return $this->weeeTaxAppliedRowAmount;
+        return $this->weeeTaxAppliedRowAmount;
     }
 
     /**
@@ -347,8 +347,8 @@ class MagentoCreditMemoItem
      */
     public function setWeeeTaxAppliedRowAmount($weeeTaxAppliedRowAmount)
     {
-      $this->weeeTaxAppliedRowAmount = $weeeTaxAppliedRowAmount;
-      return $this;
+        $this->weeeTaxAppliedRowAmount = $weeeTaxAppliedRowAmount;
+        return $this;
     }
 
     /**
@@ -356,7 +356,7 @@ class MagentoCreditMemoItem
      */
     public function getWeeeTaxDisposition()
     {
-      return $this->weeeTaxDisposition;
+        return $this->weeeTaxDisposition;
     }
 
     /**
@@ -365,8 +365,8 @@ class MagentoCreditMemoItem
      */
     public function setWeeeTaxDisposition($weeeTaxDisposition)
     {
-      $this->weeeTaxDisposition = $weeeTaxDisposition;
-      return $this;
+        $this->weeeTaxDisposition = $weeeTaxDisposition;
+        return $this;
     }
 
     /**
@@ -374,7 +374,7 @@ class MagentoCreditMemoItem
      */
     public function getWeeeTaxRowDisposition()
     {
-      return $this->weeeTaxRowDisposition;
+        return $this->weeeTaxRowDisposition;
     }
 
     /**
@@ -383,8 +383,8 @@ class MagentoCreditMemoItem
      */
     public function setWeeeTaxRowDisposition($weeeTaxRowDisposition)
     {
-      $this->weeeTaxRowDisposition = $weeeTaxRowDisposition;
-      return $this;
+        $this->weeeTaxRowDisposition = $weeeTaxRowDisposition;
+        return $this;
     }
 
     /**
@@ -392,7 +392,7 @@ class MagentoCreditMemoItem
      */
     public function getQuantity()
     {
-      return $this->quantity;
+        return $this->quantity;
     }
 
     /**
@@ -401,8 +401,8 @@ class MagentoCreditMemoItem
      */
     public function setQuantity($quantity)
     {
-      $this->quantity = $quantity;
-      return $this;
+        $this->quantity = $quantity;
+        return $this;
     }
 
     /**
@@ -410,7 +410,7 @@ class MagentoCreditMemoItem
      */
     public function getRowTotal()
     {
-      return $this->rowTotal;
+        return $this->rowTotal;
     }
 
     /**
@@ -419,8 +419,8 @@ class MagentoCreditMemoItem
      */
     public function setRowTotal($rowTotal)
     {
-      $this->rowTotal = $rowTotal;
-      return $this;
+        $this->rowTotal = $rowTotal;
+        return $this;
     }
 
     /**
@@ -428,7 +428,7 @@ class MagentoCreditMemoItem
      */
     public function getRowTotalInclTax()
     {
-      return $this->rowTotalInclTax;
+        return $this->rowTotalInclTax;
     }
 
     /**
@@ -437,8 +437,8 @@ class MagentoCreditMemoItem
      */
     public function setRowTotalInclTax($rowTotalInclTax)
     {
-      $this->rowTotalInclTax = $rowTotalInclTax;
-      return $this;
+        $this->rowTotalInclTax = $rowTotalInclTax;
+        return $this;
     }
 
     /**
@@ -446,7 +446,7 @@ class MagentoCreditMemoItem
      */
     public function getTaxAmount()
     {
-      return $this->taxAmount;
+        return $this->taxAmount;
     }
 
     /**
@@ -455,8 +455,8 @@ class MagentoCreditMemoItem
      */
     public function setTaxAmount($taxAmount)
     {
-      $this->taxAmount = $taxAmount;
-      return $this;
+        $this->taxAmount = $taxAmount;
+        return $this;
     }
 
     /**
@@ -464,7 +464,7 @@ class MagentoCreditMemoItem
      */
     public function getHiddenTaxAmount()
     {
-      return $this->hiddenTaxAmount;
+        return $this->hiddenTaxAmount;
     }
 
     /**
@@ -473,8 +473,8 @@ class MagentoCreditMemoItem
      */
     public function setHiddenTaxAmount($hiddenTaxAmount)
     {
-      $this->hiddenTaxAmount = $hiddenTaxAmount;
-      return $this;
+        $this->hiddenTaxAmount = $hiddenTaxAmount;
+        return $this;
     }
 
     /**
@@ -482,7 +482,7 @@ class MagentoCreditMemoItem
      */
     public function getBackToStock()
     {
-      return $this->backToStock;
+        return $this->backToStock;
     }
 
     /**
@@ -491,8 +491,8 @@ class MagentoCreditMemoItem
      */
     public function setBackToStock($backToStock)
     {
-      $this->backToStock = $backToStock;
-      return $this;
+        $this->backToStock = $backToStock;
+        return $this;
     }
 
     /**
@@ -500,7 +500,7 @@ class MagentoCreditMemoItem
      */
     public function getCreatedAt()
     {
-      return $this->createdAt;
+        return $this->createdAt;
     }
 
     /**
@@ -509,8 +509,8 @@ class MagentoCreditMemoItem
      */
     public function setCreatedAt($createdAt)
     {
-      $this->createdAt = $createdAt;
-      return $this;
+        $this->createdAt = $createdAt;
+        return $this;
     }
 
     /**
@@ -518,7 +518,7 @@ class MagentoCreditMemoItem
      */
     public function getUpdatedAt()
     {
-      return $this->updatedAt;
+        return $this->updatedAt;
     }
 
     /**
@@ -527,8 +527,8 @@ class MagentoCreditMemoItem
      */
     public function setUpdatedAt($updatedAt)
     {
-      $this->updatedAt = $updatedAt;
-      return $this;
+        $this->updatedAt = $updatedAt;
+        return $this;
     }
 
     /**
@@ -536,7 +536,7 @@ class MagentoCreditMemoItem
      */
     public function getBasePrice()
     {
-      return $this->basePrice;
+        return $this->basePrice;
     }
 
     /**
@@ -545,8 +545,8 @@ class MagentoCreditMemoItem
      */
     public function setBasePrice($basePrice)
     {
-      $this->basePrice = $basePrice;
-      return $this;
+        $this->basePrice = $basePrice;
+        return $this;
     }
 
     /**
@@ -554,7 +554,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseCost()
     {
-      return $this->baseCost;
+        return $this->baseCost;
     }
 
     /**
@@ -563,8 +563,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseCost($baseCost)
     {
-      $this->baseCost = $baseCost;
-      return $this;
+        $this->baseCost = $baseCost;
+        return $this;
     }
 
     /**
@@ -572,7 +572,7 @@ class MagentoCreditMemoItem
      */
     public function getBasePriceInclTax()
     {
-      return $this->basePriceInclTax;
+        return $this->basePriceInclTax;
     }
 
     /**
@@ -581,8 +581,8 @@ class MagentoCreditMemoItem
      */
     public function setBasePriceInclTax($basePriceInclTax)
     {
-      $this->basePriceInclTax = $basePriceInclTax;
-      return $this;
+        $this->basePriceInclTax = $basePriceInclTax;
+        return $this;
     }
 
     /**
@@ -590,7 +590,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseWeeeTaxAppliedAmount()
     {
-      return $this->baseWeeeTaxAppliedAmount;
+        return $this->baseWeeeTaxAppliedAmount;
     }
 
     /**
@@ -599,8 +599,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseWeeeTaxAppliedAmount($baseWeeeTaxAppliedAmount)
     {
-      $this->baseWeeeTaxAppliedAmount = $baseWeeeTaxAppliedAmount;
-      return $this;
+        $this->baseWeeeTaxAppliedAmount = $baseWeeeTaxAppliedAmount;
+        return $this;
     }
 
     /**
@@ -608,7 +608,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseWeeeTaxAppliedRowAmount()
     {
-      return $this->baseWeeeTaxAppliedRowAmount;
+        return $this->baseWeeeTaxAppliedRowAmount;
     }
 
     /**
@@ -617,8 +617,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseWeeeTaxAppliedRowAmount($baseWeeeTaxAppliedRowAmount)
     {
-      $this->baseWeeeTaxAppliedRowAmount = $baseWeeeTaxAppliedRowAmount;
-      return $this;
+        $this->baseWeeeTaxAppliedRowAmount = $baseWeeeTaxAppliedRowAmount;
+        return $this;
     }
 
     /**
@@ -626,7 +626,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseWeeeTaxAppliedRowAmnt()
     {
-      return $this->baseWeeeTaxAppliedRowAmnt;
+        return $this->baseWeeeTaxAppliedRowAmnt;
     }
 
     /**
@@ -635,8 +635,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseWeeeTaxAppliedRowAmnt($baseWeeeTaxAppliedRowAmnt)
     {
-      $this->baseWeeeTaxAppliedRowAmnt = $baseWeeeTaxAppliedRowAmnt;
-      return $this;
+        $this->baseWeeeTaxAppliedRowAmnt = $baseWeeeTaxAppliedRowAmnt;
+        return $this;
     }
 
     /**
@@ -644,7 +644,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseWeeeTaxDisposition()
     {
-      return $this->baseWeeeTaxDisposition;
+        return $this->baseWeeeTaxDisposition;
     }
 
     /**
@@ -653,8 +653,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseWeeeTaxDisposition($baseWeeeTaxDisposition)
     {
-      $this->baseWeeeTaxDisposition = $baseWeeeTaxDisposition;
-      return $this;
+        $this->baseWeeeTaxDisposition = $baseWeeeTaxDisposition;
+        return $this;
     }
 
     /**
@@ -662,7 +662,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseWeeeTaxRowDisposition()
     {
-      return $this->baseWeeeTaxRowDisposition;
+        return $this->baseWeeeTaxRowDisposition;
     }
 
     /**
@@ -671,8 +671,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseWeeeTaxRowDisposition($baseWeeeTaxRowDisposition)
     {
-      $this->baseWeeeTaxRowDisposition = $baseWeeeTaxRowDisposition;
-      return $this;
+        $this->baseWeeeTaxRowDisposition = $baseWeeeTaxRowDisposition;
+        return $this;
     }
 
     /**
@@ -680,7 +680,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseRowTotal()
     {
-      return $this->baseRowTotal;
+        return $this->baseRowTotal;
     }
 
     /**
@@ -689,8 +689,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseRowTotal($baseRowTotal)
     {
-      $this->baseRowTotal = $baseRowTotal;
-      return $this;
+        $this->baseRowTotal = $baseRowTotal;
+        return $this;
     }
 
     /**
@@ -698,7 +698,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseRowTotalInclTax()
     {
-      return $this->baseRowTotalInclTax;
+        return $this->baseRowTotalInclTax;
     }
 
     /**
@@ -707,8 +707,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseRowTotalInclTax($baseRowTotalInclTax)
     {
-      $this->baseRowTotalInclTax = $baseRowTotalInclTax;
-      return $this;
+        $this->baseRowTotalInclTax = $baseRowTotalInclTax;
+        return $this;
     }
 
     /**
@@ -716,7 +716,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseTaxAmount()
     {
-      return $this->baseTaxAmount;
+        return $this->baseTaxAmount;
     }
 
     /**
@@ -725,8 +725,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseTaxAmount($baseTaxAmount)
     {
-      $this->baseTaxAmount = $baseTaxAmount;
-      return $this;
+        $this->baseTaxAmount = $baseTaxAmount;
+        return $this;
     }
 
     /**
@@ -734,7 +734,7 @@ class MagentoCreditMemoItem
      */
     public function getBaseHiddenTaxAmount()
     {
-      return $this->baseHiddenTaxAmount;
+        return $this->baseHiddenTaxAmount;
     }
 
     /**
@@ -743,8 +743,8 @@ class MagentoCreditMemoItem
      */
     public function setBaseHiddenTaxAmount($baseHiddenTaxAmount)
     {
-      $this->baseHiddenTaxAmount = $baseHiddenTaxAmount;
-      return $this;
+        $this->baseHiddenTaxAmount = $baseHiddenTaxAmount;
+        return $this;
     }
 
 }

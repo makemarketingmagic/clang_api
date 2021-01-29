@@ -315,10 +315,10 @@ class Customer
      */
     protected $options = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -326,7 +326,7 @@ class Customer
      */
     public function getComplaintCount()
     {
-      return $this->complaintCount;
+        return $this->complaintCount;
     }
 
     /**
@@ -335,8 +335,8 @@ class Customer
      */
     public function setComplaintCount($complaintCount)
     {
-      $this->complaintCount = $complaintCount;
-      return $this;
+        $this->complaintCount = $complaintCount;
+        return $this;
     }
 
     /**
@@ -344,7 +344,7 @@ class Customer
      */
     public function getAccounts()
     {
-      return $this->accounts;
+        return $this->accounts;
     }
 
     /**
@@ -353,8 +353,8 @@ class Customer
      */
     public function setAccounts($accounts)
     {
-      $this->accounts = $accounts;
-      return $this;
+        $this->accounts = $accounts;
+        return $this;
     }
 
     /**
@@ -362,7 +362,7 @@ class Customer
      */
     public function getSmsOptIn()
     {
-      return $this->smsOptIn;
+        return $this->smsOptIn;
     }
 
     /**
@@ -371,8 +371,8 @@ class Customer
      */
     public function setSmsOptIn($smsOptIn)
     {
-      $this->smsOptIn = $smsOptIn;
-      return $this;
+        $this->smsOptIn = $smsOptIn;
+        return $this;
     }
 
     /**
@@ -380,7 +380,7 @@ class Customer
      */
     public function getOptIn()
     {
-      return $this->optIn;
+        return $this->optIn;
     }
 
     /**
@@ -389,8 +389,8 @@ class Customer
      */
     public function setOptIn($optIn)
     {
-      $this->optIn = $optIn;
-      return $this;
+        $this->optIn = $optIn;
+        return $this;
     }
 
     /**
@@ -398,7 +398,7 @@ class Customer
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -407,8 +407,8 @@ class Customer
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -416,7 +416,7 @@ class Customer
      */
     public function getTitle()
     {
-      return $this->title;
+        return $this->title;
     }
 
     /**
@@ -425,8 +425,8 @@ class Customer
      */
     public function setTitle($title)
     {
-      $this->title = $title;
-      return $this;
+        $this->title = $title;
+        return $this;
     }
 
     /**
@@ -434,7 +434,7 @@ class Customer
      */
     public function getLastname()
     {
-      return $this->lastname;
+        return $this->lastname;
     }
 
     /**
@@ -443,8 +443,8 @@ class Customer
      */
     public function setLastname($lastname)
     {
-      $this->lastname = $lastname;
-      return $this;
+        $this->lastname = $lastname;
+        return $this;
     }
 
     /**
@@ -452,7 +452,7 @@ class Customer
      */
     public function getFirstname()
     {
-      return $this->firstname;
+        return $this->firstname;
     }
 
     /**
@@ -461,8 +461,8 @@ class Customer
      */
     public function setFirstname($firstname)
     {
-      $this->firstname = $firstname;
-      return $this;
+        $this->firstname = $firstname;
+        return $this;
     }
 
     /**
@@ -470,7 +470,7 @@ class Customer
      */
     public function getMiddlename()
     {
-      return $this->middlename;
+        return $this->middlename;
     }
 
     /**
@@ -479,8 +479,8 @@ class Customer
      */
     public function setMiddlename($middlename)
     {
-      $this->middlename = $middlename;
-      return $this;
+        $this->middlename = $middlename;
+        return $this;
     }
 
     /**
@@ -488,7 +488,7 @@ class Customer
      */
     public function getPrefix()
     {
-      return $this->prefix;
+        return $this->prefix;
     }
 
     /**
@@ -497,8 +497,8 @@ class Customer
      */
     public function setPrefix($prefix)
     {
-      $this->prefix = $prefix;
-      return $this;
+        $this->prefix = $prefix;
+        return $this;
     }
 
     /**
@@ -506,7 +506,7 @@ class Customer
      */
     public function getSuffix()
     {
-      return $this->suffix;
+        return $this->suffix;
     }
 
     /**
@@ -515,8 +515,8 @@ class Customer
      */
     public function setSuffix($suffix)
     {
-      $this->suffix = $suffix;
-      return $this;
+        $this->suffix = $suffix;
+        return $this;
     }
 
     /**
@@ -524,7 +524,7 @@ class Customer
      */
     public function getInitials()
     {
-      return $this->initials;
+        return $this->initials;
     }
 
     /**
@@ -533,8 +533,8 @@ class Customer
      */
     public function setInitials($initials)
     {
-      $this->initials = $initials;
-      return $this;
+        $this->initials = $initials;
+        return $this;
     }
 
     /**
@@ -542,7 +542,7 @@ class Customer
      */
     public function getGender()
     {
-      return $this->gender;
+        return $this->gender;
     }
 
     /**
@@ -551,8 +551,8 @@ class Customer
      */
     public function setGender($gender)
     {
-      $this->gender = $gender;
-      return $this;
+        $this->gender = $gender;
+        return $this;
     }
 
     /**
@@ -560,7 +560,7 @@ class Customer
      */
     public function getMaritalStatus()
     {
-      return $this->maritalStatus;
+        return $this->maritalStatus;
     }
 
     /**
@@ -569,8 +569,8 @@ class Customer
      */
     public function setMaritalStatus($maritalStatus)
     {
-      $this->maritalStatus = $maritalStatus;
-      return $this;
+        $this->maritalStatus = $maritalStatus;
+        return $this;
     }
 
     /**
@@ -578,7 +578,7 @@ class Customer
      */
     public function getBirthday()
     {
-      return $this->birthday;
+        return $this->birthday;
     }
 
     /**
@@ -587,8 +587,8 @@ class Customer
      */
     public function setBirthday($birthday)
     {
-      $this->birthday = $birthday;
-      return $this;
+        $this->birthday = $birthday;
+        return $this;
     }
 
     /**
@@ -596,7 +596,7 @@ class Customer
      */
     public function getBirthplace()
     {
-      return $this->birthplace;
+        return $this->birthplace;
     }
 
     /**
@@ -605,8 +605,8 @@ class Customer
      */
     public function setBirthplace($birthplace)
     {
-      $this->birthplace = $birthplace;
-      return $this;
+        $this->birthplace = $birthplace;
+        return $this;
     }
 
     /**
@@ -614,7 +614,7 @@ class Customer
      */
     public function getAddress()
     {
-      return $this->address;
+        return $this->address;
     }
 
     /**
@@ -623,8 +623,8 @@ class Customer
      */
     public function setAddress($address)
     {
-      $this->address = $address;
-      return $this;
+        $this->address = $address;
+        return $this;
     }
 
     /**
@@ -632,7 +632,7 @@ class Customer
      */
     public function getAddress2()
     {
-      return $this->address2;
+        return $this->address2;
     }
 
     /**
@@ -641,8 +641,8 @@ class Customer
      */
     public function setAddress2($address2)
     {
-      $this->address2 = $address2;
-      return $this;
+        $this->address2 = $address2;
+        return $this;
     }
 
     /**
@@ -650,7 +650,7 @@ class Customer
      */
     public function getAddress3()
     {
-      return $this->address3;
+        return $this->address3;
     }
 
     /**
@@ -659,8 +659,8 @@ class Customer
      */
     public function setAddress3($address3)
     {
-      $this->address3 = $address3;
-      return $this;
+        $this->address3 = $address3;
+        return $this;
     }
 
     /**
@@ -668,7 +668,7 @@ class Customer
      */
     public function getAddressNumber()
     {
-      return $this->addressNumber;
+        return $this->addressNumber;
     }
 
     /**
@@ -677,8 +677,8 @@ class Customer
      */
     public function setAddressNumber($addressNumber)
     {
-      $this->addressNumber = $addressNumber;
-      return $this;
+        $this->addressNumber = $addressNumber;
+        return $this;
     }
 
     /**
@@ -686,7 +686,7 @@ class Customer
      */
     public function getAddressNumberSuffix()
     {
-      return $this->addressNumberSuffix;
+        return $this->addressNumberSuffix;
     }
 
     /**
@@ -695,8 +695,8 @@ class Customer
      */
     public function setAddressNumberSuffix($addressNumberSuffix)
     {
-      $this->addressNumberSuffix = $addressNumberSuffix;
-      return $this;
+        $this->addressNumberSuffix = $addressNumberSuffix;
+        return $this;
     }
 
     /**
@@ -704,7 +704,7 @@ class Customer
      */
     public function getZipCode()
     {
-      return $this->zipCode;
+        return $this->zipCode;
     }
 
     /**
@@ -713,8 +713,8 @@ class Customer
      */
     public function setZipCode($zipCode)
     {
-      $this->zipCode = $zipCode;
-      return $this;
+        $this->zipCode = $zipCode;
+        return $this;
     }
 
     /**
@@ -722,7 +722,7 @@ class Customer
      */
     public function getPoBox()
     {
-      return $this->poBox;
+        return $this->poBox;
     }
 
     /**
@@ -731,8 +731,8 @@ class Customer
      */
     public function setPoBox($poBox)
     {
-      $this->poBox = $poBox;
-      return $this;
+        $this->poBox = $poBox;
+        return $this;
     }
 
     /**
@@ -740,7 +740,7 @@ class Customer
      */
     public function getCity()
     {
-      return $this->city;
+        return $this->city;
     }
 
     /**
@@ -749,8 +749,8 @@ class Customer
      */
     public function setCity($city)
     {
-      $this->city = $city;
-      return $this;
+        $this->city = $city;
+        return $this;
     }
 
     /**
@@ -758,7 +758,7 @@ class Customer
      */
     public function getState()
     {
-      return $this->state;
+        return $this->state;
     }
 
     /**
@@ -767,8 +767,8 @@ class Customer
      */
     public function setState($state)
     {
-      $this->state = $state;
-      return $this;
+        $this->state = $state;
+        return $this;
     }
 
     /**
@@ -776,7 +776,7 @@ class Customer
      */
     public function getCountry()
     {
-      return $this->country;
+        return $this->country;
     }
 
     /**
@@ -785,8 +785,8 @@ class Customer
      */
     public function setCountry($country)
     {
-      $this->country = $country;
-      return $this;
+        $this->country = $country;
+        return $this;
     }
 
     /**
@@ -794,7 +794,7 @@ class Customer
      */
     public function getCompanyName()
     {
-      return $this->companyName;
+        return $this->companyName;
     }
 
     /**
@@ -803,8 +803,8 @@ class Customer
      */
     public function setCompanyName($companyName)
     {
-      $this->companyName = $companyName;
-      return $this;
+        $this->companyName = $companyName;
+        return $this;
     }
 
     /**
@@ -812,7 +812,7 @@ class Customer
      */
     public function getDepartment()
     {
-      return $this->department;
+        return $this->department;
     }
 
     /**
@@ -821,8 +821,8 @@ class Customer
      */
     public function setDepartment($department)
     {
-      $this->department = $department;
-      return $this;
+        $this->department = $department;
+        return $this;
     }
 
     /**
@@ -830,7 +830,7 @@ class Customer
      */
     public function getAlternateAddress()
     {
-      return $this->alternateAddress;
+        return $this->alternateAddress;
     }
 
     /**
@@ -839,8 +839,8 @@ class Customer
      */
     public function setAlternateAddress($alternateAddress)
     {
-      $this->alternateAddress = $alternateAddress;
-      return $this;
+        $this->alternateAddress = $alternateAddress;
+        return $this;
     }
 
     /**
@@ -848,7 +848,7 @@ class Customer
      */
     public function getAlternateAddress2()
     {
-      return $this->alternateAddress2;
+        return $this->alternateAddress2;
     }
 
     /**
@@ -857,8 +857,8 @@ class Customer
      */
     public function setAlternateAddress2($alternateAddress2)
     {
-      $this->alternateAddress2 = $alternateAddress2;
-      return $this;
+        $this->alternateAddress2 = $alternateAddress2;
+        return $this;
     }
 
     /**
@@ -866,7 +866,7 @@ class Customer
      */
     public function getAlternateAddress3()
     {
-      return $this->alternateAddress3;
+        return $this->alternateAddress3;
     }
 
     /**
@@ -875,8 +875,8 @@ class Customer
      */
     public function setAlternateAddress3($alternateAddress3)
     {
-      $this->alternateAddress3 = $alternateAddress3;
-      return $this;
+        $this->alternateAddress3 = $alternateAddress3;
+        return $this;
     }
 
     /**
@@ -884,7 +884,7 @@ class Customer
      */
     public function getAlternateAddressNumber()
     {
-      return $this->alternateAddressNumber;
+        return $this->alternateAddressNumber;
     }
 
     /**
@@ -893,8 +893,8 @@ class Customer
      */
     public function setAlternateAddressNumber($alternateAddressNumber)
     {
-      $this->alternateAddressNumber = $alternateAddressNumber;
-      return $this;
+        $this->alternateAddressNumber = $alternateAddressNumber;
+        return $this;
     }
 
     /**
@@ -902,7 +902,7 @@ class Customer
      */
     public function getAlternateAddressNumberSuffix()
     {
-      return $this->alternateAddressNumberSuffix;
+        return $this->alternateAddressNumberSuffix;
     }
 
     /**
@@ -911,8 +911,8 @@ class Customer
      */
     public function setAlternateAddressNumberSuffix($alternateAddressNumberSuffix)
     {
-      $this->alternateAddressNumberSuffix = $alternateAddressNumberSuffix;
-      return $this;
+        $this->alternateAddressNumberSuffix = $alternateAddressNumberSuffix;
+        return $this;
     }
 
     /**
@@ -920,7 +920,7 @@ class Customer
      */
     public function getAlternateZipCode()
     {
-      return $this->alternateZipCode;
+        return $this->alternateZipCode;
     }
 
     /**
@@ -929,8 +929,8 @@ class Customer
      */
     public function setAlternateZipCode($alternateZipCode)
     {
-      $this->alternateZipCode = $alternateZipCode;
-      return $this;
+        $this->alternateZipCode = $alternateZipCode;
+        return $this;
     }
 
     /**
@@ -938,7 +938,7 @@ class Customer
      */
     public function getAlternateCity()
     {
-      return $this->alternateCity;
+        return $this->alternateCity;
     }
 
     /**
@@ -947,8 +947,8 @@ class Customer
      */
     public function setAlternateCity($alternateCity)
     {
-      $this->alternateCity = $alternateCity;
-      return $this;
+        $this->alternateCity = $alternateCity;
+        return $this;
     }
 
     /**
@@ -956,7 +956,7 @@ class Customer
      */
     public function getAlternateState()
     {
-      return $this->alternateState;
+        return $this->alternateState;
     }
 
     /**
@@ -965,8 +965,8 @@ class Customer
      */
     public function setAlternateState($alternateState)
     {
-      $this->alternateState = $alternateState;
-      return $this;
+        $this->alternateState = $alternateState;
+        return $this;
     }
 
     /**
@@ -974,7 +974,7 @@ class Customer
      */
     public function getAlternateCountry()
     {
-      return $this->alternateCountry;
+        return $this->alternateCountry;
     }
 
     /**
@@ -983,8 +983,8 @@ class Customer
      */
     public function setAlternateCountry($alternateCountry)
     {
-      $this->alternateCountry = $alternateCountry;
-      return $this;
+        $this->alternateCountry = $alternateCountry;
+        return $this;
     }
 
     /**
@@ -992,7 +992,7 @@ class Customer
      */
     public function getContactMan()
     {
-      return $this->contactMan;
+        return $this->contactMan;
     }
 
     /**
@@ -1001,8 +1001,8 @@ class Customer
      */
     public function setContactMan($contactMan)
     {
-      $this->contactMan = $contactMan;
-      return $this;
+        $this->contactMan = $contactMan;
+        return $this;
     }
 
     /**
@@ -1010,7 +1010,7 @@ class Customer
      */
     public function getJobTitle()
     {
-      return $this->jobTitle;
+        return $this->jobTitle;
     }
 
     /**
@@ -1019,8 +1019,8 @@ class Customer
      */
     public function setJobTitle($jobTitle)
     {
-      $this->jobTitle = $jobTitle;
-      return $this;
+        $this->jobTitle = $jobTitle;
+        return $this;
     }
 
     /**
@@ -1028,7 +1028,7 @@ class Customer
      */
     public function getWorkPhone()
     {
-      return $this->workPhone;
+        return $this->workPhone;
     }
 
     /**
@@ -1037,8 +1037,8 @@ class Customer
      */
     public function setWorkPhone($workPhone)
     {
-      $this->workPhone = $workPhone;
-      return $this;
+        $this->workPhone = $workPhone;
+        return $this;
     }
 
     /**
@@ -1046,7 +1046,7 @@ class Customer
      */
     public function getWorkExtension()
     {
-      return $this->workExtension;
+        return $this->workExtension;
     }
 
     /**
@@ -1055,8 +1055,8 @@ class Customer
      */
     public function setWorkExtension($workExtension)
     {
-      $this->workExtension = $workExtension;
-      return $this;
+        $this->workExtension = $workExtension;
+        return $this;
     }
 
     /**
@@ -1064,7 +1064,7 @@ class Customer
      */
     public function getWorkMobile()
     {
-      return $this->workMobile;
+        return $this->workMobile;
     }
 
     /**
@@ -1073,8 +1073,8 @@ class Customer
      */
     public function setWorkMobile($workMobile)
     {
-      $this->workMobile = $workMobile;
-      return $this;
+        $this->workMobile = $workMobile;
+        return $this;
     }
 
     /**
@@ -1082,7 +1082,7 @@ class Customer
      */
     public function getHomePhone()
     {
-      return $this->homePhone;
+        return $this->homePhone;
     }
 
     /**
@@ -1091,8 +1091,8 @@ class Customer
      */
     public function setHomePhone($homePhone)
     {
-      $this->homePhone = $homePhone;
-      return $this;
+        $this->homePhone = $homePhone;
+        return $this;
     }
 
     /**
@@ -1100,7 +1100,7 @@ class Customer
      */
     public function getMobilePhone()
     {
-      return $this->mobilePhone;
+        return $this->mobilePhone;
     }
 
     /**
@@ -1109,8 +1109,8 @@ class Customer
      */
     public function setMobilePhone($mobilePhone)
     {
-      $this->mobilePhone = $mobilePhone;
-      return $this;
+        $this->mobilePhone = $mobilePhone;
+        return $this;
     }
 
     /**
@@ -1118,7 +1118,7 @@ class Customer
      */
     public function getFaxNumber()
     {
-      return $this->faxNumber;
+        return $this->faxNumber;
     }
 
     /**
@@ -1127,8 +1127,8 @@ class Customer
      */
     public function setFaxNumber($faxNumber)
     {
-      $this->faxNumber = $faxNumber;
-      return $this;
+        $this->faxNumber = $faxNumber;
+        return $this;
     }
 
     /**
@@ -1136,7 +1136,7 @@ class Customer
      */
     public function getEmailAddress()
     {
-      return $this->emailAddress;
+        return $this->emailAddress;
     }
 
     /**
@@ -1145,8 +1145,8 @@ class Customer
      */
     public function setEmailAddress($emailAddress)
     {
-      $this->emailAddress = $emailAddress;
-      return $this;
+        $this->emailAddress = $emailAddress;
+        return $this;
     }
 
     /**
@@ -1154,7 +1154,7 @@ class Customer
      */
     public function getAlternateEmailAddress()
     {
-      return $this->alternateEmailAddress;
+        return $this->alternateEmailAddress;
     }
 
     /**
@@ -1163,8 +1163,8 @@ class Customer
      */
     public function setAlternateEmailAddress($alternateEmailAddress)
     {
-      $this->alternateEmailAddress = $alternateEmailAddress;
-      return $this;
+        $this->alternateEmailAddress = $alternateEmailAddress;
+        return $this;
     }
 
     /**
@@ -1172,7 +1172,7 @@ class Customer
      */
     public function getEmailType()
     {
-      return $this->emailType;
+        return $this->emailType;
     }
 
     /**
@@ -1181,8 +1181,8 @@ class Customer
      */
     public function setEmailType($emailType)
     {
-      $this->emailType = $emailType;
-      return $this;
+        $this->emailType = $emailType;
+        return $this;
     }
 
     /**
@@ -1190,7 +1190,7 @@ class Customer
      */
     public function getMailStatus()
     {
-      return $this->mailStatus;
+        return $this->mailStatus;
     }
 
     /**
@@ -1199,8 +1199,8 @@ class Customer
      */
     public function setMailStatus($mailStatus)
     {
-      $this->mailStatus = $mailStatus;
-      return $this;
+        $this->mailStatus = $mailStatus;
+        return $this;
     }
 
     /**
@@ -1208,7 +1208,7 @@ class Customer
      */
     public function getSoftBounceCount()
     {
-      return $this->softBounceCount;
+        return $this->softBounceCount;
     }
 
     /**
@@ -1217,8 +1217,8 @@ class Customer
      */
     public function setSoftBounceCount($softBounceCount)
     {
-      $this->softBounceCount = $softBounceCount;
-      return $this;
+        $this->softBounceCount = $softBounceCount;
+        return $this;
     }
 
     /**
@@ -1226,7 +1226,7 @@ class Customer
      */
     public function getHardBounceCount()
     {
-      return $this->hardBounceCount;
+        return $this->hardBounceCount;
     }
 
     /**
@@ -1235,8 +1235,8 @@ class Customer
      */
     public function setHardBounceCount($hardBounceCount)
     {
-      $this->hardBounceCount = $hardBounceCount;
-      return $this;
+        $this->hardBounceCount = $hardBounceCount;
+        return $this;
     }
 
     /**
@@ -1244,7 +1244,7 @@ class Customer
      */
     public function getWebsite()
     {
-      return $this->website;
+        return $this->website;
     }
 
     /**
@@ -1253,8 +1253,8 @@ class Customer
      */
     public function setWebsite($website)
     {
-      $this->website = $website;
-      return $this;
+        $this->website = $website;
+        return $this;
     }
 
     /**
@@ -1262,7 +1262,7 @@ class Customer
      */
     public function getImageUrl()
     {
-      return $this->imageUrl;
+        return $this->imageUrl;
     }
 
     /**
@@ -1271,8 +1271,8 @@ class Customer
      */
     public function setImageUrl($imageUrl)
     {
-      $this->imageUrl = $imageUrl;
-      return $this;
+        $this->imageUrl = $imageUrl;
+        return $this;
     }
 
     /**
@@ -1280,7 +1280,7 @@ class Customer
      */
     public function getStatus()
     {
-      return $this->status;
+        return $this->status;
     }
 
     /**
@@ -1289,8 +1289,8 @@ class Customer
      */
     public function setStatus($status)
     {
-      $this->status = $status;
-      return $this;
+        $this->status = $status;
+        return $this;
     }
 
     /**
@@ -1298,7 +1298,7 @@ class Customer
      */
     public function getExternalId()
     {
-      return $this->externalId;
+        return $this->externalId;
     }
 
     /**
@@ -1307,8 +1307,8 @@ class Customer
      */
     public function setExternalId($externalId)
     {
-      $this->externalId = $externalId;
-      return $this;
+        $this->externalId = $externalId;
+        return $this;
     }
 
     /**
@@ -1316,7 +1316,7 @@ class Customer
      */
     public function getUserName()
     {
-      return $this->userName;
+        return $this->userName;
     }
 
     /**
@@ -1325,8 +1325,8 @@ class Customer
      */
     public function setUserName($userName)
     {
-      $this->userName = $userName;
-      return $this;
+        $this->userName = $userName;
+        return $this;
     }
 
     /**
@@ -1334,7 +1334,7 @@ class Customer
      */
     public function getPassword()
     {
-      return $this->password;
+        return $this->password;
     }
 
     /**
@@ -1343,8 +1343,8 @@ class Customer
      */
     public function setPassword($password)
     {
-      $this->password = $password;
-      return $this;
+        $this->password = $password;
+        return $this;
     }
 
     /**
@@ -1352,7 +1352,7 @@ class Customer
      */
     public function getCreatedBy()
     {
-      return $this->createdBy;
+        return $this->createdBy;
     }
 
     /**
@@ -1361,8 +1361,8 @@ class Customer
      */
     public function setCreatedBy($createdBy)
     {
-      $this->createdBy = $createdBy;
-      return $this;
+        $this->createdBy = $createdBy;
+        return $this;
     }
 
     /**
@@ -1370,7 +1370,7 @@ class Customer
      */
     public function getCreatedAt()
     {
-      return $this->createdAt;
+        return $this->createdAt;
     }
 
     /**
@@ -1379,8 +1379,8 @@ class Customer
      */
     public function setCreatedAt($createdAt)
     {
-      $this->createdAt = $createdAt;
-      return $this;
+        $this->createdAt = $createdAt;
+        return $this;
     }
 
     /**
@@ -1388,7 +1388,7 @@ class Customer
      */
     public function getModifiedBy()
     {
-      return $this->modifiedBy;
+        return $this->modifiedBy;
     }
 
     /**
@@ -1397,8 +1397,8 @@ class Customer
      */
     public function setModifiedBy($modifiedBy)
     {
-      $this->modifiedBy = $modifiedBy;
-      return $this;
+        $this->modifiedBy = $modifiedBy;
+        return $this;
     }
 
     /**
@@ -1406,7 +1406,7 @@ class Customer
      */
     public function getModifiedAt()
     {
-      return $this->modifiedAt;
+        return $this->modifiedAt;
     }
 
     /**
@@ -1415,8 +1415,8 @@ class Customer
      */
     public function setModifiedAt($modifiedAt)
     {
-      $this->modifiedAt = $modifiedAt;
-      return $this;
+        $this->modifiedAt = $modifiedAt;
+        return $this;
     }
 
     /**
@@ -1424,7 +1424,7 @@ class Customer
      */
     public function getOptions()
     {
-      return $this->options;
+        return $this->options;
     }
 
     /**
@@ -1433,8 +1433,8 @@ class Customer
      */
     public function setOptions($options)
     {
-      $this->options = $options;
-      return $this;
+        $this->options = $options;
+        return $this;
     }
 
 }

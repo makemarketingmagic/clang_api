@@ -10,10 +10,10 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Bounce = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function getBounce()
     {
-      return $this->Bounce;
+        return $this->Bounce;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function setBounce(array $Bounce = null)
     {
-      $this->Bounce = $Bounce;
-      return $this;
+        $this->Bounce = $Bounce;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Bounce[$offset]);
+        return isset($this->Bounce[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Bounce[$offset];
+        return $this->Bounce[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Bounce[] = $value;
-      } else {
-        $this->Bounce[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Bounce[] = $value;
+        } else {
+            $this->Bounce[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Bounce[$offset]);
+        unset($this->Bounce[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Bounce);
+        return current($this->Bounce);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Bounce);
+        next($this->Bounce);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Bounce);
+        return key($this->Bounce);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Bounce);
+        reset($this->Bounce);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfBounce implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Bounce);
+        return count($this->Bounce);
     }
 
 }

@@ -21,8 +21,8 @@ class mailingLink_getClickSet
      */
     public function __construct($uuid, $mailingLink)
     {
-      $this->uuid = $uuid;
-      $this->mailingLink = $mailingLink;
+        $this->uuid = $uuid;
+        $this->mailingLink = $mailingLink;
     }
 
     /**
@@ -30,7 +30,7 @@ class mailingLink_getClickSet
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class mailingLink_getClickSet
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class mailingLink_getClickSet
      */
     public function getMailingLink()
     {
-      return $this->mailingLink;
+        return $this->mailingLink;
     }
 
     /**
@@ -57,8 +57,8 @@ class mailingLink_getClickSet
      */
     public function setMailingLink($mailingLink)
     {
-      $this->mailingLink = $mailingLink;
-      return $this;
+        $this->mailingLink = $mailingLink;
+        return $this;
     }
 
 }

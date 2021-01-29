@@ -21,8 +21,8 @@ class open_getById
      */
     public function __construct($uuid, $openId)
     {
-      $this->uuid = $uuid;
-      $this->openId = $openId;
+        $this->uuid = $uuid;
+        $this->openId = $openId;
     }
 
     /**
@@ -30,7 +30,7 @@ class open_getById
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class open_getById
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class open_getById
      */
     public function getOpenId()
     {
-      return $this->openId;
+        return $this->openId;
     }
 
     /**
@@ -57,8 +57,8 @@ class open_getById
      */
     public function setOpenId($openId)
     {
-      $this->openId = $openId;
-      return $this;
+        $this->openId = $openId;
+        return $this;
     }
 
 }

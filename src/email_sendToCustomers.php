@@ -39,11 +39,11 @@ class email_sendToCustomers
      */
     public function __construct($uuid, $emailId, $customerIds, $manualOptions, $options)
     {
-      $this->uuid = $uuid;
-      $this->emailId = $emailId;
-      $this->customerIds = $customerIds;
-      $this->manualOptions = $manualOptions;
-      $this->options = $options;
+        $this->uuid = $uuid;
+        $this->emailId = $emailId;
+        $this->customerIds = $customerIds;
+        $this->manualOptions = $manualOptions;
+        $this->options = $options;
     }
 
     /**
@@ -51,7 +51,7 @@ class email_sendToCustomers
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -60,8 +60,8 @@ class email_sendToCustomers
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -69,7 +69,7 @@ class email_sendToCustomers
      */
     public function getEmailId()
     {
-      return $this->emailId;
+        return $this->emailId;
     }
 
     /**
@@ -78,8 +78,8 @@ class email_sendToCustomers
      */
     public function setEmailId($emailId)
     {
-      $this->emailId = $emailId;
-      return $this;
+        $this->emailId = $emailId;
+        return $this;
     }
 
     /**
@@ -87,7 +87,7 @@ class email_sendToCustomers
      */
     public function getCustomerIds()
     {
-      return $this->customerIds;
+        return $this->customerIds;
     }
 
     /**
@@ -96,8 +96,8 @@ class email_sendToCustomers
      */
     public function setCustomerIds($customerIds)
     {
-      $this->customerIds = $customerIds;
-      return $this;
+        $this->customerIds = $customerIds;
+        return $this;
     }
 
     /**
@@ -105,7 +105,7 @@ class email_sendToCustomers
      */
     public function getManualOptions()
     {
-      return $this->manualOptions;
+        return $this->manualOptions;
     }
 
     /**
@@ -114,8 +114,8 @@ class email_sendToCustomers
      */
     public function setManualOptions($manualOptions)
     {
-      $this->manualOptions = $manualOptions;
-      return $this;
+        $this->manualOptions = $manualOptions;
+        return $this;
     }
 
     /**
@@ -123,7 +123,7 @@ class email_sendToCustomers
      */
     public function getOptions()
     {
-      return $this->options;
+        return $this->options;
     }
 
     /**
@@ -132,8 +132,8 @@ class email_sendToCustomers
      */
     public function setOptions($options)
     {
-      $this->options = $options;
-      return $this;
+        $this->options = $options;
+        return $this;
     }
 
 }

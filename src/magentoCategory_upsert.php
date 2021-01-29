@@ -21,8 +21,8 @@ class magentoCategory_upsert
      */
     public function __construct($uuid, $category)
     {
-      $this->uuid = $uuid;
-      $this->category = $category;
+        $this->uuid = $uuid;
+        $this->category = $category;
     }
 
     /**
@@ -30,7 +30,7 @@ class magentoCategory_upsert
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class magentoCategory_upsert
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class magentoCategory_upsert
      */
     public function getCategory()
     {
-      return $this->category;
+        return $this->category;
     }
 
     /**
@@ -57,8 +57,8 @@ class magentoCategory_upsert
      */
     public function setCategory($category)
     {
-      $this->category = $category;
-      return $this;
+        $this->category = $category;
+        return $this;
     }
 
 }

@@ -20,10 +20,10 @@ class Option
      */
     protected $value = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -31,7 +31,7 @@ class Option
      */
     public function getType()
     {
-      return $this->type;
+        return $this->type;
     }
 
     /**
@@ -40,8 +40,8 @@ class Option
      */
     public function setType($type)
     {
-      $this->type = $type;
-      return $this;
+        $this->type = $type;
+        return $this;
     }
 
     /**
@@ -49,7 +49,7 @@ class Option
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -58,8 +58,8 @@ class Option
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -67,7 +67,7 @@ class Option
      */
     public function getValue()
     {
-      return $this->value;
+        return $this->value;
     }
 
     /**
@@ -76,8 +76,8 @@ class Option
      */
     public function setValue($value)
     {
-      $this->value = $value;
-      return $this;
+        $this->value = $value;
+        return $this;
     }
 
 }

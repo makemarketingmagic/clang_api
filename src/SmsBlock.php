@@ -20,10 +20,10 @@ class SmsBlock
      */
     protected $content = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -31,7 +31,7 @@ class SmsBlock
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -40,8 +40,8 @@ class SmsBlock
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -49,7 +49,7 @@ class SmsBlock
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -58,8 +58,8 @@ class SmsBlock
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -67,7 +67,7 @@ class SmsBlock
      */
     public function getContent()
     {
-      return $this->content;
+        return $this->content;
     }
 
     /**
@@ -76,8 +76,8 @@ class SmsBlock
      */
     public function setContent($content)
     {
-      $this->content = $content;
-      return $this;
+        $this->content = $content;
+        return $this;
     }
 
 }

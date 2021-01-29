@@ -35,10 +35,10 @@ class Click
      */
     protected $browserInformation = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -46,7 +46,7 @@ class Click
      */
     public function getLink()
     {
-      return $this->link;
+        return $this->link;
     }
 
     /**
@@ -55,8 +55,8 @@ class Click
      */
     public function setLink($link)
     {
-      $this->link = $link;
-      return $this;
+        $this->link = $link;
+        return $this;
     }
 
     /**
@@ -64,7 +64,7 @@ class Click
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -73,8 +73,8 @@ class Click
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -82,7 +82,7 @@ class Click
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -91,8 +91,8 @@ class Click
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -100,7 +100,7 @@ class Click
      */
     public function getMailingId()
     {
-      return $this->mailingId;
+        return $this->mailingId;
     }
 
     /**
@@ -109,8 +109,8 @@ class Click
      */
     public function setMailingId($mailingId)
     {
-      $this->mailingId = $mailingId;
-      return $this;
+        $this->mailingId = $mailingId;
+        return $this;
     }
 
     /**
@@ -118,7 +118,7 @@ class Click
      */
     public function getClickedAt()
     {
-      return $this->clickedAt;
+        return $this->clickedAt;
     }
 
     /**
@@ -127,8 +127,8 @@ class Click
      */
     public function setClickedAt($clickedAt)
     {
-      $this->clickedAt = $clickedAt;
-      return $this;
+        $this->clickedAt = $clickedAt;
+        return $this;
     }
 
     /**
@@ -136,7 +136,7 @@ class Click
      */
     public function getBrowserInformation()
     {
-      return $this->browserInformation;
+        return $this->browserInformation;
     }
 
     /**
@@ -145,8 +145,8 @@ class Click
      */
     public function setBrowserInformation($browserInformation)
     {
-      $this->browserInformation = $browserInformation;
-      return $this;
+        $this->browserInformation = $browserInformation;
+        return $this;
     }
 
 }

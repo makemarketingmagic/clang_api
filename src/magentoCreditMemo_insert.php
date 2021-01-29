@@ -21,8 +21,8 @@ class magentoCreditMemo_insert
      */
     public function __construct($uuid, $creditmemo)
     {
-      $this->uuid = $uuid;
-      $this->creditmemo = $creditmemo;
+        $this->uuid = $uuid;
+        $this->creditmemo = $creditmemo;
     }
 
     /**
@@ -30,7 +30,7 @@ class magentoCreditMemo_insert
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class magentoCreditMemo_insert
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class magentoCreditMemo_insert
      */
     public function getCreditmemo()
     {
-      return $this->creditmemo;
+        return $this->creditmemo;
     }
 
     /**
@@ -57,8 +57,8 @@ class magentoCreditMemo_insert
      */
     public function setCreditmemo($creditmemo)
     {
-      $this->creditmemo = $creditmemo;
-      return $this;
+        $this->creditmemo = $creditmemo;
+        return $this;
     }
 
 }

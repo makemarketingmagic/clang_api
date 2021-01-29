@@ -27,9 +27,9 @@ class campaign_hasMember
      */
     public function __construct($uuid, $campaignId, $customerId)
     {
-      $this->uuid = $uuid;
-      $this->campaignId = $campaignId;
-      $this->customerId = $customerId;
+        $this->uuid = $uuid;
+        $this->campaignId = $campaignId;
+        $this->customerId = $customerId;
     }
 
     /**
@@ -37,7 +37,7 @@ class campaign_hasMember
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class campaign_hasMember
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class campaign_hasMember
      */
     public function getCampaignId()
     {
-      return $this->campaignId;
+        return $this->campaignId;
     }
 
     /**
@@ -64,8 +64,8 @@ class campaign_hasMember
      */
     public function setCampaignId($campaignId)
     {
-      $this->campaignId = $campaignId;
-      return $this;
+        $this->campaignId = $campaignId;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class campaign_hasMember
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -82,8 +82,8 @@ class campaign_hasMember
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
 }

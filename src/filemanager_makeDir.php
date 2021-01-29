@@ -21,8 +21,8 @@ class filemanager_makeDir
      */
     public function __construct($uuid, $folder)
     {
-      $this->uuid = $uuid;
-      $this->folder = $folder;
+        $this->uuid = $uuid;
+        $this->folder = $folder;
     }
 
     /**
@@ -30,7 +30,7 @@ class filemanager_makeDir
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class filemanager_makeDir
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class filemanager_makeDir
      */
     public function getFolder()
     {
-      return $this->folder;
+        return $this->folder;
     }
 
     /**
@@ -57,8 +57,8 @@ class filemanager_makeDir
      */
     public function setFolder($folder)
     {
-      $this->folder = $folder;
-      return $this;
+        $this->folder = $folder;
+        return $this;
     }
 
 }

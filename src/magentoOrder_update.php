@@ -21,8 +21,8 @@ class magentoOrder_update
      */
     public function __construct($uuid, $order)
     {
-      $this->uuid = $uuid;
-      $this->order = $order;
+        $this->uuid = $uuid;
+        $this->order = $order;
     }
 
     /**
@@ -30,7 +30,7 @@ class magentoOrder_update
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class magentoOrder_update
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class magentoOrder_update
      */
     public function getOrder()
     {
-      return $this->order;
+        return $this->order;
     }
 
     /**
@@ -57,8 +57,8 @@ class magentoOrder_update
      */
     public function setOrder($order)
     {
-      $this->order = $order;
-      return $this;
+        $this->order = $order;
+        return $this;
     }
 
 }

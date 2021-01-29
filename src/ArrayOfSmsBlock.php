@@ -10,10 +10,10 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     protected $SmsBlock = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function getSmsBlock()
     {
-      return $this->SmsBlock;
+        return $this->SmsBlock;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function setSmsBlock(array $SmsBlock = null)
     {
-      $this->SmsBlock = $SmsBlock;
-      return $this;
+        $this->SmsBlock = $SmsBlock;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->SmsBlock[$offset]);
+        return isset($this->SmsBlock[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->SmsBlock[$offset];
+        return $this->SmsBlock[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->SmsBlock[] = $value;
-      } else {
-        $this->SmsBlock[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->SmsBlock[] = $value;
+        } else {
+            $this->SmsBlock[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->SmsBlock[$offset]);
+        unset($this->SmsBlock[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->SmsBlock);
+        return current($this->SmsBlock);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->SmsBlock);
+        next($this->SmsBlock);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->SmsBlock);
+        return key($this->SmsBlock);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->SmsBlock);
+        reset($this->SmsBlock);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfSmsBlock implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->SmsBlock);
+        return count($this->SmsBlock);
     }
 
 }

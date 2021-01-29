@@ -27,9 +27,9 @@ class conversionTracking_track
      */
     public function __construct($uuid, $keywords, $id)
     {
-      $this->uuid = $uuid;
-      $this->keywords = $keywords;
-      $this->id = $id;
+        $this->uuid = $uuid;
+        $this->keywords = $keywords;
+        $this->id = $id;
     }
 
     /**
@@ -37,7 +37,7 @@ class conversionTracking_track
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class conversionTracking_track
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class conversionTracking_track
      */
     public function getKeywords()
     {
-      return $this->keywords;
+        return $this->keywords;
     }
 
     /**
@@ -64,8 +64,8 @@ class conversionTracking_track
      */
     public function setKeywords($keywords)
     {
-      $this->keywords = $keywords;
-      return $this;
+        $this->keywords = $keywords;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class conversionTracking_track
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -82,8 +82,8 @@ class conversionTracking_track
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
 }

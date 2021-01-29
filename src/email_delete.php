@@ -21,8 +21,8 @@ class email_delete
      */
     public function __construct($uuid, $emailId)
     {
-      $this->uuid = $uuid;
-      $this->emailId = $emailId;
+        $this->uuid = $uuid;
+        $this->emailId = $emailId;
     }
 
     /**
@@ -30,7 +30,7 @@ class email_delete
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class email_delete
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class email_delete
      */
     public function getEmailId()
     {
-      return $this->emailId;
+        return $this->emailId;
     }
 
     /**
@@ -57,8 +57,8 @@ class email_delete
      */
     public function setEmailId($emailId)
     {
-      $this->emailId = $emailId;
-      return $this;
+        $this->emailId = $emailId;
+        return $this;
     }
 
 }

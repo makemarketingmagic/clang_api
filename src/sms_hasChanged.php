@@ -21,8 +21,8 @@ class sms_hasChanged
      */
     public function __construct($uuid, $broadcastId)
     {
-      $this->uuid = $uuid;
-      $this->broadcastId = $broadcastId;
+        $this->uuid = $uuid;
+        $this->broadcastId = $broadcastId;
     }
 
     /**
@@ -30,7 +30,7 @@ class sms_hasChanged
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class sms_hasChanged
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class sms_hasChanged
      */
     public function getBroadcastId()
     {
-      return $this->broadcastId;
+        return $this->broadcastId;
     }
 
     /**
@@ -57,8 +57,8 @@ class sms_hasChanged
      */
     public function setBroadcastId($broadcastId)
     {
-      $this->broadcastId = $broadcastId;
-      return $this;
+        $this->broadcastId = $broadcastId;
+        return $this;
     }
 
 }

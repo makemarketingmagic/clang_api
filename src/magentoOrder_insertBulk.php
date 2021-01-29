@@ -21,8 +21,8 @@ class magentoOrder_insertBulk
      */
     public function __construct($uuid, $orders)
     {
-      $this->uuid = $uuid;
-      $this->orders = $orders;
+        $this->uuid = $uuid;
+        $this->orders = $orders;
     }
 
     /**
@@ -30,7 +30,7 @@ class magentoOrder_insertBulk
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class magentoOrder_insertBulk
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class magentoOrder_insertBulk
      */
     public function getOrders()
     {
-      return $this->orders;
+        return $this->orders;
     }
 
     /**
@@ -57,8 +57,8 @@ class magentoOrder_insertBulk
      */
     public function setOrders($orders)
     {
-      $this->orders = $orders;
-      return $this;
+        $this->orders = $orders;
+        return $this;
     }
 
 }

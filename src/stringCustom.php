@@ -27,9 +27,9 @@ class stringCustom
      */
     public function __construct($_, $id, $href)
     {
-      $this->_ = $_;
-      $this->id = $id;
-      $this->href = $href;
+        $this->_ = $_;
+        $this->id = $id;
+        $this->href = $href;
     }
 
     /**
@@ -37,7 +37,7 @@ class stringCustom
      */
     public function get_()
     {
-      return $this->_;
+        return $this->_;
     }
 
     /**
@@ -46,8 +46,8 @@ class stringCustom
      */
     public function set_($_)
     {
-      $this->_ = $_;
-      return $this;
+        $this->_ = $_;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class stringCustom
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -64,8 +64,8 @@ class stringCustom
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class stringCustom
      */
     public function getHref()
     {
-      return $this->href;
+        return $this->href;
     }
 
     /**
@@ -82,8 +82,8 @@ class stringCustom
      */
     public function setHref($href)
     {
-      $this->href = $href;
-      return $this;
+        $this->href = $href;
+        return $this;
     }
 
 }

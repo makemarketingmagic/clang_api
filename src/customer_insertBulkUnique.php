@@ -33,10 +33,10 @@ class customer_insertBulkUnique
      */
     public function __construct($uuid, $customers, $uniqueCustomerFields, $uniqueOptionFields)
     {
-      $this->uuid = $uuid;
-      $this->customers = $customers;
-      $this->uniqueCustomerFields = $uniqueCustomerFields;
-      $this->uniqueOptionFields = $uniqueOptionFields;
+        $this->uuid = $uuid;
+        $this->customers = $customers;
+        $this->uniqueCustomerFields = $uniqueCustomerFields;
+        $this->uniqueOptionFields = $uniqueOptionFields;
     }
 
     /**
@@ -44,7 +44,7 @@ class customer_insertBulkUnique
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -53,8 +53,8 @@ class customer_insertBulkUnique
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -62,7 +62,7 @@ class customer_insertBulkUnique
      */
     public function getCustomers()
     {
-      return $this->customers;
+        return $this->customers;
     }
 
     /**
@@ -71,8 +71,8 @@ class customer_insertBulkUnique
      */
     public function setCustomers($customers)
     {
-      $this->customers = $customers;
-      return $this;
+        $this->customers = $customers;
+        return $this;
     }
 
     /**
@@ -80,7 +80,7 @@ class customer_insertBulkUnique
      */
     public function getUniqueCustomerFields()
     {
-      return $this->uniqueCustomerFields;
+        return $this->uniqueCustomerFields;
     }
 
     /**
@@ -89,8 +89,8 @@ class customer_insertBulkUnique
      */
     public function setUniqueCustomerFields($uniqueCustomerFields)
     {
-      $this->uniqueCustomerFields = $uniqueCustomerFields;
-      return $this;
+        $this->uniqueCustomerFields = $uniqueCustomerFields;
+        return $this;
     }
 
     /**
@@ -98,7 +98,7 @@ class customer_insertBulkUnique
      */
     public function getUniqueOptionFields()
     {
-      return $this->uniqueOptionFields;
+        return $this->uniqueOptionFields;
     }
 
     /**
@@ -107,8 +107,8 @@ class customer_insertBulkUnique
      */
     public function setUniqueOptionFields($uniqueOptionFields)
     {
-      $this->uniqueOptionFields = $uniqueOptionFields;
-      return $this;
+        $this->uniqueOptionFields = $uniqueOptionFields;
+        return $this;
     }
 
 }

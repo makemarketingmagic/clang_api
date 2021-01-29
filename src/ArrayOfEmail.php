@@ -10,10 +10,10 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Email = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function getEmail()
     {
-      return $this->Email;
+        return $this->Email;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function setEmail(array $Email = null)
     {
-      $this->Email = $Email;
-      return $this;
+        $this->Email = $Email;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Email[$offset]);
+        return isset($this->Email[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Email[$offset];
+        return $this->Email[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Email[] = $value;
-      } else {
-        $this->Email[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Email[] = $value;
+        } else {
+            $this->Email[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Email[$offset]);
+        unset($this->Email[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Email);
+        return current($this->Email);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Email);
+        next($this->Email);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Email);
+        return key($this->Email);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Email);
+        reset($this->Email);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfEmail implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Email);
+        return count($this->Email);
     }
 
 }

@@ -21,8 +21,8 @@ class click_getById
      */
     public function __construct($uuid, $clickId)
     {
-      $this->uuid = $uuid;
-      $this->clickId = $clickId;
+        $this->uuid = $uuid;
+        $this->clickId = $clickId;
     }
 
     /**
@@ -30,7 +30,7 @@ class click_getById
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class click_getById
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class click_getById
      */
     public function getClickId()
     {
-      return $this->clickId;
+        return $this->clickId;
     }
 
     /**
@@ -57,8 +57,8 @@ class click_getById
      */
     public function setClickId($clickId)
     {
-      $this->clickId = $clickId;
-      return $this;
+        $this->clickId = $clickId;
+        return $this;
     }
 
 }

@@ -30,10 +30,10 @@ class Complaint
      */
     protected $complaintAt = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -41,7 +41,7 @@ class Complaint
      */
     public function getFeedbackloop()
     {
-      return $this->feedbackloop;
+        return $this->feedbackloop;
     }
 
     /**
@@ -50,8 +50,8 @@ class Complaint
      */
     public function setFeedbackloop($feedbackloop)
     {
-      $this->feedbackloop = $feedbackloop;
-      return $this;
+        $this->feedbackloop = $feedbackloop;
+        return $this;
     }
 
     /**
@@ -59,7 +59,7 @@ class Complaint
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -68,8 +68,8 @@ class Complaint
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -77,7 +77,7 @@ class Complaint
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -86,8 +86,8 @@ class Complaint
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -95,7 +95,7 @@ class Complaint
      */
     public function getMailingId()
     {
-      return $this->mailingId;
+        return $this->mailingId;
     }
 
     /**
@@ -104,8 +104,8 @@ class Complaint
      */
     public function setMailingId($mailingId)
     {
-      $this->mailingId = $mailingId;
-      return $this;
+        $this->mailingId = $mailingId;
+        return $this;
     }
 
     /**
@@ -113,7 +113,7 @@ class Complaint
      */
     public function getComplaintAt()
     {
-      return $this->complaintAt;
+        return $this->complaintAt;
     }
 
     /**
@@ -122,8 +122,8 @@ class Complaint
      */
     public function setComplaintAt($complaintAt)
     {
-      $this->complaintAt = $complaintAt;
-      return $this;
+        $this->complaintAt = $complaintAt;
+        return $this;
     }
 
 }

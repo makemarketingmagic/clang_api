@@ -21,8 +21,8 @@ class magento_executeAbandonedCart
      */
     public function __construct($uuid, $customerIds)
     {
-      $this->uuid = $uuid;
-      $this->customerIds = $customerIds;
+        $this->uuid = $uuid;
+        $this->customerIds = $customerIds;
     }
 
     /**
@@ -30,7 +30,7 @@ class magento_executeAbandonedCart
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class magento_executeAbandonedCart
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class magento_executeAbandonedCart
      */
     public function getCustomerIds()
     {
-      return $this->customerIds;
+        return $this->customerIds;
     }
 
     /**
@@ -57,8 +57,8 @@ class magento_executeAbandonedCart
      */
     public function setCustomerIds($customerIds)
     {
-      $this->customerIds = $customerIds;
-      return $this;
+        $this->customerIds = $customerIds;
+        return $this;
     }
 
 }

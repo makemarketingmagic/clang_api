@@ -25,10 +25,10 @@ class CampaignObjectStatisticsOption
      */
     protected $hasCustomerSet = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -36,7 +36,7 @@ class CampaignObjectStatisticsOption
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -45,8 +45,8 @@ class CampaignObjectStatisticsOption
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -54,7 +54,7 @@ class CampaignObjectStatisticsOption
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -63,8 +63,8 @@ class CampaignObjectStatisticsOption
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -72,7 +72,7 @@ class CampaignObjectStatisticsOption
      */
     public function getValue()
     {
-      return $this->value;
+        return $this->value;
     }
 
     /**
@@ -81,8 +81,8 @@ class CampaignObjectStatisticsOption
      */
     public function setValue($value)
     {
-      $this->value = $value;
-      return $this;
+        $this->value = $value;
+        return $this;
     }
 
     /**
@@ -90,7 +90,7 @@ class CampaignObjectStatisticsOption
      */
     public function getHasCustomerSet()
     {
-      return $this->hasCustomerSet;
+        return $this->hasCustomerSet;
     }
 
     /**
@@ -99,8 +99,8 @@ class CampaignObjectStatisticsOption
      */
     public function setHasCustomerSet($hasCustomerSet)
     {
-      $this->hasCustomerSet = $hasCustomerSet;
-      return $this;
+        $this->hasCustomerSet = $hasCustomerSet;
+        return $this;
     }
 
 }

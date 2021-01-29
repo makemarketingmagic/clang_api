@@ -110,10 +110,10 @@ class MagentoProduct
      */
     protected $taxAmount = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -121,7 +121,7 @@ class MagentoProduct
      */
     public function getStoreId()
     {
-      return $this->storeId;
+        return $this->storeId;
     }
 
     /**
@@ -130,8 +130,8 @@ class MagentoProduct
      */
     public function setStoreId($storeId)
     {
-      $this->storeId = $storeId;
-      return $this;
+        $this->storeId = $storeId;
+        return $this;
     }
 
     /**
@@ -139,7 +139,7 @@ class MagentoProduct
      */
     public function getOrderItemId()
     {
-      return $this->orderItemId;
+        return $this->orderItemId;
     }
 
     /**
@@ -148,8 +148,8 @@ class MagentoProduct
      */
     public function setOrderItemId($orderItemId)
     {
-      $this->orderItemId = $orderItemId;
-      return $this;
+        $this->orderItemId = $orderItemId;
+        return $this;
     }
 
     /**
@@ -157,7 +157,7 @@ class MagentoProduct
      */
     public function getAttributes()
     {
-      return $this->attributes;
+        return $this->attributes;
     }
 
     /**
@@ -166,8 +166,8 @@ class MagentoProduct
      */
     public function setAttributes($attributes)
     {
-      $this->attributes = $attributes;
-      return $this;
+        $this->attributes = $attributes;
+        return $this;
     }
 
     /**
@@ -175,7 +175,7 @@ class MagentoProduct
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -184,8 +184,8 @@ class MagentoProduct
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -193,7 +193,7 @@ class MagentoProduct
      */
     public function getExternalProductId()
     {
-      return $this->externalProductId;
+        return $this->externalProductId;
     }
 
     /**
@@ -202,8 +202,8 @@ class MagentoProduct
      */
     public function setExternalProductId($externalProductId)
     {
-      $this->externalProductId = $externalProductId;
-      return $this;
+        $this->externalProductId = $externalProductId;
+        return $this;
     }
 
     /**
@@ -211,7 +211,7 @@ class MagentoProduct
      */
     public function getSku()
     {
-      return $this->sku;
+        return $this->sku;
     }
 
     /**
@@ -220,8 +220,8 @@ class MagentoProduct
      */
     public function setSku($sku)
     {
-      $this->sku = $sku;
-      return $this;
+        $this->sku = $sku;
+        return $this;
     }
 
     /**
@@ -229,7 +229,7 @@ class MagentoProduct
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -238,8 +238,8 @@ class MagentoProduct
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -247,7 +247,7 @@ class MagentoProduct
      */
     public function getDescription()
     {
-      return $this->description;
+        return $this->description;
     }
 
     /**
@@ -256,8 +256,8 @@ class MagentoProduct
      */
     public function setDescription($description)
     {
-      $this->description = $description;
-      return $this;
+        $this->description = $description;
+        return $this;
     }
 
     /**
@@ -265,7 +265,7 @@ class MagentoProduct
      */
     public function getUrl()
     {
-      return $this->url;
+        return $this->url;
     }
 
     /**
@@ -274,8 +274,8 @@ class MagentoProduct
      */
     public function setUrl($url)
     {
-      $this->url = $url;
-      return $this;
+        $this->url = $url;
+        return $this;
     }
 
     /**
@@ -283,7 +283,7 @@ class MagentoProduct
      */
     public function getImage()
     {
-      return $this->image;
+        return $this->image;
     }
 
     /**
@@ -292,8 +292,8 @@ class MagentoProduct
      */
     public function setImage($image)
     {
-      $this->image = $image;
-      return $this;
+        $this->image = $image;
+        return $this;
     }
 
     /**
@@ -301,7 +301,7 @@ class MagentoProduct
      */
     public function getOrderId()
     {
-      return $this->orderId;
+        return $this->orderId;
     }
 
     /**
@@ -310,8 +310,8 @@ class MagentoProduct
      */
     public function setOrderId($orderId)
     {
-      $this->orderId = $orderId;
-      return $this;
+        $this->orderId = $orderId;
+        return $this;
     }
 
     /**
@@ -319,7 +319,7 @@ class MagentoProduct
      */
     public function getQuantity()
     {
-      return $this->quantity;
+        return $this->quantity;
     }
 
     /**
@@ -328,8 +328,8 @@ class MagentoProduct
      */
     public function setQuantity($quantity)
     {
-      $this->quantity = $quantity;
-      return $this;
+        $this->quantity = $quantity;
+        return $this;
     }
 
     /**
@@ -337,7 +337,7 @@ class MagentoProduct
      */
     public function getPriceEx()
     {
-      return $this->priceEx;
+        return $this->priceEx;
     }
 
     /**
@@ -346,8 +346,8 @@ class MagentoProduct
      */
     public function setPriceEx($priceEx)
     {
-      $this->priceEx = $priceEx;
-      return $this;
+        $this->priceEx = $priceEx;
+        return $this;
     }
 
     /**
@@ -355,7 +355,7 @@ class MagentoProduct
      */
     public function getPrice()
     {
-      return $this->price;
+        return $this->price;
     }
 
     /**
@@ -364,8 +364,8 @@ class MagentoProduct
      */
     public function setPrice($price)
     {
-      $this->price = $price;
-      return $this;
+        $this->price = $price;
+        return $this;
     }
 
     /**
@@ -373,7 +373,7 @@ class MagentoProduct
      */
     public function getDiscount()
     {
-      return $this->discount;
+        return $this->discount;
     }
 
     /**
@@ -382,8 +382,8 @@ class MagentoProduct
      */
     public function setDiscount($discount)
     {
-      $this->discount = $discount;
-      return $this;
+        $this->discount = $discount;
+        return $this;
     }
 
     /**
@@ -391,7 +391,7 @@ class MagentoProduct
      */
     public function getCategories()
     {
-      return $this->categories;
+        return $this->categories;
     }
 
     /**
@@ -400,8 +400,8 @@ class MagentoProduct
      */
     public function setCategories($categories)
     {
-      $this->categories = $categories;
-      return $this;
+        $this->categories = $categories;
+        return $this;
     }
 
     /**
@@ -409,7 +409,7 @@ class MagentoProduct
      */
     public function getRelated()
     {
-      return $this->related;
+        return $this->related;
     }
 
     /**
@@ -418,8 +418,8 @@ class MagentoProduct
      */
     public function setRelated($related)
     {
-      $this->related = $related;
-      return $this;
+        $this->related = $related;
+        return $this;
     }
 
     /**
@@ -427,7 +427,7 @@ class MagentoProduct
      */
     public function getUpSell()
     {
-      return $this->upSell;
+        return $this->upSell;
     }
 
     /**
@@ -436,8 +436,8 @@ class MagentoProduct
      */
     public function setUpSell($upSell)
     {
-      $this->upSell = $upSell;
-      return $this;
+        $this->upSell = $upSell;
+        return $this;
     }
 
     /**
@@ -445,7 +445,7 @@ class MagentoProduct
      */
     public function getCrossSell()
     {
-      return $this->crossSell;
+        return $this->crossSell;
     }
 
     /**
@@ -454,8 +454,8 @@ class MagentoProduct
      */
     public function setCrossSell($crossSell)
     {
-      $this->crossSell = $crossSell;
-      return $this;
+        $this->crossSell = $crossSell;
+        return $this;
     }
 
     /**
@@ -463,7 +463,7 @@ class MagentoProduct
      */
     public function getTaxPercent()
     {
-      return $this->taxPercent;
+        return $this->taxPercent;
     }
 
     /**
@@ -472,8 +472,8 @@ class MagentoProduct
      */
     public function setTaxPercent($taxPercent)
     {
-      $this->taxPercent = $taxPercent;
-      return $this;
+        $this->taxPercent = $taxPercent;
+        return $this;
     }
 
     /**
@@ -481,7 +481,7 @@ class MagentoProduct
      */
     public function getTaxAmount()
     {
-      return $this->taxAmount;
+        return $this->taxAmount;
     }
 
     /**
@@ -490,8 +490,8 @@ class MagentoProduct
      */
     public function setTaxAmount($taxAmount)
     {
-      $this->taxAmount = $taxAmount;
-      return $this;
+        $this->taxAmount = $taxAmount;
+        return $this;
     }
 
 }

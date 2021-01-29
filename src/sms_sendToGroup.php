@@ -33,10 +33,10 @@ class sms_sendToGroup
      */
     public function __construct($uuid, $smsId, $groupId, $options)
     {
-      $this->uuid = $uuid;
-      $this->smsId = $smsId;
-      $this->groupId = $groupId;
-      $this->options = $options;
+        $this->uuid = $uuid;
+        $this->smsId = $smsId;
+        $this->groupId = $groupId;
+        $this->options = $options;
     }
 
     /**
@@ -44,7 +44,7 @@ class sms_sendToGroup
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -53,8 +53,8 @@ class sms_sendToGroup
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -62,7 +62,7 @@ class sms_sendToGroup
      */
     public function getSmsId()
     {
-      return $this->smsId;
+        return $this->smsId;
     }
 
     /**
@@ -71,8 +71,8 @@ class sms_sendToGroup
      */
     public function setSmsId($smsId)
     {
-      $this->smsId = $smsId;
-      return $this;
+        $this->smsId = $smsId;
+        return $this;
     }
 
     /**
@@ -80,7 +80,7 @@ class sms_sendToGroup
      */
     public function getGroupId()
     {
-      return $this->groupId;
+        return $this->groupId;
     }
 
     /**
@@ -89,8 +89,8 @@ class sms_sendToGroup
      */
     public function setGroupId($groupId)
     {
-      $this->groupId = $groupId;
-      return $this;
+        $this->groupId = $groupId;
+        return $this;
     }
 
     /**
@@ -98,7 +98,7 @@ class sms_sendToGroup
      */
     public function getOptions()
     {
-      return $this->options;
+        return $this->options;
     }
 
     /**
@@ -107,8 +107,8 @@ class sms_sendToGroup
      */
     public function setOptions($options)
     {
-      $this->options = $options;
-      return $this;
+        $this->options = $options;
+        return $this;
     }
 
 }

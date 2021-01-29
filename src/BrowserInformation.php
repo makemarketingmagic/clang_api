@@ -50,10 +50,10 @@ class BrowserInformation
      */
     protected $httpUserAgent = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -61,7 +61,7 @@ class BrowserInformation
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -70,8 +70,8 @@ class BrowserInformation
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -79,7 +79,7 @@ class BrowserInformation
      */
     public function getVersion()
     {
-      return $this->version;
+        return $this->version;
     }
 
     /**
@@ -88,8 +88,8 @@ class BrowserInformation
      */
     public function setVersion($version)
     {
-      $this->version = $version;
-      return $this;
+        $this->version = $version;
+        return $this;
     }
 
     /**
@@ -97,7 +97,7 @@ class BrowserInformation
      */
     public function getPlatform()
     {
-      return $this->platform;
+        return $this->platform;
     }
 
     /**
@@ -106,8 +106,8 @@ class BrowserInformation
      */
     public function setPlatform($platform)
     {
-      $this->platform = $platform;
-      return $this;
+        $this->platform = $platform;
+        return $this;
     }
 
     /**
@@ -115,7 +115,7 @@ class BrowserInformation
      */
     public function getCountry()
     {
-      return $this->country;
+        return $this->country;
     }
 
     /**
@@ -124,8 +124,8 @@ class BrowserInformation
      */
     public function setCountry($country)
     {
-      $this->country = $country;
-      return $this;
+        $this->country = $country;
+        return $this;
     }
 
     /**
@@ -133,7 +133,7 @@ class BrowserInformation
      */
     public function getHttpAcceptCharset()
     {
-      return $this->httpAcceptCharset;
+        return $this->httpAcceptCharset;
     }
 
     /**
@@ -142,8 +142,8 @@ class BrowserInformation
      */
     public function setHttpAcceptCharset($httpAcceptCharset)
     {
-      $this->httpAcceptCharset = $httpAcceptCharset;
-      return $this;
+        $this->httpAcceptCharset = $httpAcceptCharset;
+        return $this;
     }
 
     /**
@@ -151,7 +151,7 @@ class BrowserInformation
      */
     public function getHttpAcceptLanguage()
     {
-      return $this->httpAcceptLanguage;
+        return $this->httpAcceptLanguage;
     }
 
     /**
@@ -160,8 +160,8 @@ class BrowserInformation
      */
     public function setHttpAcceptLanguage($httpAcceptLanguage)
     {
-      $this->httpAcceptLanguage = $httpAcceptLanguage;
-      return $this;
+        $this->httpAcceptLanguage = $httpAcceptLanguage;
+        return $this;
     }
 
     /**
@@ -169,7 +169,7 @@ class BrowserInformation
      */
     public function getHttpAcceptEncoding()
     {
-      return $this->httpAcceptEncoding;
+        return $this->httpAcceptEncoding;
     }
 
     /**
@@ -178,8 +178,8 @@ class BrowserInformation
      */
     public function setHttpAcceptEncoding($httpAcceptEncoding)
     {
-      $this->httpAcceptEncoding = $httpAcceptEncoding;
-      return $this;
+        $this->httpAcceptEncoding = $httpAcceptEncoding;
+        return $this;
     }
 
     /**
@@ -187,7 +187,7 @@ class BrowserInformation
      */
     public function getHttpAccept()
     {
-      return $this->httpAccept;
+        return $this->httpAccept;
     }
 
     /**
@@ -196,8 +196,8 @@ class BrowserInformation
      */
     public function setHttpAccept($httpAccept)
     {
-      $this->httpAccept = $httpAccept;
-      return $this;
+        $this->httpAccept = $httpAccept;
+        return $this;
     }
 
     /**
@@ -205,7 +205,7 @@ class BrowserInformation
      */
     public function getHttpUserAgent()
     {
-      return $this->httpUserAgent;
+        return $this->httpUserAgent;
     }
 
     /**
@@ -214,8 +214,8 @@ class BrowserInformation
      */
     public function setHttpUserAgent($httpUserAgent)
     {
-      $this->httpUserAgent = $httpUserAgent;
-      return $this;
+        $this->httpUserAgent = $httpUserAgent;
+        return $this;
     }
 
 }

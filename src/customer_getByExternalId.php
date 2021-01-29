@@ -21,8 +21,8 @@ class customer_getByExternalId
      */
     public function __construct($uuid, $externalId)
     {
-      $this->uuid = $uuid;
-      $this->externalId = $externalId;
+        $this->uuid = $uuid;
+        $this->externalId = $externalId;
     }
 
     /**
@@ -30,7 +30,7 @@ class customer_getByExternalId
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class customer_getByExternalId
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class customer_getByExternalId
      */
     public function getExternalId()
     {
-      return $this->externalId;
+        return $this->externalId;
     }
 
     /**
@@ -57,8 +57,8 @@ class customer_getByExternalId
      */
     public function setExternalId($externalId)
     {
-      $this->externalId = $externalId;
-      return $this;
+        $this->externalId = $externalId;
+        return $this;
     }
 
 }

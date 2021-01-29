@@ -10,10 +10,10 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Account = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function getAccount()
     {
-      return $this->Account;
+        return $this->Account;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function setAccount(array $Account = null)
     {
-      $this->Account = $Account;
-      return $this;
+        $this->Account = $Account;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Account[$offset]);
+        return isset($this->Account[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Account[$offset];
+        return $this->Account[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Account[] = $value;
-      } else {
-        $this->Account[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Account[] = $value;
+        } else {
+            $this->Account[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Account[$offset]);
+        unset($this->Account[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Account);
+        return current($this->Account);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Account);
+        next($this->Account);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Account);
+        return key($this->Account);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Account);
+        reset($this->Account);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfAccount implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Account);
+        return count($this->Account);
     }
 
 }

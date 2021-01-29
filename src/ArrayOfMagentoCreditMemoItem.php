@@ -10,10 +10,10 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     protected $MagentoCreditMemoItem = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function getMagentoCreditMemoItem()
     {
-      return $this->MagentoCreditMemoItem;
+        return $this->MagentoCreditMemoItem;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function setMagentoCreditMemoItem(array $MagentoCreditMemoItem = null)
     {
-      $this->MagentoCreditMemoItem = $MagentoCreditMemoItem;
-      return $this;
+        $this->MagentoCreditMemoItem = $MagentoCreditMemoItem;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function offsetExists($offset)
     {
-      return isset($this->MagentoCreditMemoItem[$offset]);
+        return isset($this->MagentoCreditMemoItem[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function offsetGet($offset)
     {
-      return $this->MagentoCreditMemoItem[$offset];
+        return $this->MagentoCreditMemoItem[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->MagentoCreditMemoItem[] = $value;
-      } else {
-        $this->MagentoCreditMemoItem[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->MagentoCreditMemoItem[] = $value;
+        } else {
+            $this->MagentoCreditMemoItem[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function offsetUnset($offset)
     {
-      unset($this->MagentoCreditMemoItem[$offset]);
+        unset($this->MagentoCreditMemoItem[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function current()
     {
-      return current($this->MagentoCreditMemoItem);
+        return current($this->MagentoCreditMemoItem);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function next()
     {
-      next($this->MagentoCreditMemoItem);
+        next($this->MagentoCreditMemoItem);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function key()
     {
-      return key($this->MagentoCreditMemoItem);
+        return key($this->MagentoCreditMemoItem);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function rewind()
     {
-      reset($this->MagentoCreditMemoItem);
+        reset($this->MagentoCreditMemoItem);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfMagentoCreditMemoItem implements \ArrayAccess, \Iterator, \Countabl
      */
     public function count()
     {
-      return count($this->MagentoCreditMemoItem);
+        return count($this->MagentoCreditMemoItem);
     }
 
 }

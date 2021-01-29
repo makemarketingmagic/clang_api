@@ -33,10 +33,10 @@ class magento_testConnection
      */
     public function __construct($uuid, $wsdl, $username, $password)
     {
-      $this->uuid = $uuid;
-      $this->wsdl = $wsdl;
-      $this->username = $username;
-      $this->password = $password;
+        $this->uuid = $uuid;
+        $this->wsdl = $wsdl;
+        $this->username = $username;
+        $this->password = $password;
     }
 
     /**
@@ -44,7 +44,7 @@ class magento_testConnection
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -53,8 +53,8 @@ class magento_testConnection
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -62,7 +62,7 @@ class magento_testConnection
      */
     public function getWsdl()
     {
-      return $this->wsdl;
+        return $this->wsdl;
     }
 
     /**
@@ -71,8 +71,8 @@ class magento_testConnection
      */
     public function setWsdl($wsdl)
     {
-      $this->wsdl = $wsdl;
-      return $this;
+        $this->wsdl = $wsdl;
+        return $this;
     }
 
     /**
@@ -80,7 +80,7 @@ class magento_testConnection
      */
     public function getUsername()
     {
-      return $this->username;
+        return $this->username;
     }
 
     /**
@@ -89,8 +89,8 @@ class magento_testConnection
      */
     public function setUsername($username)
     {
-      $this->username = $username;
-      return $this;
+        $this->username = $username;
+        return $this;
     }
 
     /**
@@ -98,7 +98,7 @@ class magento_testConnection
      */
     public function getPassword()
     {
-      return $this->password;
+        return $this->password;
     }
 
     /**
@@ -107,8 +107,8 @@ class magento_testConnection
      */
     public function setPassword($password)
     {
-      $this->password = $password;
-      return $this;
+        $this->password = $password;
+        return $this;
     }
 
 }

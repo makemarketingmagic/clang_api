@@ -27,9 +27,9 @@ class deliverySet_getDelivery
      */
     public function __construct($uuid, $resourceId, $index)
     {
-      $this->uuid = $uuid;
-      $this->resourceId = $resourceId;
-      $this->index = $index;
+        $this->uuid = $uuid;
+        $this->resourceId = $resourceId;
+        $this->index = $index;
     }
 
     /**
@@ -37,7 +37,7 @@ class deliverySet_getDelivery
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class deliverySet_getDelivery
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class deliverySet_getDelivery
      */
     public function getResourceId()
     {
-      return $this->resourceId;
+        return $this->resourceId;
     }
 
     /**
@@ -64,8 +64,8 @@ class deliverySet_getDelivery
      */
     public function setResourceId($resourceId)
     {
-      $this->resourceId = $resourceId;
-      return $this;
+        $this->resourceId = $resourceId;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class deliverySet_getDelivery
      */
     public function getIndex()
     {
-      return $this->index;
+        return $this->index;
     }
 
     /**
@@ -82,8 +82,8 @@ class deliverySet_getDelivery
      */
     public function setIndex($index)
     {
-      $this->index = $index;
-      return $this;
+        $this->index = $index;
+        return $this;
     }
 
 }

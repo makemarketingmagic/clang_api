@@ -100,10 +100,10 @@ class MagentoEmail
      */
     protected $textContent = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -111,7 +111,7 @@ class MagentoEmail
      */
     public function getFolder()
     {
-      return $this->folder;
+        return $this->folder;
     }
 
     /**
@@ -120,8 +120,8 @@ class MagentoEmail
      */
     public function setFolder($folder)
     {
-      $this->folder = $folder;
-      return $this;
+        $this->folder = $folder;
+        return $this;
     }
 
     /**
@@ -129,7 +129,7 @@ class MagentoEmail
      */
     public function getClass()
     {
-      return $this->class;
+        return $this->class;
     }
 
     /**
@@ -138,8 +138,8 @@ class MagentoEmail
      */
     public function setClass($class)
     {
-      $this->class = $class;
-      return $this;
+        $this->class = $class;
+        return $this;
     }
 
     /**
@@ -147,7 +147,7 @@ class MagentoEmail
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -156,8 +156,8 @@ class MagentoEmail
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -165,7 +165,7 @@ class MagentoEmail
      */
     public function getType()
     {
-      return $this->type;
+        return $this->type;
     }
 
     /**
@@ -174,8 +174,8 @@ class MagentoEmail
      */
     public function setType($type)
     {
-      $this->type = $type;
-      return $this;
+        $this->type = $type;
+        return $this;
     }
 
     /**
@@ -183,7 +183,7 @@ class MagentoEmail
      */
     public function getTemplateId()
     {
-      return $this->templateId;
+        return $this->templateId;
     }
 
     /**
@@ -192,8 +192,8 @@ class MagentoEmail
      */
     public function setTemplateId($templateId)
     {
-      $this->templateId = $templateId;
-      return $this;
+        $this->templateId = $templateId;
+        return $this;
     }
 
     /**
@@ -201,7 +201,7 @@ class MagentoEmail
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -210,8 +210,8 @@ class MagentoEmail
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -219,7 +219,7 @@ class MagentoEmail
      */
     public function getCampaignId()
     {
-      return $this->campaignId;
+        return $this->campaignId;
     }
 
     /**
@@ -228,8 +228,8 @@ class MagentoEmail
      */
     public function setCampaignId($campaignId)
     {
-      $this->campaignId = $campaignId;
-      return $this;
+        $this->campaignId = $campaignId;
+        return $this;
     }
 
     /**
@@ -237,7 +237,7 @@ class MagentoEmail
      */
     public function getFromAddress()
     {
-      return $this->fromAddress;
+        return $this->fromAddress;
     }
 
     /**
@@ -246,8 +246,8 @@ class MagentoEmail
      */
     public function setFromAddress($fromAddress)
     {
-      $this->fromAddress = $fromAddress;
-      return $this;
+        $this->fromAddress = $fromAddress;
+        return $this;
     }
 
     /**
@@ -255,7 +255,7 @@ class MagentoEmail
      */
     public function getFromName()
     {
-      return $this->fromName;
+        return $this->fromName;
     }
 
     /**
@@ -264,8 +264,8 @@ class MagentoEmail
      */
     public function setFromName($fromName)
     {
-      $this->fromName = $fromName;
-      return $this;
+        $this->fromName = $fromName;
+        return $this;
     }
 
     /**
@@ -273,7 +273,7 @@ class MagentoEmail
      */
     public function getReplyToAddress()
     {
-      return $this->replyToAddress;
+        return $this->replyToAddress;
     }
 
     /**
@@ -282,8 +282,8 @@ class MagentoEmail
      */
     public function setReplyToAddress($replyToAddress)
     {
-      $this->replyToAddress = $replyToAddress;
-      return $this;
+        $this->replyToAddress = $replyToAddress;
+        return $this;
     }
 
     /**
@@ -291,7 +291,7 @@ class MagentoEmail
      */
     public function getReplyToName()
     {
-      return $this->replyToName;
+        return $this->replyToName;
     }
 
     /**
@@ -300,8 +300,8 @@ class MagentoEmail
      */
     public function setReplyToName($replyToName)
     {
-      $this->replyToName = $replyToName;
-      return $this;
+        $this->replyToName = $replyToName;
+        return $this;
     }
 
     /**
@@ -309,7 +309,7 @@ class MagentoEmail
      */
     public function getSubject()
     {
-      return $this->subject;
+        return $this->subject;
     }
 
     /**
@@ -318,8 +318,8 @@ class MagentoEmail
      */
     public function setSubject($subject)
     {
-      $this->subject = $subject;
-      return $this;
+        $this->subject = $subject;
+        return $this;
     }
 
     /**
@@ -327,7 +327,7 @@ class MagentoEmail
      */
     public function getCreatedBy()
     {
-      return $this->createdBy;
+        return $this->createdBy;
     }
 
     /**
@@ -336,8 +336,8 @@ class MagentoEmail
      */
     public function setCreatedBy($createdBy)
     {
-      $this->createdBy = $createdBy;
-      return $this;
+        $this->createdBy = $createdBy;
+        return $this;
     }
 
     /**
@@ -345,7 +345,7 @@ class MagentoEmail
      */
     public function getCreatedAt()
     {
-      return $this->createdAt;
+        return $this->createdAt;
     }
 
     /**
@@ -354,8 +354,8 @@ class MagentoEmail
      */
     public function setCreatedAt($createdAt)
     {
-      $this->createdAt = $createdAt;
-      return $this;
+        $this->createdAt = $createdAt;
+        return $this;
     }
 
     /**
@@ -363,7 +363,7 @@ class MagentoEmail
      */
     public function getModifiedBy()
     {
-      return $this->modifiedBy;
+        return $this->modifiedBy;
     }
 
     /**
@@ -372,8 +372,8 @@ class MagentoEmail
      */
     public function setModifiedBy($modifiedBy)
     {
-      $this->modifiedBy = $modifiedBy;
-      return $this;
+        $this->modifiedBy = $modifiedBy;
+        return $this;
     }
 
     /**
@@ -381,7 +381,7 @@ class MagentoEmail
      */
     public function getModifiedAt()
     {
-      return $this->modifiedAt;
+        return $this->modifiedAt;
     }
 
     /**
@@ -390,8 +390,8 @@ class MagentoEmail
      */
     public function setModifiedAt($modifiedAt)
     {
-      $this->modifiedAt = $modifiedAt;
-      return $this;
+        $this->modifiedAt = $modifiedAt;
+        return $this;
     }
 
     /**
@@ -399,7 +399,7 @@ class MagentoEmail
      */
     public function getHtmlContent()
     {
-      return $this->htmlContent;
+        return $this->htmlContent;
     }
 
     /**
@@ -408,8 +408,8 @@ class MagentoEmail
      */
     public function setHtmlContent($htmlContent)
     {
-      $this->htmlContent = $htmlContent;
-      return $this;
+        $this->htmlContent = $htmlContent;
+        return $this;
     }
 
     /**
@@ -417,7 +417,7 @@ class MagentoEmail
      */
     public function getHtmlBlocks()
     {
-      return $this->htmlBlocks;
+        return $this->htmlBlocks;
     }
 
     /**
@@ -426,8 +426,8 @@ class MagentoEmail
      */
     public function setHtmlBlocks($htmlBlocks)
     {
-      $this->htmlBlocks = $htmlBlocks;
-      return $this;
+        $this->htmlBlocks = $htmlBlocks;
+        return $this;
     }
 
     /**
@@ -435,7 +435,7 @@ class MagentoEmail
      */
     public function getTextContent()
     {
-      return $this->textContent;
+        return $this->textContent;
     }
 
     /**
@@ -444,8 +444,8 @@ class MagentoEmail
      */
     public function setTextContent($textContent)
     {
-      $this->textContent = $textContent;
-      return $this;
+        $this->textContent = $textContent;
+        return $this;
     }
 
 }

@@ -20,10 +20,10 @@ class CampaignObjectStatistics
      */
     protected $options = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -31,7 +31,7 @@ class CampaignObjectStatistics
      */
     public function getCampaignId()
     {
-      return $this->campaignId;
+        return $this->campaignId;
     }
 
     /**
@@ -40,8 +40,8 @@ class CampaignObjectStatistics
      */
     public function setCampaignId($campaignId)
     {
-      $this->campaignId = $campaignId;
-      return $this;
+        $this->campaignId = $campaignId;
+        return $this;
     }
 
     /**
@@ -49,7 +49,7 @@ class CampaignObjectStatistics
      */
     public function getCampaignObjectId()
     {
-      return $this->campaignObjectId;
+        return $this->campaignObjectId;
     }
 
     /**
@@ -58,8 +58,8 @@ class CampaignObjectStatistics
      */
     public function setCampaignObjectId($campaignObjectId)
     {
-      $this->campaignObjectId = $campaignObjectId;
-      return $this;
+        $this->campaignObjectId = $campaignObjectId;
+        return $this;
     }
 
     /**
@@ -67,7 +67,7 @@ class CampaignObjectStatistics
      */
     public function getOptions()
     {
-      return $this->options;
+        return $this->options;
     }
 
     /**
@@ -76,8 +76,8 @@ class CampaignObjectStatistics
      */
     public function setOptions($options)
     {
-      $this->options = $options;
-      return $this;
+        $this->options = $options;
+        return $this;
     }
 
 }

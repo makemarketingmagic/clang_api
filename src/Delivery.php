@@ -70,10 +70,10 @@ class Delivery
      */
     protected $complaint = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -81,7 +81,7 @@ class Delivery
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -90,8 +90,8 @@ class Delivery
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -99,7 +99,7 @@ class Delivery
      */
     public function getStatus()
     {
-      return $this->status;
+        return $this->status;
     }
 
     /**
@@ -108,8 +108,8 @@ class Delivery
      */
     public function setStatus($status)
     {
-      $this->status = $status;
-      return $this;
+        $this->status = $status;
+        return $this;
     }
 
     /**
@@ -117,7 +117,7 @@ class Delivery
      */
     public function getCustomer()
     {
-      return $this->customer;
+        return $this->customer;
     }
 
     /**
@@ -126,8 +126,8 @@ class Delivery
      */
     public function setCustomer($customer)
     {
-      $this->customer = $customer;
-      return $this;
+        $this->customer = $customer;
+        return $this;
     }
 
     /**
@@ -135,7 +135,7 @@ class Delivery
      */
     public function getMailingId()
     {
-      return $this->mailingId;
+        return $this->mailingId;
     }
 
     /**
@@ -144,8 +144,8 @@ class Delivery
      */
     public function setMailingId($mailingId)
     {
-      $this->mailingId = $mailingId;
-      return $this;
+        $this->mailingId = $mailingId;
+        return $this;
     }
 
     /**
@@ -153,7 +153,7 @@ class Delivery
      */
     public function getDeliveryDate()
     {
-      return $this->deliveryDate;
+        return $this->deliveryDate;
     }
 
     /**
@@ -162,8 +162,8 @@ class Delivery
      */
     public function setDeliveryDate($deliveryDate)
     {
-      $this->deliveryDate = $deliveryDate;
-      return $this;
+        $this->deliveryDate = $deliveryDate;
+        return $this;
     }
 
     /**
@@ -171,7 +171,7 @@ class Delivery
      */
     public function getFirstOpenDate()
     {
-      return $this->firstOpenDate;
+        return $this->firstOpenDate;
     }
 
     /**
@@ -180,8 +180,8 @@ class Delivery
      */
     public function setFirstOpenDate($firstOpenDate)
     {
-      $this->firstOpenDate = $firstOpenDate;
-      return $this;
+        $this->firstOpenDate = $firstOpenDate;
+        return $this;
     }
 
     /**
@@ -189,7 +189,7 @@ class Delivery
      */
     public function getLastOpenDate()
     {
-      return $this->lastOpenDate;
+        return $this->lastOpenDate;
     }
 
     /**
@@ -198,8 +198,8 @@ class Delivery
      */
     public function setLastOpenDate($lastOpenDate)
     {
-      $this->lastOpenDate = $lastOpenDate;
-      return $this;
+        $this->lastOpenDate = $lastOpenDate;
+        return $this;
     }
 
     /**
@@ -207,7 +207,7 @@ class Delivery
      */
     public function getFirstClickDate()
     {
-      return $this->firstClickDate;
+        return $this->firstClickDate;
     }
 
     /**
@@ -216,8 +216,8 @@ class Delivery
      */
     public function setFirstClickDate($firstClickDate)
     {
-      $this->firstClickDate = $firstClickDate;
-      return $this;
+        $this->firstClickDate = $firstClickDate;
+        return $this;
     }
 
     /**
@@ -225,7 +225,7 @@ class Delivery
      */
     public function getLastClickDate()
     {
-      return $this->lastClickDate;
+        return $this->lastClickDate;
     }
 
     /**
@@ -234,8 +234,8 @@ class Delivery
      */
     public function setLastClickDate($lastClickDate)
     {
-      $this->lastClickDate = $lastClickDate;
-      return $this;
+        $this->lastClickDate = $lastClickDate;
+        return $this;
     }
 
     /**
@@ -243,7 +243,7 @@ class Delivery
      */
     public function getOpens()
     {
-      return $this->opens;
+        return $this->opens;
     }
 
     /**
@@ -252,8 +252,8 @@ class Delivery
      */
     public function setOpens($opens)
     {
-      $this->opens = $opens;
-      return $this;
+        $this->opens = $opens;
+        return $this;
     }
 
     /**
@@ -261,7 +261,7 @@ class Delivery
      */
     public function getClicks()
     {
-      return $this->clicks;
+        return $this->clicks;
     }
 
     /**
@@ -270,8 +270,8 @@ class Delivery
      */
     public function setClicks($clicks)
     {
-      $this->clicks = $clicks;
-      return $this;
+        $this->clicks = $clicks;
+        return $this;
     }
 
     /**
@@ -279,7 +279,7 @@ class Delivery
      */
     public function getBounce()
     {
-      return $this->bounce;
+        return $this->bounce;
     }
 
     /**
@@ -288,8 +288,8 @@ class Delivery
      */
     public function setBounce($bounce)
     {
-      $this->bounce = $bounce;
-      return $this;
+        $this->bounce = $bounce;
+        return $this;
     }
 
     /**
@@ -297,7 +297,7 @@ class Delivery
      */
     public function getComplaint()
     {
-      return $this->complaint;
+        return $this->complaint;
     }
 
     /**
@@ -306,8 +306,8 @@ class Delivery
      */
     public function setComplaint($complaint)
     {
-      $this->complaint = $complaint;
-      return $this;
+        $this->complaint = $complaint;
+        return $this;
     }
 
 }

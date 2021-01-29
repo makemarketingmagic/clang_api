@@ -10,10 +10,10 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     protected $CampaignObjectStatisticsOption = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function getCampaignObjectStatisticsOption()
     {
-      return $this->CampaignObjectStatisticsOption;
+        return $this->CampaignObjectStatisticsOption;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function setCampaignObjectStatisticsOption(array $CampaignObjectStatisticsOption = null)
     {
-      $this->CampaignObjectStatisticsOption = $CampaignObjectStatisticsOption;
-      return $this;
+        $this->CampaignObjectStatisticsOption = $CampaignObjectStatisticsOption;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function offsetExists($offset)
     {
-      return isset($this->CampaignObjectStatisticsOption[$offset]);
+        return isset($this->CampaignObjectStatisticsOption[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function offsetGet($offset)
     {
-      return $this->CampaignObjectStatisticsOption[$offset];
+        return $this->CampaignObjectStatisticsOption[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->CampaignObjectStatisticsOption[] = $value;
-      } else {
-        $this->CampaignObjectStatisticsOption[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->CampaignObjectStatisticsOption[] = $value;
+        } else {
+            $this->CampaignObjectStatisticsOption[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function offsetUnset($offset)
     {
-      unset($this->CampaignObjectStatisticsOption[$offset]);
+        unset($this->CampaignObjectStatisticsOption[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function current()
     {
-      return current($this->CampaignObjectStatisticsOption);
+        return current($this->CampaignObjectStatisticsOption);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function next()
     {
-      next($this->CampaignObjectStatisticsOption);
+        next($this->CampaignObjectStatisticsOption);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function key()
     {
-      return key($this->CampaignObjectStatisticsOption);
+        return key($this->CampaignObjectStatisticsOption);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function rewind()
     {
-      reset($this->CampaignObjectStatisticsOption);
+        reset($this->CampaignObjectStatisticsOption);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfCampaignObjectStatisticsOption implements \ArrayAccess, \Iterator, 
      */
     public function count()
     {
-      return count($this->CampaignObjectStatisticsOption);
+        return count($this->CampaignObjectStatisticsOption);
     }
 
 }

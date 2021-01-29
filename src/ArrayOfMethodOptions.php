@@ -10,10 +10,10 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     protected $MethodOptions = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function getMethodOptions()
     {
-      return $this->MethodOptions;
+        return $this->MethodOptions;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function setMethodOptions(array $MethodOptions = null)
     {
-      $this->MethodOptions = $MethodOptions;
-      return $this;
+        $this->MethodOptions = $MethodOptions;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->MethodOptions[$offset]);
+        return isset($this->MethodOptions[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->MethodOptions[$offset];
+        return $this->MethodOptions[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->MethodOptions[] = $value;
-      } else {
-        $this->MethodOptions[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->MethodOptions[] = $value;
+        } else {
+            $this->MethodOptions[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->MethodOptions[$offset]);
+        unset($this->MethodOptions[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->MethodOptions);
+        return current($this->MethodOptions);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->MethodOptions);
+        next($this->MethodOptions);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->MethodOptions);
+        return key($this->MethodOptions);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->MethodOptions);
+        reset($this->MethodOptions);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfMethodOptions implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->MethodOptions);
+        return count($this->MethodOptions);
     }
 
 }

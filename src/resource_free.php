@@ -21,8 +21,8 @@ class resource_free
      */
     public function __construct($uuid, $resourceId)
     {
-      $this->uuid = $uuid;
-      $this->resourceId = $resourceId;
+        $this->uuid = $uuid;
+        $this->resourceId = $resourceId;
     }
 
     /**
@@ -30,7 +30,7 @@ class resource_free
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class resource_free
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class resource_free
      */
     public function getResourceId()
     {
-      return $this->resourceId;
+        return $this->resourceId;
     }
 
     /**
@@ -57,8 +57,8 @@ class resource_free
      */
     public function setResourceId($resourceId)
     {
-      $this->resourceId = $resourceId;
-      return $this;
+        $this->resourceId = $resourceId;
+        return $this;
     }
 
 }

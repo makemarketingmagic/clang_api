@@ -33,10 +33,10 @@ class group_hasMember
      */
     public function __construct($uuid, $groupId, $customerId, $includeSubGroups)
     {
-      $this->uuid = $uuid;
-      $this->groupId = $groupId;
-      $this->customerId = $customerId;
-      $this->includeSubGroups = $includeSubGroups;
+        $this->uuid = $uuid;
+        $this->groupId = $groupId;
+        $this->customerId = $customerId;
+        $this->includeSubGroups = $includeSubGroups;
     }
 
     /**
@@ -44,7 +44,7 @@ class group_hasMember
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -53,8 +53,8 @@ class group_hasMember
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -62,7 +62,7 @@ class group_hasMember
      */
     public function getGroupId()
     {
-      return $this->groupId;
+        return $this->groupId;
     }
 
     /**
@@ -71,8 +71,8 @@ class group_hasMember
      */
     public function setGroupId($groupId)
     {
-      $this->groupId = $groupId;
-      return $this;
+        $this->groupId = $groupId;
+        return $this;
     }
 
     /**
@@ -80,7 +80,7 @@ class group_hasMember
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -89,8 +89,8 @@ class group_hasMember
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -98,7 +98,7 @@ class group_hasMember
      */
     public function getIncludeSubGroups()
     {
-      return $this->includeSubGroups;
+        return $this->includeSubGroups;
     }
 
     /**
@@ -107,8 +107,8 @@ class group_hasMember
      */
     public function setIncludeSubGroups($includeSubGroups)
     {
-      $this->includeSubGroups = $includeSubGroups;
-      return $this;
+        $this->includeSubGroups = $includeSubGroups;
+        return $this;
     }
 
 }

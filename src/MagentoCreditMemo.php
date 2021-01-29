@@ -230,10 +230,10 @@ class MagentoCreditMemo
      */
     protected $items = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -241,7 +241,7 @@ class MagentoCreditMemo
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -250,8 +250,8 @@ class MagentoCreditMemo
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -259,7 +259,7 @@ class MagentoCreditMemo
      */
     public function getExternalOrderId()
     {
-      return $this->externalOrderId;
+        return $this->externalOrderId;
     }
 
     /**
@@ -268,8 +268,8 @@ class MagentoCreditMemo
      */
     public function setExternalOrderId($externalOrderId)
     {
-      $this->externalOrderId = $externalOrderId;
-      return $this;
+        $this->externalOrderId = $externalOrderId;
+        return $this;
     }
 
     /**
@@ -277,7 +277,7 @@ class MagentoCreditMemo
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -286,8 +286,8 @@ class MagentoCreditMemo
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -295,7 +295,7 @@ class MagentoCreditMemo
      */
     public function getGlobalCurrencyCode()
     {
-      return $this->globalCurrencyCode;
+        return $this->globalCurrencyCode;
     }
 
     /**
@@ -304,8 +304,8 @@ class MagentoCreditMemo
      */
     public function setGlobalCurrencyCode($globalCurrencyCode)
     {
-      $this->globalCurrencyCode = $globalCurrencyCode;
-      return $this;
+        $this->globalCurrencyCode = $globalCurrencyCode;
+        return $this;
     }
 
     /**
@@ -313,7 +313,7 @@ class MagentoCreditMemo
      */
     public function getStoreCurrencyCode()
     {
-      return $this->storeCurrencyCode;
+        return $this->storeCurrencyCode;
     }
 
     /**
@@ -322,8 +322,8 @@ class MagentoCreditMemo
      */
     public function setStoreCurrencyCode($storeCurrencyCode)
     {
-      $this->storeCurrencyCode = $storeCurrencyCode;
-      return $this;
+        $this->storeCurrencyCode = $storeCurrencyCode;
+        return $this;
     }
 
     /**
@@ -331,7 +331,7 @@ class MagentoCreditMemo
      */
     public function getOrderCurrencyCode()
     {
-      return $this->orderCurrencyCode;
+        return $this->orderCurrencyCode;
     }
 
     /**
@@ -340,8 +340,8 @@ class MagentoCreditMemo
      */
     public function setOrderCurrencyCode($orderCurrencyCode)
     {
-      $this->orderCurrencyCode = $orderCurrencyCode;
-      return $this;
+        $this->orderCurrencyCode = $orderCurrencyCode;
+        return $this;
     }
 
     /**
@@ -349,7 +349,7 @@ class MagentoCreditMemo
      */
     public function getStoreToBaseRate()
     {
-      return $this->storeToBaseRate;
+        return $this->storeToBaseRate;
     }
 
     /**
@@ -358,8 +358,8 @@ class MagentoCreditMemo
      */
     public function setStoreToBaseRate($storeToBaseRate)
     {
-      $this->storeToBaseRate = $storeToBaseRate;
-      return $this;
+        $this->storeToBaseRate = $storeToBaseRate;
+        return $this;
     }
 
     /**
@@ -367,7 +367,7 @@ class MagentoCreditMemo
      */
     public function getStoreToOrderRate()
     {
-      return $this->storeToOrderRate;
+        return $this->storeToOrderRate;
     }
 
     /**
@@ -376,8 +376,8 @@ class MagentoCreditMemo
      */
     public function setStoreToOrderRate($storeToOrderRate)
     {
-      $this->storeToOrderRate = $storeToOrderRate;
-      return $this;
+        $this->storeToOrderRate = $storeToOrderRate;
+        return $this;
     }
 
     /**
@@ -385,7 +385,7 @@ class MagentoCreditMemo
      */
     public function getDiscountDescription()
     {
-      return $this->discountDescription;
+        return $this->discountDescription;
     }
 
     /**
@@ -394,8 +394,8 @@ class MagentoCreditMemo
      */
     public function setDiscountDescription($discountDescription)
     {
-      $this->discountDescription = $discountDescription;
-      return $this;
+        $this->discountDescription = $discountDescription;
+        return $this;
     }
 
     /**
@@ -403,7 +403,7 @@ class MagentoCreditMemo
      */
     public function getShippingTaxAmount()
     {
-      return $this->shippingTaxAmount;
+        return $this->shippingTaxAmount;
     }
 
     /**
@@ -412,8 +412,8 @@ class MagentoCreditMemo
      */
     public function setShippingTaxAmount($shippingTaxAmount)
     {
-      $this->shippingTaxAmount = $shippingTaxAmount;
-      return $this;
+        $this->shippingTaxAmount = $shippingTaxAmount;
+        return $this;
     }
 
     /**
@@ -421,7 +421,7 @@ class MagentoCreditMemo
      */
     public function getTotalQuantity()
     {
-      return $this->totalQuantity;
+        return $this->totalQuantity;
     }
 
     /**
@@ -430,8 +430,8 @@ class MagentoCreditMemo
      */
     public function setTotalQuantity($totalQuantity)
     {
-      $this->totalQuantity = $totalQuantity;
-      return $this;
+        $this->totalQuantity = $totalQuantity;
+        return $this;
     }
 
     /**
@@ -439,7 +439,7 @@ class MagentoCreditMemo
      */
     public function getAdjustmentPositive()
     {
-      return $this->adjustmentPositive;
+        return $this->adjustmentPositive;
     }
 
     /**
@@ -448,8 +448,8 @@ class MagentoCreditMemo
      */
     public function setAdjustmentPositive($adjustmentPositive)
     {
-      $this->adjustmentPositive = $adjustmentPositive;
-      return $this;
+        $this->adjustmentPositive = $adjustmentPositive;
+        return $this;
     }
 
     /**
@@ -457,7 +457,7 @@ class MagentoCreditMemo
      */
     public function getAdjustmentNegative()
     {
-      return $this->adjustmentNegative;
+        return $this->adjustmentNegative;
     }
 
     /**
@@ -466,8 +466,8 @@ class MagentoCreditMemo
      */
     public function setAdjustmentNegative($adjustmentNegative)
     {
-      $this->adjustmentNegative = $adjustmentNegative;
-      return $this;
+        $this->adjustmentNegative = $adjustmentNegative;
+        return $this;
     }
 
     /**
@@ -475,7 +475,7 @@ class MagentoCreditMemo
      */
     public function getSubtotal()
     {
-      return $this->subtotal;
+        return $this->subtotal;
     }
 
     /**
@@ -484,8 +484,8 @@ class MagentoCreditMemo
      */
     public function setSubtotal($subtotal)
     {
-      $this->subtotal = $subtotal;
-      return $this;
+        $this->subtotal = $subtotal;
+        return $this;
     }
 
     /**
@@ -493,7 +493,7 @@ class MagentoCreditMemo
      */
     public function getSubtotalInclTax()
     {
-      return $this->subtotalInclTax;
+        return $this->subtotalInclTax;
     }
 
     /**
@@ -502,8 +502,8 @@ class MagentoCreditMemo
      */
     public function setSubtotalInclTax($subtotalInclTax)
     {
-      $this->subtotalInclTax = $subtotalInclTax;
-      return $this;
+        $this->subtotalInclTax = $subtotalInclTax;
+        return $this;
     }
 
     /**
@@ -511,7 +511,7 @@ class MagentoCreditMemo
      */
     public function getGrandTotal()
     {
-      return $this->grandTotal;
+        return $this->grandTotal;
     }
 
     /**
@@ -520,8 +520,8 @@ class MagentoCreditMemo
      */
     public function setGrandTotal($grandTotal)
     {
-      $this->grandTotal = $grandTotal;
-      return $this;
+        $this->grandTotal = $grandTotal;
+        return $this;
     }
 
     /**
@@ -529,7 +529,7 @@ class MagentoCreditMemo
      */
     public function getTaxAmount()
     {
-      return $this->taxAmount;
+        return $this->taxAmount;
     }
 
     /**
@@ -538,8 +538,8 @@ class MagentoCreditMemo
      */
     public function setTaxAmount($taxAmount)
     {
-      $this->taxAmount = $taxAmount;
-      return $this;
+        $this->taxAmount = $taxAmount;
+        return $this;
     }
 
     /**
@@ -547,7 +547,7 @@ class MagentoCreditMemo
      */
     public function getDiscountAmount()
     {
-      return $this->discountAmount;
+        return $this->discountAmount;
     }
 
     /**
@@ -556,8 +556,8 @@ class MagentoCreditMemo
      */
     public function setDiscountAmount($discountAmount)
     {
-      $this->discountAmount = $discountAmount;
-      return $this;
+        $this->discountAmount = $discountAmount;
+        return $this;
     }
 
     /**
@@ -565,7 +565,7 @@ class MagentoCreditMemo
      */
     public function getShippingAmount()
     {
-      return $this->shippingAmount;
+        return $this->shippingAmount;
     }
 
     /**
@@ -574,8 +574,8 @@ class MagentoCreditMemo
      */
     public function setShippingAmount($shippingAmount)
     {
-      $this->shippingAmount = $shippingAmount;
-      return $this;
+        $this->shippingAmount = $shippingAmount;
+        return $this;
     }
 
     /**
@@ -583,7 +583,7 @@ class MagentoCreditMemo
      */
     public function getShippingInclTax()
     {
-      return $this->shippingInclTax;
+        return $this->shippingInclTax;
     }
 
     /**
@@ -592,8 +592,8 @@ class MagentoCreditMemo
      */
     public function setShippingInclTax($shippingInclTax)
     {
-      $this->shippingInclTax = $shippingInclTax;
-      return $this;
+        $this->shippingInclTax = $shippingInclTax;
+        return $this;
     }
 
     /**
@@ -601,7 +601,7 @@ class MagentoCreditMemo
      */
     public function getAdjustment()
     {
-      return $this->adjustment;
+        return $this->adjustment;
     }
 
     /**
@@ -610,8 +610,8 @@ class MagentoCreditMemo
      */
     public function setAdjustment($adjustment)
     {
-      $this->adjustment = $adjustment;
-      return $this;
+        $this->adjustment = $adjustment;
+        return $this;
     }
 
     /**
@@ -619,7 +619,7 @@ class MagentoCreditMemo
      */
     public function getHiddenTaxAmount()
     {
-      return $this->hiddenTaxAmount;
+        return $this->hiddenTaxAmount;
     }
 
     /**
@@ -628,8 +628,8 @@ class MagentoCreditMemo
      */
     public function setHiddenTaxAmount($hiddenTaxAmount)
     {
-      $this->hiddenTaxAmount = $hiddenTaxAmount;
-      return $this;
+        $this->hiddenTaxAmount = $hiddenTaxAmount;
+        return $this;
     }
 
     /**
@@ -637,7 +637,7 @@ class MagentoCreditMemo
      */
     public function getOfflineRequested()
     {
-      return $this->offlineRequested;
+        return $this->offlineRequested;
     }
 
     /**
@@ -646,8 +646,8 @@ class MagentoCreditMemo
      */
     public function setOfflineRequested($offlineRequested)
     {
-      $this->offlineRequested = $offlineRequested;
-      return $this;
+        $this->offlineRequested = $offlineRequested;
+        return $this;
     }
 
     /**
@@ -655,7 +655,7 @@ class MagentoCreditMemo
      */
     public function getDoTransaction()
     {
-      return $this->doTransaction;
+        return $this->doTransaction;
     }
 
     /**
@@ -664,8 +664,8 @@ class MagentoCreditMemo
      */
     public function setDoTransaction($doTransaction)
     {
-      $this->doTransaction = $doTransaction;
-      return $this;
+        $this->doTransaction = $doTransaction;
+        return $this;
     }
 
     /**
@@ -673,7 +673,7 @@ class MagentoCreditMemo
      */
     public function getState()
     {
-      return $this->state;
+        return $this->state;
     }
 
     /**
@@ -682,8 +682,8 @@ class MagentoCreditMemo
      */
     public function setState($state)
     {
-      $this->state = $state;
-      return $this;
+        $this->state = $state;
+        return $this;
     }
 
     /**
@@ -691,7 +691,7 @@ class MagentoCreditMemo
      */
     public function getIncrementId()
     {
-      return $this->incrementId;
+        return $this->incrementId;
     }
 
     /**
@@ -700,8 +700,8 @@ class MagentoCreditMemo
      */
     public function setIncrementId($incrementId)
     {
-      $this->incrementId = $incrementId;
-      return $this;
+        $this->incrementId = $incrementId;
+        return $this;
     }
 
     /**
@@ -709,7 +709,7 @@ class MagentoCreditMemo
      */
     public function getCreatedAt()
     {
-      return $this->createdAt;
+        return $this->createdAt;
     }
 
     /**
@@ -718,8 +718,8 @@ class MagentoCreditMemo
      */
     public function setCreatedAt($createdAt)
     {
-      $this->createdAt = $createdAt;
-      return $this;
+        $this->createdAt = $createdAt;
+        return $this;
     }
 
     /**
@@ -727,7 +727,7 @@ class MagentoCreditMemo
      */
     public function getUpdatedAt()
     {
-      return $this->updatedAt;
+        return $this->updatedAt;
     }
 
     /**
@@ -736,8 +736,8 @@ class MagentoCreditMemo
      */
     public function setUpdatedAt($updatedAt)
     {
-      $this->updatedAt = $updatedAt;
-      return $this;
+        $this->updatedAt = $updatedAt;
+        return $this;
     }
 
     /**
@@ -745,7 +745,7 @@ class MagentoCreditMemo
      */
     public function getBaseCurrencyCode()
     {
-      return $this->baseCurrencyCode;
+        return $this->baseCurrencyCode;
     }
 
     /**
@@ -754,8 +754,8 @@ class MagentoCreditMemo
      */
     public function setBaseCurrencyCode($baseCurrencyCode)
     {
-      $this->baseCurrencyCode = $baseCurrencyCode;
-      return $this;
+        $this->baseCurrencyCode = $baseCurrencyCode;
+        return $this;
     }
 
     /**
@@ -763,7 +763,7 @@ class MagentoCreditMemo
      */
     public function getBaseToGlobalRate()
     {
-      return $this->baseToGlobalRate;
+        return $this->baseToGlobalRate;
     }
 
     /**
@@ -772,8 +772,8 @@ class MagentoCreditMemo
      */
     public function setBaseToGlobalRate($baseToGlobalRate)
     {
-      $this->baseToGlobalRate = $baseToGlobalRate;
-      return $this;
+        $this->baseToGlobalRate = $baseToGlobalRate;
+        return $this;
     }
 
     /**
@@ -781,7 +781,7 @@ class MagentoCreditMemo
      */
     public function getBaseToOrderRate()
     {
-      return $this->baseToOrderRate;
+        return $this->baseToOrderRate;
     }
 
     /**
@@ -790,8 +790,8 @@ class MagentoCreditMemo
      */
     public function setBaseToOrderRate($baseToOrderRate)
     {
-      $this->baseToOrderRate = $baseToOrderRate;
-      return $this;
+        $this->baseToOrderRate = $baseToOrderRate;
+        return $this;
     }
 
     /**
@@ -799,7 +799,7 @@ class MagentoCreditMemo
      */
     public function getBaseShippingTaxAmount()
     {
-      return $this->baseShippingTaxAmount;
+        return $this->baseShippingTaxAmount;
     }
 
     /**
@@ -808,8 +808,8 @@ class MagentoCreditMemo
      */
     public function setBaseShippingTaxAmount($baseShippingTaxAmount)
     {
-      $this->baseShippingTaxAmount = $baseShippingTaxAmount;
-      return $this;
+        $this->baseShippingTaxAmount = $baseShippingTaxAmount;
+        return $this;
     }
 
     /**
@@ -817,7 +817,7 @@ class MagentoCreditMemo
      */
     public function getBaseShippingAmount()
     {
-      return $this->baseShippingAmount;
+        return $this->baseShippingAmount;
     }
 
     /**
@@ -826,8 +826,8 @@ class MagentoCreditMemo
      */
     public function setBaseShippingAmount($baseShippingAmount)
     {
-      $this->baseShippingAmount = $baseShippingAmount;
-      return $this;
+        $this->baseShippingAmount = $baseShippingAmount;
+        return $this;
     }
 
     /**
@@ -835,7 +835,7 @@ class MagentoCreditMemo
      */
     public function getBaseAdjustmentPositive()
     {
-      return $this->baseAdjustmentPositive;
+        return $this->baseAdjustmentPositive;
     }
 
     /**
@@ -844,8 +844,8 @@ class MagentoCreditMemo
      */
     public function setBaseAdjustmentPositive($baseAdjustmentPositive)
     {
-      $this->baseAdjustmentPositive = $baseAdjustmentPositive;
-      return $this;
+        $this->baseAdjustmentPositive = $baseAdjustmentPositive;
+        return $this;
     }
 
     /**
@@ -853,7 +853,7 @@ class MagentoCreditMemo
      */
     public function getBaseAdjustmentNegative()
     {
-      return $this->baseAdjustmentNegative;
+        return $this->baseAdjustmentNegative;
     }
 
     /**
@@ -862,8 +862,8 @@ class MagentoCreditMemo
      */
     public function setBaseAdjustmentNegative($baseAdjustmentNegative)
     {
-      $this->baseAdjustmentNegative = $baseAdjustmentNegative;
-      return $this;
+        $this->baseAdjustmentNegative = $baseAdjustmentNegative;
+        return $this;
     }
 
     /**
@@ -871,7 +871,7 @@ class MagentoCreditMemo
      */
     public function getBaseSubtotal()
     {
-      return $this->baseSubtotal;
+        return $this->baseSubtotal;
     }
 
     /**
@@ -880,8 +880,8 @@ class MagentoCreditMemo
      */
     public function setBaseSubtotal($baseSubtotal)
     {
-      $this->baseSubtotal = $baseSubtotal;
-      return $this;
+        $this->baseSubtotal = $baseSubtotal;
+        return $this;
     }
 
     /**
@@ -889,7 +889,7 @@ class MagentoCreditMemo
      */
     public function getBaseSubtotalInclTax()
     {
-      return $this->baseSubtotalInclTax;
+        return $this->baseSubtotalInclTax;
     }
 
     /**
@@ -898,8 +898,8 @@ class MagentoCreditMemo
      */
     public function setBaseSubtotalInclTax($baseSubtotalInclTax)
     {
-      $this->baseSubtotalInclTax = $baseSubtotalInclTax;
-      return $this;
+        $this->baseSubtotalInclTax = $baseSubtotalInclTax;
+        return $this;
     }
 
     /**
@@ -907,7 +907,7 @@ class MagentoCreditMemo
      */
     public function getBaseGrandTotal()
     {
-      return $this->baseGrandTotal;
+        return $this->baseGrandTotal;
     }
 
     /**
@@ -916,8 +916,8 @@ class MagentoCreditMemo
      */
     public function setBaseGrandTotal($baseGrandTotal)
     {
-      $this->baseGrandTotal = $baseGrandTotal;
-      return $this;
+        $this->baseGrandTotal = $baseGrandTotal;
+        return $this;
     }
 
     /**
@@ -925,7 +925,7 @@ class MagentoCreditMemo
      */
     public function getBaseTaxAmount()
     {
-      return $this->baseTaxAmount;
+        return $this->baseTaxAmount;
     }
 
     /**
@@ -934,8 +934,8 @@ class MagentoCreditMemo
      */
     public function setBaseTaxAmount($baseTaxAmount)
     {
-      $this->baseTaxAmount = $baseTaxAmount;
-      return $this;
+        $this->baseTaxAmount = $baseTaxAmount;
+        return $this;
     }
 
     /**
@@ -943,7 +943,7 @@ class MagentoCreditMemo
      */
     public function getBaseDiscountAmount()
     {
-      return $this->baseDiscountAmount;
+        return $this->baseDiscountAmount;
     }
 
     /**
@@ -952,8 +952,8 @@ class MagentoCreditMemo
      */
     public function setBaseDiscountAmount($baseDiscountAmount)
     {
-      $this->baseDiscountAmount = $baseDiscountAmount;
-      return $this;
+        $this->baseDiscountAmount = $baseDiscountAmount;
+        return $this;
     }
 
     /**
@@ -961,7 +961,7 @@ class MagentoCreditMemo
      */
     public function getBaseShippingInclTax()
     {
-      return $this->baseShippingInclTax;
+        return $this->baseShippingInclTax;
     }
 
     /**
@@ -970,8 +970,8 @@ class MagentoCreditMemo
      */
     public function setBaseShippingInclTax($baseShippingInclTax)
     {
-      $this->baseShippingInclTax = $baseShippingInclTax;
-      return $this;
+        $this->baseShippingInclTax = $baseShippingInclTax;
+        return $this;
     }
 
     /**
@@ -979,7 +979,7 @@ class MagentoCreditMemo
      */
     public function getBaseCost()
     {
-      return $this->baseCost;
+        return $this->baseCost;
     }
 
     /**
@@ -988,8 +988,8 @@ class MagentoCreditMemo
      */
     public function setBaseCost($baseCost)
     {
-      $this->baseCost = $baseCost;
-      return $this;
+        $this->baseCost = $baseCost;
+        return $this;
     }
 
     /**
@@ -997,7 +997,7 @@ class MagentoCreditMemo
      */
     public function getBaseAdjustment()
     {
-      return $this->baseAdjustment;
+        return $this->baseAdjustment;
     }
 
     /**
@@ -1006,8 +1006,8 @@ class MagentoCreditMemo
      */
     public function setBaseAdjustment($baseAdjustment)
     {
-      $this->baseAdjustment = $baseAdjustment;
-      return $this;
+        $this->baseAdjustment = $baseAdjustment;
+        return $this;
     }
 
     /**
@@ -1015,7 +1015,7 @@ class MagentoCreditMemo
      */
     public function getBaseHiddenTaxAmount()
     {
-      return $this->baseHiddenTaxAmount;
+        return $this->baseHiddenTaxAmount;
     }
 
     /**
@@ -1024,8 +1024,8 @@ class MagentoCreditMemo
      */
     public function setBaseHiddenTaxAmount($baseHiddenTaxAmount)
     {
-      $this->baseHiddenTaxAmount = $baseHiddenTaxAmount;
-      return $this;
+        $this->baseHiddenTaxAmount = $baseHiddenTaxAmount;
+        return $this;
     }
 
     /**
@@ -1033,7 +1033,7 @@ class MagentoCreditMemo
      */
     public function getItems()
     {
-      return $this->items;
+        return $this->items;
     }
 
     /**
@@ -1042,8 +1042,8 @@ class MagentoCreditMemo
      */
     public function setItems($items)
     {
-      $this->items = $items;
-      return $this;
+        $this->items = $items;
+        return $this;
     }
 
 }

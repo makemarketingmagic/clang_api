@@ -25,10 +25,10 @@ class CustomerOption
      */
     protected $value = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -36,7 +36,7 @@ class CustomerOption
      */
     public function getIdentifier()
     {
-      return $this->identifier;
+        return $this->identifier;
     }
 
     /**
@@ -45,8 +45,8 @@ class CustomerOption
      */
     public function setIdentifier($identifier)
     {
-      $this->identifier = $identifier;
-      return $this;
+        $this->identifier = $identifier;
+        return $this;
     }
 
     /**
@@ -54,7 +54,7 @@ class CustomerOption
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -63,8 +63,8 @@ class CustomerOption
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -72,7 +72,7 @@ class CustomerOption
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -81,8 +81,8 @@ class CustomerOption
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -90,7 +90,7 @@ class CustomerOption
      */
     public function getValue()
     {
-      return $this->value;
+        return $this->value;
     }
 
     /**
@@ -99,8 +99,8 @@ class CustomerOption
      */
     public function setValue($value)
     {
-      $this->value = $value;
-      return $this;
+        $this->value = $value;
+        return $this;
     }
 
 }

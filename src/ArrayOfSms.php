@@ -10,10 +10,10 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Sms = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function getSms()
     {
-      return $this->Sms;
+        return $this->Sms;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function setSms(array $Sms = null)
     {
-      $this->Sms = $Sms;
-      return $this;
+        $this->Sms = $Sms;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Sms[$offset]);
+        return isset($this->Sms[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Sms[$offset];
+        return $this->Sms[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Sms[] = $value;
-      } else {
-        $this->Sms[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Sms[] = $value;
+        } else {
+            $this->Sms[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Sms[$offset]);
+        unset($this->Sms[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Sms);
+        return current($this->Sms);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Sms);
+        next($this->Sms);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Sms);
+        return key($this->Sms);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Sms);
+        reset($this->Sms);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfSms implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Sms);
+        return count($this->Sms);
     }
 
 }

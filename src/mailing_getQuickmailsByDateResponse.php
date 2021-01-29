@@ -21,8 +21,8 @@ class mailing_getQuickmailsByDateResponse
      */
     public function __construct($code, $msg)
     {
-      $this->code = $code;
-      $this->msg = $msg;
+        $this->code = $code;
+        $this->msg = $msg;
     }
 
     /**
@@ -30,7 +30,7 @@ class mailing_getQuickmailsByDateResponse
      */
     public function getCode()
     {
-      return $this->code;
+        return $this->code;
     }
 
     /**
@@ -39,8 +39,8 @@ class mailing_getQuickmailsByDateResponse
      */
     public function setCode($code)
     {
-      $this->code = $code;
-      return $this;
+        $this->code = $code;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class mailing_getQuickmailsByDateResponse
      */
     public function getMsg()
     {
-      return $this->msg;
+        return $this->msg;
     }
 
     /**
@@ -57,8 +57,8 @@ class mailing_getQuickmailsByDateResponse
      */
     public function setMsg($msg)
     {
-      $this->msg = $msg;
-      return $this;
+        $this->msg = $msg;
+        return $this;
     }
 
 }

@@ -27,9 +27,9 @@ class dateTime
      */
     public function __construct(\DateTime $_, $id, $href)
     {
-      $this->_ = $_->format(\DateTime::ATOM);
-      $this->id = $id;
-      $this->href = $href;
+        $this->_ = $_->format(\DateTime::ATOM);
+        $this->id = $id;
+        $this->href = $href;
     }
 
     /**
@@ -37,15 +37,15 @@ class dateTime
      */
     public function get_()
     {
-      if ($this->_ == null) {
-        return null;
-      } else {
-        try {
-          return new \DateTime($this->_);
-        } catch (\Exception $e) {
-          return false;
+        if ($this->_ == null) {
+            return null;
+        } else {
+            try {
+                return new \DateTime($this->_);
+            } catch (\Exception $e) {
+                return false;
+            }
         }
-      }
     }
 
     /**
@@ -54,8 +54,8 @@ class dateTime
      */
     public function set_(\DateTime $_)
     {
-      $this->_ = $_->format(\DateTime::ATOM);
-      return $this;
+        $this->_ = $_->format(\DateTime::ATOM);
+        return $this;
     }
 
     /**
@@ -63,7 +63,7 @@ class dateTime
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -72,8 +72,8 @@ class dateTime
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -81,7 +81,7 @@ class dateTime
      */
     public function getHref()
     {
-      return $this->href;
+        return $this->href;
     }
 
     /**
@@ -90,8 +90,8 @@ class dateTime
      */
     public function setHref($href)
     {
-      $this->href = $href;
-      return $this;
+        $this->href = $href;
+        return $this;
     }
 
 }

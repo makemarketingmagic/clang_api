@@ -27,9 +27,9 @@ class magentoEmail_insert
      */
     public function __construct($uuid, $email, $campaignName)
     {
-      $this->uuid = $uuid;
-      $this->email = $email;
-      $this->campaignName = $campaignName;
+        $this->uuid = $uuid;
+        $this->email = $email;
+        $this->campaignName = $campaignName;
     }
 
     /**
@@ -37,7 +37,7 @@ class magentoEmail_insert
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class magentoEmail_insert
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class magentoEmail_insert
      */
     public function getEmail()
     {
-      return $this->email;
+        return $this->email;
     }
 
     /**
@@ -64,8 +64,8 @@ class magentoEmail_insert
      */
     public function setEmail($email)
     {
-      $this->email = $email;
-      return $this;
+        $this->email = $email;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class magentoEmail_insert
      */
     public function getCampaignName()
     {
-      return $this->campaignName;
+        return $this->campaignName;
     }
 
     /**
@@ -82,8 +82,8 @@ class magentoEmail_insert
      */
     public function setCampaignName($campaignName)
     {
-      $this->campaignName = $campaignName;
-      return $this;
+        $this->campaignName = $campaignName;
+        return $this;
     }
 
 }

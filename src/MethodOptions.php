@@ -15,10 +15,10 @@ class MethodOptions
      */
     protected $options = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -26,7 +26,7 @@ class MethodOptions
      */
     public function getMethod()
     {
-      return $this->method;
+        return $this->method;
     }
 
     /**
@@ -35,8 +35,8 @@ class MethodOptions
      */
     public function setMethod($method)
     {
-      $this->method = $method;
-      return $this;
+        $this->method = $method;
+        return $this;
     }
 
     /**
@@ -44,7 +44,7 @@ class MethodOptions
      */
     public function getOptions()
     {
-      return $this->options;
+        return $this->options;
     }
 
     /**
@@ -53,8 +53,8 @@ class MethodOptions
      */
     public function setOptions($options)
     {
-      $this->options = $options;
-      return $this;
+        $this->options = $options;
+        return $this;
     }
 
 }

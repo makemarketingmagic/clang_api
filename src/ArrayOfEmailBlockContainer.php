@@ -10,10 +10,10 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     protected $EmailBlockContainer = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function getEmailBlockContainer()
     {
-      return $this->EmailBlockContainer;
+        return $this->EmailBlockContainer;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function setEmailBlockContainer(array $EmailBlockContainer = null)
     {
-      $this->EmailBlockContainer = $EmailBlockContainer;
-      return $this;
+        $this->EmailBlockContainer = $EmailBlockContainer;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->EmailBlockContainer[$offset]);
+        return isset($this->EmailBlockContainer[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->EmailBlockContainer[$offset];
+        return $this->EmailBlockContainer[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->EmailBlockContainer[] = $value;
-      } else {
-        $this->EmailBlockContainer[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->EmailBlockContainer[] = $value;
+        } else {
+            $this->EmailBlockContainer[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->EmailBlockContainer[$offset]);
+        unset($this->EmailBlockContainer[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->EmailBlockContainer);
+        return current($this->EmailBlockContainer);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->EmailBlockContainer);
+        next($this->EmailBlockContainer);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->EmailBlockContainer);
+        return key($this->EmailBlockContainer);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->EmailBlockContainer);
+        reset($this->EmailBlockContainer);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfEmailBlockContainer implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->EmailBlockContainer);
+        return count($this->EmailBlockContainer);
     }
 
 }

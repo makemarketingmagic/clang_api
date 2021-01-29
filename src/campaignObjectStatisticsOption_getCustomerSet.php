@@ -21,8 +21,8 @@ class campaignObjectStatisticsOption_getCustomerSet
      */
     public function __construct($uuid, $campaignObjectStatisiticsOptionId)
     {
-      $this->uuid = $uuid;
-      $this->campaignObjectStatisiticsOptionId = $campaignObjectStatisiticsOptionId;
+        $this->uuid = $uuid;
+        $this->campaignObjectStatisiticsOptionId = $campaignObjectStatisiticsOptionId;
     }
 
     /**
@@ -30,7 +30,7 @@ class campaignObjectStatisticsOption_getCustomerSet
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class campaignObjectStatisticsOption_getCustomerSet
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class campaignObjectStatisticsOption_getCustomerSet
      */
     public function getCampaignObjectStatisiticsOptionId()
     {
-      return $this->campaignObjectStatisiticsOptionId;
+        return $this->campaignObjectStatisiticsOptionId;
     }
 
     /**
@@ -57,8 +57,8 @@ class campaignObjectStatisticsOption_getCustomerSet
      */
     public function setCampaignObjectStatisiticsOptionId($campaignObjectStatisiticsOptionId)
     {
-      $this->campaignObjectStatisiticsOptionId = $campaignObjectStatisiticsOptionId;
-      return $this;
+        $this->campaignObjectStatisiticsOptionId = $campaignObjectStatisiticsOptionId;
+        return $this;
     }
 
 }

@@ -10,10 +10,10 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     protected $MagentoOrder = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function getMagentoOrder()
     {
-      return $this->MagentoOrder;
+        return $this->MagentoOrder;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function setMagentoOrder(array $MagentoOrder = null)
     {
-      $this->MagentoOrder = $MagentoOrder;
-      return $this;
+        $this->MagentoOrder = $MagentoOrder;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->MagentoOrder[$offset]);
+        return isset($this->MagentoOrder[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->MagentoOrder[$offset];
+        return $this->MagentoOrder[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->MagentoOrder[] = $value;
-      } else {
-        $this->MagentoOrder[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->MagentoOrder[] = $value;
+        } else {
+            $this->MagentoOrder[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->MagentoOrder[$offset]);
+        unset($this->MagentoOrder[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->MagentoOrder);
+        return current($this->MagentoOrder);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->MagentoOrder);
+        next($this->MagentoOrder);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->MagentoOrder);
+        return key($this->MagentoOrder);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->MagentoOrder);
+        reset($this->MagentoOrder);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfMagentoOrder implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->MagentoOrder);
+        return count($this->MagentoOrder);
     }
 
 }

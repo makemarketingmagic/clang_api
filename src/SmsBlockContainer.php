@@ -30,10 +30,10 @@ class SmsBlockContainer
      */
     protected $blocks = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -41,7 +41,7 @@ class SmsBlockContainer
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -50,8 +50,8 @@ class SmsBlockContainer
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -59,7 +59,7 @@ class SmsBlockContainer
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -68,8 +68,8 @@ class SmsBlockContainer
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -77,7 +77,7 @@ class SmsBlockContainer
      */
     public function getType()
     {
-      return $this->type;
+        return $this->type;
     }
 
     /**
@@ -86,8 +86,8 @@ class SmsBlockContainer
      */
     public function setType($type)
     {
-      $this->type = $type;
-      return $this;
+        $this->type = $type;
+        return $this;
     }
 
     /**
@@ -95,7 +95,7 @@ class SmsBlockContainer
      */
     public function getDefaultBlockId()
     {
-      return $this->defaultBlockId;
+        return $this->defaultBlockId;
     }
 
     /**
@@ -104,8 +104,8 @@ class SmsBlockContainer
      */
     public function setDefaultBlockId($defaultBlockId)
     {
-      $this->defaultBlockId = $defaultBlockId;
-      return $this;
+        $this->defaultBlockId = $defaultBlockId;
+        return $this;
     }
 
     /**
@@ -113,7 +113,7 @@ class SmsBlockContainer
      */
     public function getBlocks()
     {
-      return $this->blocks;
+        return $this->blocks;
     }
 
     /**
@@ -122,8 +122,8 @@ class SmsBlockContainer
      */
     public function setBlocks($blocks)
     {
-      $this->blocks = $blocks;
-      return $this;
+        $this->blocks = $blocks;
+        return $this;
     }
 
 }

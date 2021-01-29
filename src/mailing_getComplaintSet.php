@@ -21,8 +21,8 @@ class mailing_getComplaintSet
      */
     public function __construct($uuid, $mailing)
     {
-      $this->uuid = $uuid;
-      $this->mailing = $mailing;
+        $this->uuid = $uuid;
+        $this->mailing = $mailing;
     }
 
     /**
@@ -30,7 +30,7 @@ class mailing_getComplaintSet
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class mailing_getComplaintSet
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class mailing_getComplaintSet
      */
     public function getMailing()
     {
-      return $this->mailing;
+        return $this->mailing;
     }
 
     /**
@@ -57,8 +57,8 @@ class mailing_getComplaintSet
      */
     public function setMailing($mailing)
     {
-      $this->mailing = $mailing;
-      return $this;
+        $this->mailing = $mailing;
+        return $this;
     }
 
 }

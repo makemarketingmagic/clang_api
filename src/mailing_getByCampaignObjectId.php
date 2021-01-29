@@ -21,8 +21,8 @@ class mailing_getByCampaignObjectId
      */
     public function __construct($uuid, $campaignObjectId)
     {
-      $this->uuid = $uuid;
-      $this->campaignObjectId = $campaignObjectId;
+        $this->uuid = $uuid;
+        $this->campaignObjectId = $campaignObjectId;
     }
 
     /**
@@ -30,7 +30,7 @@ class mailing_getByCampaignObjectId
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class mailing_getByCampaignObjectId
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class mailing_getByCampaignObjectId
      */
     public function getCampaignObjectId()
     {
-      return $this->campaignObjectId;
+        return $this->campaignObjectId;
     }
 
     /**
@@ -57,8 +57,8 @@ class mailing_getByCampaignObjectId
      */
     public function setCampaignObjectId($campaignObjectId)
     {
-      $this->campaignObjectId = $campaignObjectId;
-      return $this;
+        $this->campaignObjectId = $campaignObjectId;
+        return $this;
     }
 
 }

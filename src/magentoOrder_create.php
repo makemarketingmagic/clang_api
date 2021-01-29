@@ -15,7 +15,7 @@ class magentoOrder_create
      */
     public function __construct($uuid)
     {
-      $this->uuid = $uuid;
+        $this->uuid = $uuid;
     }
 
     /**
@@ -23,7 +23,7 @@ class magentoOrder_create
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -32,8 +32,8 @@ class magentoOrder_create
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
 }

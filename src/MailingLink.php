@@ -90,10 +90,10 @@ class MailingLink
      */
     protected $sitestat_fee = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -101,7 +101,7 @@ class MailingLink
      */
     public function getMailingId()
     {
-      return $this->mailingId;
+        return $this->mailingId;
     }
 
     /**
@@ -110,8 +110,8 @@ class MailingLink
      */
     public function setMailingId($mailingId)
     {
-      $this->mailingId = $mailingId;
-      return $this;
+        $this->mailingId = $mailingId;
+        return $this;
     }
 
     /**
@@ -119,7 +119,7 @@ class MailingLink
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -128,8 +128,8 @@ class MailingLink
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -137,7 +137,7 @@ class MailingLink
      */
     public function getUrl()
     {
-      return $this->url;
+        return $this->url;
     }
 
     /**
@@ -146,8 +146,8 @@ class MailingLink
      */
     public function setUrl($url)
     {
-      $this->url = $url;
-      return $this;
+        $this->url = $url;
+        return $this;
     }
 
     /**
@@ -155,7 +155,7 @@ class MailingLink
      */
     public function getDescription()
     {
-      return $this->description;
+        return $this->description;
     }
 
     /**
@@ -164,8 +164,8 @@ class MailingLink
      */
     public function setDescription($description)
     {
-      $this->description = $description;
-      return $this;
+        $this->description = $description;
+        return $this;
     }
 
     /**
@@ -173,7 +173,7 @@ class MailingLink
      */
     public function getTrack()
     {
-      return $this->track;
+        return $this->track;
     }
 
     /**
@@ -182,8 +182,8 @@ class MailingLink
      */
     public function setTrack($track)
     {
-      $this->track = $track;
-      return $this;
+        $this->track = $track;
+        return $this;
     }
 
     /**
@@ -191,7 +191,7 @@ class MailingLink
      */
     public function getSource()
     {
-      return $this->source;
+        return $this->source;
     }
 
     /**
@@ -200,8 +200,8 @@ class MailingLink
      */
     public function setSource($source)
     {
-      $this->source = $source;
-      return $this;
+        $this->source = $source;
+        return $this;
     }
 
     /**
@@ -209,7 +209,7 @@ class MailingLink
      */
     public function getTags()
     {
-      return $this->tags;
+        return $this->tags;
     }
 
     /**
@@ -218,8 +218,8 @@ class MailingLink
      */
     public function setTags($tags)
     {
-      $this->tags = $tags;
-      return $this;
+        $this->tags = $tags;
+        return $this;
     }
 
     /**
@@ -227,7 +227,7 @@ class MailingLink
      */
     public function getGoogle_source()
     {
-      return $this->google_source;
+        return $this->google_source;
     }
 
     /**
@@ -236,8 +236,8 @@ class MailingLink
      */
     public function setGoogle_source($google_source)
     {
-      $this->google_source = $google_source;
-      return $this;
+        $this->google_source = $google_source;
+        return $this;
     }
 
     /**
@@ -245,7 +245,7 @@ class MailingLink
      */
     public function getGoogle_medium()
     {
-      return $this->google_medium;
+        return $this->google_medium;
     }
 
     /**
@@ -254,8 +254,8 @@ class MailingLink
      */
     public function setGoogle_medium($google_medium)
     {
-      $this->google_medium = $google_medium;
-      return $this;
+        $this->google_medium = $google_medium;
+        return $this;
     }
 
     /**
@@ -263,7 +263,7 @@ class MailingLink
      */
     public function getGoogle_term()
     {
-      return $this->google_term;
+        return $this->google_term;
     }
 
     /**
@@ -272,8 +272,8 @@ class MailingLink
      */
     public function setGoogle_term($google_term)
     {
-      $this->google_term = $google_term;
-      return $this;
+        $this->google_term = $google_term;
+        return $this;
     }
 
     /**
@@ -281,7 +281,7 @@ class MailingLink
      */
     public function getGoogle_content()
     {
-      return $this->google_content;
+        return $this->google_content;
     }
 
     /**
@@ -290,8 +290,8 @@ class MailingLink
      */
     public function setGoogle_content($google_content)
     {
-      $this->google_content = $google_content;
-      return $this;
+        $this->google_content = $google_content;
+        return $this;
     }
 
     /**
@@ -299,7 +299,7 @@ class MailingLink
      */
     public function getGoogle_campaign()
     {
-      return $this->google_campaign;
+        return $this->google_campaign;
     }
 
     /**
@@ -308,8 +308,8 @@ class MailingLink
      */
     public function setGoogle_campaign($google_campaign)
     {
-      $this->google_campaign = $google_campaign;
-      return $this;
+        $this->google_campaign = $google_campaign;
+        return $this;
     }
 
     /**
@@ -317,7 +317,7 @@ class MailingLink
      */
     public function getSitestat_campaign()
     {
-      return $this->sitestat_campaign;
+        return $this->sitestat_campaign;
     }
 
     /**
@@ -326,8 +326,8 @@ class MailingLink
      */
     public function setSitestat_campaign($sitestat_campaign)
     {
-      $this->sitestat_campaign = $sitestat_campaign;
-      return $this;
+        $this->sitestat_campaign = $sitestat_campaign;
+        return $this;
     }
 
     /**
@@ -335,7 +335,7 @@ class MailingLink
      */
     public function getSitestat_source()
     {
-      return $this->sitestat_source;
+        return $this->sitestat_source;
     }
 
     /**
@@ -344,8 +344,8 @@ class MailingLink
      */
     public function setSitestat_source($sitestat_source)
     {
-      $this->sitestat_source = $sitestat_source;
-      return $this;
+        $this->sitestat_source = $sitestat_source;
+        return $this;
     }
 
     /**
@@ -353,7 +353,7 @@ class MailingLink
      */
     public function getSitestat_mchannel()
     {
-      return $this->sitestat_mchannel;
+        return $this->sitestat_mchannel;
     }
 
     /**
@@ -362,8 +362,8 @@ class MailingLink
      */
     public function setSitestat_mchannel($sitestat_mchannel)
     {
-      $this->sitestat_mchannel = $sitestat_mchannel;
-      return $this;
+        $this->sitestat_mchannel = $sitestat_mchannel;
+        return $this;
     }
 
     /**
@@ -371,7 +371,7 @@ class MailingLink
      */
     public function getSitestat_linkname()
     {
-      return $this->sitestat_linkname;
+        return $this->sitestat_linkname;
     }
 
     /**
@@ -380,8 +380,8 @@ class MailingLink
      */
     public function setSitestat_linkname($sitestat_linkname)
     {
-      $this->sitestat_linkname = $sitestat_linkname;
-      return $this;
+        $this->sitestat_linkname = $sitestat_linkname;
+        return $this;
     }
 
     /**
@@ -389,7 +389,7 @@ class MailingLink
      */
     public function getSitestat_fee()
     {
-      return $this->sitestat_fee;
+        return $this->sitestat_fee;
     }
 
     /**
@@ -398,8 +398,8 @@ class MailingLink
      */
     public function setSitestat_fee($sitestat_fee)
     {
-      $this->sitestat_fee = $sitestat_fee;
-      return $this;
+        $this->sitestat_fee = $sitestat_fee;
+        return $this;
     }
 
 }

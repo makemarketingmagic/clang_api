@@ -10,10 +10,10 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Click = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function getClick()
     {
-      return $this->Click;
+        return $this->Click;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function setClick(array $Click = null)
     {
-      $this->Click = $Click;
-      return $this;
+        $this->Click = $Click;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Click[$offset]);
+        return isset($this->Click[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Click[$offset];
+        return $this->Click[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Click[] = $value;
-      } else {
-        $this->Click[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Click[] = $value;
+        } else {
+            $this->Click[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Click[$offset]);
+        unset($this->Click[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Click);
+        return current($this->Click);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Click);
+        next($this->Click);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Click);
+        return key($this->Click);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Click);
+        reset($this->Click);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfClick implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Click);
+        return count($this->Click);
     }
 
 }

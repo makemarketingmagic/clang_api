@@ -39,11 +39,11 @@ class ArrayCustom
      */
     public function __construct($any, $arrayType, $offset, $id, $href)
     {
-      $this->any = $any;
-      $this->arrayType = $arrayType;
-      $this->offset = $offset;
-      $this->id = $id;
-      $this->href = $href;
+        $this->any = $any;
+        $this->arrayType = $arrayType;
+        $this->offset = $offset;
+        $this->id = $id;
+        $this->href = $href;
     }
 
     /**
@@ -51,7 +51,7 @@ class ArrayCustom
      */
     public function getAny()
     {
-      return $this->any;
+        return $this->any;
     }
 
     /**
@@ -60,8 +60,8 @@ class ArrayCustom
      */
     public function setAny($any)
     {
-      $this->any = $any;
-      return $this;
+        $this->any = $any;
+        return $this;
     }
 
     /**
@@ -69,7 +69,7 @@ class ArrayCustom
      */
     public function getArrayType()
     {
-      return $this->arrayType;
+        return $this->arrayType;
     }
 
     /**
@@ -78,8 +78,8 @@ class ArrayCustom
      */
     public function setArrayType($arrayType)
     {
-      $this->arrayType = $arrayType;
-      return $this;
+        $this->arrayType = $arrayType;
+        return $this;
     }
 
     /**
@@ -87,7 +87,7 @@ class ArrayCustom
      */
     public function getOffset()
     {
-      return $this->offset;
+        return $this->offset;
     }
 
     /**
@@ -96,8 +96,8 @@ class ArrayCustom
      */
     public function setOffset($offset)
     {
-      $this->offset = $offset;
-      return $this;
+        $this->offset = $offset;
+        return $this;
     }
 
     /**
@@ -105,7 +105,7 @@ class ArrayCustom
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -114,8 +114,8 @@ class ArrayCustom
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -123,7 +123,7 @@ class ArrayCustom
      */
     public function getHref()
     {
-      return $this->href;
+        return $this->href;
     }
 
     /**
@@ -132,8 +132,8 @@ class ArrayCustom
      */
     public function setHref($href)
     {
-      $this->href = $href;
-      return $this;
+        $this->href = $href;
+        return $this;
     }
 
 }

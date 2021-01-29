@@ -65,10 +65,10 @@ class MagentoAbandonedOrder
      */
     protected $products = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -76,7 +76,7 @@ class MagentoAbandonedOrder
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -85,8 +85,8 @@ class MagentoAbandonedOrder
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -94,7 +94,7 @@ class MagentoAbandonedOrder
      */
     public function getQuoteId()
     {
-      return $this->quoteId;
+        return $this->quoteId;
     }
 
     /**
@@ -103,8 +103,8 @@ class MagentoAbandonedOrder
      */
     public function setQuoteId($quoteId)
     {
-      $this->quoteId = $quoteId;
-      return $this;
+        $this->quoteId = $quoteId;
+        return $this;
     }
 
     /**
@@ -112,7 +112,7 @@ class MagentoAbandonedOrder
      */
     public function getStoreview()
     {
-      return $this->storeview;
+        return $this->storeview;
     }
 
     /**
@@ -121,8 +121,8 @@ class MagentoAbandonedOrder
      */
     public function setStoreview($storeview)
     {
-      $this->storeview = $storeview;
-      return $this;
+        $this->storeview = $storeview;
+        return $this;
     }
 
     /**
@@ -130,7 +130,7 @@ class MagentoAbandonedOrder
      */
     public function getStoreviewId()
     {
-      return $this->storeviewId;
+        return $this->storeviewId;
     }
 
     /**
@@ -139,8 +139,8 @@ class MagentoAbandonedOrder
      */
     public function setStoreviewId($storeviewId)
     {
-      $this->storeviewId = $storeviewId;
-      return $this;
+        $this->storeviewId = $storeviewId;
+        return $this;
     }
 
     /**
@@ -148,7 +148,7 @@ class MagentoAbandonedOrder
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -157,8 +157,8 @@ class MagentoAbandonedOrder
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -166,7 +166,7 @@ class MagentoAbandonedOrder
      */
     public function getSubtotal()
     {
-      return $this->subtotal;
+        return $this->subtotal;
     }
 
     /**
@@ -175,8 +175,8 @@ class MagentoAbandonedOrder
      */
     public function setSubtotal($subtotal)
     {
-      $this->subtotal = $subtotal;
-      return $this;
+        $this->subtotal = $subtotal;
+        return $this;
     }
 
     /**
@@ -184,7 +184,7 @@ class MagentoAbandonedOrder
      */
     public function getTotal()
     {
-      return $this->total;
+        return $this->total;
     }
 
     /**
@@ -193,8 +193,8 @@ class MagentoAbandonedOrder
      */
     public function setTotal($total)
     {
-      $this->total = $total;
-      return $this;
+        $this->total = $total;
+        return $this;
     }
 
     /**
@@ -202,7 +202,7 @@ class MagentoAbandonedOrder
      */
     public function getTaxAmount()
     {
-      return $this->taxAmount;
+        return $this->taxAmount;
     }
 
     /**
@@ -211,8 +211,8 @@ class MagentoAbandonedOrder
      */
     public function setTaxAmount($taxAmount)
     {
-      $this->taxAmount = $taxAmount;
-      return $this;
+        $this->taxAmount = $taxAmount;
+        return $this;
     }
 
     /**
@@ -220,7 +220,7 @@ class MagentoAbandonedOrder
      */
     public function getDiscount()
     {
-      return $this->discount;
+        return $this->discount;
     }
 
     /**
@@ -229,8 +229,8 @@ class MagentoAbandonedOrder
      */
     public function setDiscount($discount)
     {
-      $this->discount = $discount;
-      return $this;
+        $this->discount = $discount;
+        return $this;
     }
 
     /**
@@ -238,7 +238,7 @@ class MagentoAbandonedOrder
      */
     public function getCurrency()
     {
-      return $this->currency;
+        return $this->currency;
     }
 
     /**
@@ -247,8 +247,8 @@ class MagentoAbandonedOrder
      */
     public function setCurrency($currency)
     {
-      $this->currency = $currency;
-      return $this;
+        $this->currency = $currency;
+        return $this;
     }
 
     /**
@@ -256,7 +256,7 @@ class MagentoAbandonedOrder
      */
     public function getCreateDate()
     {
-      return $this->createDate;
+        return $this->createDate;
     }
 
     /**
@@ -265,8 +265,8 @@ class MagentoAbandonedOrder
      */
     public function setCreateDate($createDate)
     {
-      $this->createDate = $createDate;
-      return $this;
+        $this->createDate = $createDate;
+        return $this;
     }
 
     /**
@@ -274,7 +274,7 @@ class MagentoAbandonedOrder
      */
     public function getProducts()
     {
-      return $this->products;
+        return $this->products;
     }
 
     /**
@@ -283,8 +283,8 @@ class MagentoAbandonedOrder
      */
     public function setProducts($products)
     {
-      $this->products = $products;
-      return $this;
+        $this->products = $products;
+        return $this;
     }
 
 }

@@ -20,10 +20,10 @@ class MagentoCategory
      */
     protected $name = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -31,7 +31,7 @@ class MagentoCategory
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -40,8 +40,8 @@ class MagentoCategory
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -49,7 +49,7 @@ class MagentoCategory
      */
     public function getExternalCategoryId()
     {
-      return $this->externalCategoryId;
+        return $this->externalCategoryId;
     }
 
     /**
@@ -58,8 +58,8 @@ class MagentoCategory
      */
     public function setExternalCategoryId($externalCategoryId)
     {
-      $this->externalCategoryId = $externalCategoryId;
-      return $this;
+        $this->externalCategoryId = $externalCategoryId;
+        return $this;
     }
 
     /**
@@ -67,7 +67,7 @@ class MagentoCategory
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -76,8 +76,8 @@ class MagentoCategory
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
 }

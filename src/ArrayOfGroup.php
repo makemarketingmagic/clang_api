@@ -10,10 +10,10 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Group = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function getGroup()
     {
-      return $this->Group;
+        return $this->Group;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function setGroup(array $Group = null)
     {
-      $this->Group = $Group;
-      return $this;
+        $this->Group = $Group;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Group[$offset]);
+        return isset($this->Group[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Group[$offset];
+        return $this->Group[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Group[] = $value;
-      } else {
-        $this->Group[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Group[] = $value;
+        } else {
+            $this->Group[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Group[$offset]);
+        unset($this->Group[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Group);
+        return current($this->Group);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Group);
+        next($this->Group);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Group);
+        return key($this->Group);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Group);
+        reset($this->Group);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Group);
+        return count($this->Group);
     }
 
 }

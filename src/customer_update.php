@@ -21,8 +21,8 @@ class customer_update
      */
     public function __construct($uuid, $customer)
     {
-      $this->uuid = $uuid;
-      $this->customer = $customer;
+        $this->uuid = $uuid;
+        $this->customer = $customer;
     }
 
     /**
@@ -30,7 +30,7 @@ class customer_update
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class customer_update
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class customer_update
      */
     public function getCustomer()
     {
-      return $this->customer;
+        return $this->customer;
     }
 
     /**
@@ -57,8 +57,8 @@ class customer_update
      */
     public function setCustomer($customer)
     {
-      $this->customer = $customer;
-      return $this;
+        $this->customer = $customer;
+        return $this;
     }
 
 }

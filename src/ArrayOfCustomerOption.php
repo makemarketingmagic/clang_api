@@ -10,10 +10,10 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     protected $CustomerOption = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function getCustomerOption()
     {
-      return $this->CustomerOption;
+        return $this->CustomerOption;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function setCustomerOption(array $CustomerOption = null)
     {
-      $this->CustomerOption = $CustomerOption;
-      return $this;
+        $this->CustomerOption = $CustomerOption;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->CustomerOption[$offset]);
+        return isset($this->CustomerOption[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->CustomerOption[$offset];
+        return $this->CustomerOption[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->CustomerOption[] = $value;
-      } else {
-        $this->CustomerOption[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->CustomerOption[] = $value;
+        } else {
+            $this->CustomerOption[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->CustomerOption[$offset]);
+        unset($this->CustomerOption[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->CustomerOption);
+        return current($this->CustomerOption);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->CustomerOption);
+        next($this->CustomerOption);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->CustomerOption);
+        return key($this->CustomerOption);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->CustomerOption);
+        reset($this->CustomerOption);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfCustomerOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->CustomerOption);
+        return count($this->CustomerOption);
     }
 
 }

@@ -27,9 +27,9 @@ class group_getMembers
      */
     public function __construct($uuid, $groupId, $recursive)
     {
-      $this->uuid = $uuid;
-      $this->groupId = $groupId;
-      $this->recursive = $recursive;
+        $this->uuid = $uuid;
+        $this->groupId = $groupId;
+        $this->recursive = $recursive;
     }
 
     /**
@@ -37,7 +37,7 @@ class group_getMembers
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class group_getMembers
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class group_getMembers
      */
     public function getGroupId()
     {
-      return $this->groupId;
+        return $this->groupId;
     }
 
     /**
@@ -64,8 +64,8 @@ class group_getMembers
      */
     public function setGroupId($groupId)
     {
-      $this->groupId = $groupId;
-      return $this;
+        $this->groupId = $groupId;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class group_getMembers
      */
     public function getRecursive()
     {
-      return $this->recursive;
+        return $this->recursive;
     }
 
     /**
@@ -82,8 +82,8 @@ class group_getMembers
      */
     public function setRecursive($recursive)
     {
-      $this->recursive = $recursive;
-      return $this;
+        $this->recursive = $recursive;
+        return $this;
     }
 
 }

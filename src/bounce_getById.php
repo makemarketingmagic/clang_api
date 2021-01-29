@@ -21,8 +21,8 @@ class bounce_getById
      */
     public function __construct($uuid, $bounceId)
     {
-      $this->uuid = $uuid;
-      $this->bounceId = $bounceId;
+        $this->uuid = $uuid;
+        $this->bounceId = $bounceId;
     }
 
     /**
@@ -30,7 +30,7 @@ class bounce_getById
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class bounce_getById
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class bounce_getById
      */
     public function getBounceId()
     {
-      return $this->bounceId;
+        return $this->bounceId;
     }
 
     /**
@@ -57,8 +57,8 @@ class bounce_getById
      */
     public function setBounceId($bounceId)
     {
-      $this->bounceId = $bounceId;
-      return $this;
+        $this->bounceId = $bounceId;
+        return $this;
     }
 
 }

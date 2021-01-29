@@ -10,10 +10,10 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Open = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function getOpen()
     {
-      return $this->Open;
+        return $this->Open;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function setOpen(array $Open = null)
     {
-      $this->Open = $Open;
-      return $this;
+        $this->Open = $Open;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Open[$offset]);
+        return isset($this->Open[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Open[$offset];
+        return $this->Open[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Open[] = $value;
-      } else {
-        $this->Open[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Open[] = $value;
+        } else {
+            $this->Open[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Open[$offset]);
+        unset($this->Open[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Open);
+        return current($this->Open);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Open);
+        next($this->Open);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Open);
+        return key($this->Open);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Open);
+        reset($this->Open);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfOpen implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Open);
+        return count($this->Open);
     }
 
 }

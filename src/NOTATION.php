@@ -30,10 +30,10 @@ class NOTATION extends QName
      */
     public function __construct($_, $id, $href)
     {
-      parent::__construct($_, $id, $href);
-      $this->_ = $_;
-      $this->id = $id;
-      $this->href = $href;
+        parent::__construct($_, $id, $href);
+        $this->_ = $_;
+        $this->id = $id;
+        $this->href = $href;
     }
 
     /**
@@ -41,7 +41,7 @@ class NOTATION extends QName
      */
     public function get_()
     {
-      return $this->_;
+        return $this->_;
     }
 
     /**
@@ -50,8 +50,8 @@ class NOTATION extends QName
      */
     public function set_($_)
     {
-      $this->_ = $_;
-      return $this;
+        $this->_ = $_;
+        return $this;
     }
 
     /**
@@ -59,7 +59,7 @@ class NOTATION extends QName
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -68,8 +68,8 @@ class NOTATION extends QName
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -77,7 +77,7 @@ class NOTATION extends QName
      */
     public function getHref()
     {
-      return $this->href;
+        return $this->href;
     }
 
     /**
@@ -86,8 +86,8 @@ class NOTATION extends QName
      */
     public function setHref($href)
     {
-      $this->href = $href;
-      return $this;
+        $this->href = $href;
+        return $this;
     }
 
 }

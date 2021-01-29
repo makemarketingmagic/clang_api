@@ -27,9 +27,9 @@ class group_removeMember
      */
     public function __construct($uuid, $group, $customer)
     {
-      $this->uuid = $uuid;
-      $this->group = $group;
-      $this->customer = $customer;
+        $this->uuid = $uuid;
+        $this->group = $group;
+        $this->customer = $customer;
     }
 
     /**
@@ -37,7 +37,7 @@ class group_removeMember
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class group_removeMember
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class group_removeMember
      */
     public function getGroup()
     {
-      return $this->group;
+        return $this->group;
     }
 
     /**
@@ -64,8 +64,8 @@ class group_removeMember
      */
     public function setGroup($group)
     {
-      $this->group = $group;
-      return $this;
+        $this->group = $group;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class group_removeMember
      */
     public function getCustomer()
     {
-      return $this->customer;
+        return $this->customer;
     }
 
     /**
@@ -82,8 +82,8 @@ class group_removeMember
      */
     public function setCustomer($customer)
     {
-      $this->customer = $customer;
-      return $this;
+        $this->customer = $customer;
+        return $this;
     }
 
 }

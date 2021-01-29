@@ -27,9 +27,9 @@ class group_addMembersInBulk
      */
     public function __construct($uuid, $group, $customers)
     {
-      $this->uuid = $uuid;
-      $this->group = $group;
-      $this->customers = $customers;
+        $this->uuid = $uuid;
+        $this->group = $group;
+        $this->customers = $customers;
     }
 
     /**
@@ -37,7 +37,7 @@ class group_addMembersInBulk
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class group_addMembersInBulk
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class group_addMembersInBulk
      */
     public function getGroup()
     {
-      return $this->group;
+        return $this->group;
     }
 
     /**
@@ -64,8 +64,8 @@ class group_addMembersInBulk
      */
     public function setGroup($group)
     {
-      $this->group = $group;
-      return $this;
+        $this->group = $group;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class group_addMembersInBulk
      */
     public function getCustomers()
     {
-      return $this->customers;
+        return $this->customers;
     }
 
     /**
@@ -82,8 +82,8 @@ class group_addMembersInBulk
      */
     public function setCustomers($customers)
     {
-      $this->customers = $customers;
-      return $this;
+        $this->customers = $customers;
+        return $this;
     }
 
 }

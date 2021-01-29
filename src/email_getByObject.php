@@ -21,8 +21,8 @@ class email_getByObject
      */
     public function __construct($uuid, $email)
     {
-      $this->uuid = $uuid;
-      $this->email = $email;
+        $this->uuid = $uuid;
+        $this->email = $email;
     }
 
     /**
@@ -30,7 +30,7 @@ class email_getByObject
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class email_getByObject
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class email_getByObject
      */
     public function getEmail()
     {
-      return $this->email;
+        return $this->email;
     }
 
     /**
@@ -57,8 +57,8 @@ class email_getByObject
      */
     public function setEmail($email)
     {
-      $this->email = $email;
-      return $this;
+        $this->email = $email;
+        return $this;
     }
 
 }

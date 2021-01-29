@@ -21,8 +21,8 @@ class customer_getGroups
      */
     public function __construct($uuid, $customerId)
     {
-      $this->uuid = $uuid;
-      $this->customerId = $customerId;
+        $this->uuid = $uuid;
+        $this->customerId = $customerId;
     }
 
     /**
@@ -30,7 +30,7 @@ class customer_getGroups
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class customer_getGroups
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class customer_getGroups
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -57,8 +57,8 @@ class customer_getGroups
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
 }

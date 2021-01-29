@@ -35,10 +35,10 @@ class Bounce
      */
     protected $category = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -46,7 +46,7 @@ class Bounce
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -55,8 +55,8 @@ class Bounce
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -64,7 +64,7 @@ class Bounce
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -73,8 +73,8 @@ class Bounce
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -82,7 +82,7 @@ class Bounce
      */
     public function getMailingId()
     {
-      return $this->mailingId;
+        return $this->mailingId;
     }
 
     /**
@@ -91,8 +91,8 @@ class Bounce
      */
     public function setMailingId($mailingId)
     {
-      $this->mailingId = $mailingId;
-      return $this;
+        $this->mailingId = $mailingId;
+        return $this;
     }
 
     /**
@@ -100,7 +100,7 @@ class Bounce
      */
     public function getBouncedAt()
     {
-      return $this->bouncedAt;
+        return $this->bouncedAt;
     }
 
     /**
@@ -109,8 +109,8 @@ class Bounce
      */
     public function setBouncedAt($bouncedAt)
     {
-      $this->bouncedAt = $bouncedAt;
-      return $this;
+        $this->bouncedAt = $bouncedAt;
+        return $this;
     }
 
     /**
@@ -118,7 +118,7 @@ class Bounce
      */
     public function getRule()
     {
-      return $this->rule;
+        return $this->rule;
     }
 
     /**
@@ -127,8 +127,8 @@ class Bounce
      */
     public function setRule($rule)
     {
-      $this->rule = $rule;
-      return $this;
+        $this->rule = $rule;
+        return $this;
     }
 
     /**
@@ -136,7 +136,7 @@ class Bounce
      */
     public function getCategory()
     {
-      return $this->category;
+        return $this->category;
     }
 
     /**
@@ -145,8 +145,8 @@ class Bounce
      */
     public function setCategory($category)
     {
-      $this->category = $category;
-      return $this;
+        $this->category = $category;
+        return $this;
     }
 
 }

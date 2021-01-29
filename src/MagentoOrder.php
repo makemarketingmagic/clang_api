@@ -285,10 +285,10 @@ class MagentoOrder
      */
     protected $shippingSuffix = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -296,7 +296,7 @@ class MagentoOrder
      */
     public function getQuoteId()
     {
-      return $this->quoteId;
+        return $this->quoteId;
     }
 
     /**
@@ -305,8 +305,8 @@ class MagentoOrder
      */
     public function setQuoteId($quoteId)
     {
-      $this->quoteId = $quoteId;
-      return $this;
+        $this->quoteId = $quoteId;
+        return $this;
     }
 
     /**
@@ -314,7 +314,7 @@ class MagentoOrder
      */
     public function getSubtotalInclTax()
     {
-      return $this->subtotalInclTax;
+        return $this->subtotalInclTax;
     }
 
     /**
@@ -323,8 +323,8 @@ class MagentoOrder
      */
     public function setSubtotalInclTax($subtotalInclTax)
     {
-      $this->subtotalInclTax = $subtotalInclTax;
-      return $this;
+        $this->subtotalInclTax = $subtotalInclTax;
+        return $this;
     }
 
     /**
@@ -332,7 +332,7 @@ class MagentoOrder
      */
     public function getCouponCode()
     {
-      return $this->couponCode;
+        return $this->couponCode;
     }
 
     /**
@@ -341,8 +341,8 @@ class MagentoOrder
      */
     public function setCouponCode($couponCode)
     {
-      $this->couponCode = $couponCode;
-      return $this;
+        $this->couponCode = $couponCode;
+        return $this;
     }
 
     /**
@@ -350,7 +350,7 @@ class MagentoOrder
      */
     public function getTotalQtyOrdered()
     {
-      return $this->totalQtyOrdered;
+        return $this->totalQtyOrdered;
     }
 
     /**
@@ -359,8 +359,8 @@ class MagentoOrder
      */
     public function setTotalQtyOrdered($totalQtyOrdered)
     {
-      $this->totalQtyOrdered = $totalQtyOrdered;
-      return $this;
+        $this->totalQtyOrdered = $totalQtyOrdered;
+        return $this;
     }
 
     /**
@@ -368,7 +368,7 @@ class MagentoOrder
      */
     public function getWeight()
     {
-      return $this->weight;
+        return $this->weight;
     }
 
     /**
@@ -377,8 +377,8 @@ class MagentoOrder
      */
     public function setWeight($weight)
     {
-      $this->weight = $weight;
-      return $this;
+        $this->weight = $weight;
+        return $this;
     }
 
     /**
@@ -386,7 +386,7 @@ class MagentoOrder
      */
     public function getTaxString()
     {
-      return $this->taxString;
+        return $this->taxString;
     }
 
     /**
@@ -395,8 +395,8 @@ class MagentoOrder
      */
     public function setTaxString($taxString)
     {
-      $this->taxString = $taxString;
-      return $this;
+        $this->taxString = $taxString;
+        return $this;
     }
 
     /**
@@ -404,7 +404,7 @@ class MagentoOrder
      */
     public function getShippingInclTax()
     {
-      return $this->shippingInclTax;
+        return $this->shippingInclTax;
     }
 
     /**
@@ -413,8 +413,8 @@ class MagentoOrder
      */
     public function setShippingInclTax($shippingInclTax)
     {
-      $this->shippingInclTax = $shippingInclTax;
-      return $this;
+        $this->shippingInclTax = $shippingInclTax;
+        return $this;
     }
 
     /**
@@ -422,7 +422,7 @@ class MagentoOrder
      */
     public function getDiscountDescription()
     {
-      return $this->discountDescription;
+        return $this->discountDescription;
     }
 
     /**
@@ -431,8 +431,8 @@ class MagentoOrder
      */
     public function setDiscountDescription($discountDescription)
     {
-      $this->discountDescription = $discountDescription;
-      return $this;
+        $this->discountDescription = $discountDescription;
+        return $this;
     }
 
     /**
@@ -440,7 +440,7 @@ class MagentoOrder
      */
     public function getShippingDiscountAmount()
     {
-      return $this->shippingDiscountAmount;
+        return $this->shippingDiscountAmount;
     }
 
     /**
@@ -449,8 +449,8 @@ class MagentoOrder
      */
     public function setShippingDiscountAmount($shippingDiscountAmount)
     {
-      $this->shippingDiscountAmount = $shippingDiscountAmount;
-      return $this;
+        $this->shippingDiscountAmount = $shippingDiscountAmount;
+        return $this;
     }
 
     /**
@@ -458,7 +458,7 @@ class MagentoOrder
      */
     public function getTotalItemCount()
     {
-      return $this->totalItemCount;
+        return $this->totalItemCount;
     }
 
     /**
@@ -467,8 +467,8 @@ class MagentoOrder
      */
     public function setTotalItemCount($totalItemCount)
     {
-      $this->totalItemCount = $totalItemCount;
-      return $this;
+        $this->totalItemCount = $totalItemCount;
+        return $this;
     }
 
     /**
@@ -476,7 +476,7 @@ class MagentoOrder
      */
     public function getStatus()
     {
-      return $this->status;
+        return $this->status;
     }
 
     /**
@@ -485,8 +485,8 @@ class MagentoOrder
      */
     public function setStatus($status)
     {
-      $this->status = $status;
-      return $this;
+        $this->status = $status;
+        return $this;
     }
 
     /**
@@ -494,7 +494,7 @@ class MagentoOrder
      */
     public function getExternalOrderId()
     {
-      return $this->externalOrderId;
+        return $this->externalOrderId;
     }
 
     /**
@@ -503,8 +503,8 @@ class MagentoOrder
      */
     public function setExternalOrderId($externalOrderId)
     {
-      $this->externalOrderId = $externalOrderId;
-      return $this;
+        $this->externalOrderId = $externalOrderId;
+        return $this;
     }
 
     /**
@@ -512,7 +512,7 @@ class MagentoOrder
      */
     public function getNote()
     {
-      return $this->note;
+        return $this->note;
     }
 
     /**
@@ -521,8 +521,8 @@ class MagentoOrder
      */
     public function setNote($note)
     {
-      $this->note = $note;
-      return $this;
+        $this->note = $note;
+        return $this;
     }
 
     /**
@@ -530,7 +530,7 @@ class MagentoOrder
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -539,8 +539,8 @@ class MagentoOrder
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -548,7 +548,7 @@ class MagentoOrder
      */
     public function getStoreview()
     {
-      return $this->storeview;
+        return $this->storeview;
     }
 
     /**
@@ -557,8 +557,8 @@ class MagentoOrder
      */
     public function setStoreview($storeview)
     {
-      $this->storeview = $storeview;
-      return $this;
+        $this->storeview = $storeview;
+        return $this;
     }
 
     /**
@@ -566,7 +566,7 @@ class MagentoOrder
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -575,8 +575,8 @@ class MagentoOrder
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -584,7 +584,7 @@ class MagentoOrder
      */
     public function getSubtotal()
     {
-      return $this->subtotal;
+        return $this->subtotal;
     }
 
     /**
@@ -593,8 +593,8 @@ class MagentoOrder
      */
     public function setSubtotal($subtotal)
     {
-      $this->subtotal = $subtotal;
-      return $this;
+        $this->subtotal = $subtotal;
+        return $this;
     }
 
     /**
@@ -602,7 +602,7 @@ class MagentoOrder
      */
     public function getTotal()
     {
-      return $this->total;
+        return $this->total;
     }
 
     /**
@@ -611,8 +611,8 @@ class MagentoOrder
      */
     public function setTotal($total)
     {
-      $this->total = $total;
-      return $this;
+        $this->total = $total;
+        return $this;
     }
 
     /**
@@ -620,7 +620,7 @@ class MagentoOrder
      */
     public function getTaxAmount()
     {
-      return $this->taxAmount;
+        return $this->taxAmount;
     }
 
     /**
@@ -629,8 +629,8 @@ class MagentoOrder
      */
     public function setTaxAmount($taxAmount)
     {
-      $this->taxAmount = $taxAmount;
-      return $this;
+        $this->taxAmount = $taxAmount;
+        return $this;
     }
 
     /**
@@ -638,7 +638,7 @@ class MagentoOrder
      */
     public function getShippingCost()
     {
-      return $this->shippingCost;
+        return $this->shippingCost;
     }
 
     /**
@@ -647,8 +647,8 @@ class MagentoOrder
      */
     public function setShippingCost($shippingCost)
     {
-      $this->shippingCost = $shippingCost;
-      return $this;
+        $this->shippingCost = $shippingCost;
+        return $this;
     }
 
     /**
@@ -656,7 +656,7 @@ class MagentoOrder
      */
     public function getDiscount()
     {
-      return $this->discount;
+        return $this->discount;
     }
 
     /**
@@ -665,8 +665,8 @@ class MagentoOrder
      */
     public function setDiscount($discount)
     {
-      $this->discount = $discount;
-      return $this;
+        $this->discount = $discount;
+        return $this;
     }
 
     /**
@@ -674,7 +674,7 @@ class MagentoOrder
      */
     public function getCurrency()
     {
-      return $this->currency;
+        return $this->currency;
     }
 
     /**
@@ -683,8 +683,8 @@ class MagentoOrder
      */
     public function setCurrency($currency)
     {
-      $this->currency = $currency;
-      return $this;
+        $this->currency = $currency;
+        return $this;
     }
 
     /**
@@ -692,7 +692,7 @@ class MagentoOrder
      */
     public function getRewardPoints()
     {
-      return $this->rewardPoints;
+        return $this->rewardPoints;
     }
 
     /**
@@ -701,8 +701,8 @@ class MagentoOrder
      */
     public function setRewardPoints($rewardPoints)
     {
-      $this->rewardPoints = $rewardPoints;
-      return $this;
+        $this->rewardPoints = $rewardPoints;
+        return $this;
     }
 
     /**
@@ -710,7 +710,7 @@ class MagentoOrder
      */
     public function getBillingFirstname()
     {
-      return $this->billingFirstname;
+        return $this->billingFirstname;
     }
 
     /**
@@ -719,8 +719,8 @@ class MagentoOrder
      */
     public function setBillingFirstname($billingFirstname)
     {
-      $this->billingFirstname = $billingFirstname;
-      return $this;
+        $this->billingFirstname = $billingFirstname;
+        return $this;
     }
 
     /**
@@ -728,7 +728,7 @@ class MagentoOrder
      */
     public function getBillingMiddlename()
     {
-      return $this->billingMiddlename;
+        return $this->billingMiddlename;
     }
 
     /**
@@ -737,8 +737,8 @@ class MagentoOrder
      */
     public function setBillingMiddlename($billingMiddlename)
     {
-      $this->billingMiddlename = $billingMiddlename;
-      return $this;
+        $this->billingMiddlename = $billingMiddlename;
+        return $this;
     }
 
     /**
@@ -746,7 +746,7 @@ class MagentoOrder
      */
     public function getBillingTitle()
     {
-      return $this->billingTitle;
+        return $this->billingTitle;
     }
 
     /**
@@ -755,8 +755,8 @@ class MagentoOrder
      */
     public function setBillingTitle($billingTitle)
     {
-      $this->billingTitle = $billingTitle;
-      return $this;
+        $this->billingTitle = $billingTitle;
+        return $this;
     }
 
     /**
@@ -764,7 +764,7 @@ class MagentoOrder
      */
     public function getBillingLastname()
     {
-      return $this->billingLastname;
+        return $this->billingLastname;
     }
 
     /**
@@ -773,8 +773,8 @@ class MagentoOrder
      */
     public function setBillingLastname($billingLastname)
     {
-      $this->billingLastname = $billingLastname;
-      return $this;
+        $this->billingLastname = $billingLastname;
+        return $this;
     }
 
     /**
@@ -782,7 +782,7 @@ class MagentoOrder
      */
     public function getBillingAddress()
     {
-      return $this->billingAddress;
+        return $this->billingAddress;
     }
 
     /**
@@ -791,8 +791,8 @@ class MagentoOrder
      */
     public function setBillingAddress($billingAddress)
     {
-      $this->billingAddress = $billingAddress;
-      return $this;
+        $this->billingAddress = $billingAddress;
+        return $this;
     }
 
     /**
@@ -800,7 +800,7 @@ class MagentoOrder
      */
     public function getBillingZipCode()
     {
-      return $this->billingZipCode;
+        return $this->billingZipCode;
     }
 
     /**
@@ -809,8 +809,8 @@ class MagentoOrder
      */
     public function setBillingZipCode($billingZipCode)
     {
-      $this->billingZipCode = $billingZipCode;
-      return $this;
+        $this->billingZipCode = $billingZipCode;
+        return $this;
     }
 
     /**
@@ -818,7 +818,7 @@ class MagentoOrder
      */
     public function getBillingPoBox()
     {
-      return $this->billingPoBox;
+        return $this->billingPoBox;
     }
 
     /**
@@ -827,8 +827,8 @@ class MagentoOrder
      */
     public function setBillingPoBox($billingPoBox)
     {
-      $this->billingPoBox = $billingPoBox;
-      return $this;
+        $this->billingPoBox = $billingPoBox;
+        return $this;
     }
 
     /**
@@ -836,7 +836,7 @@ class MagentoOrder
      */
     public function getBillingCity()
     {
-      return $this->billingCity;
+        return $this->billingCity;
     }
 
     /**
@@ -845,8 +845,8 @@ class MagentoOrder
      */
     public function setBillingCity($billingCity)
     {
-      $this->billingCity = $billingCity;
-      return $this;
+        $this->billingCity = $billingCity;
+        return $this;
     }
 
     /**
@@ -854,7 +854,7 @@ class MagentoOrder
      */
     public function getBillingState()
     {
-      return $this->billingState;
+        return $this->billingState;
     }
 
     /**
@@ -863,8 +863,8 @@ class MagentoOrder
      */
     public function setBillingState($billingState)
     {
-      $this->billingState = $billingState;
-      return $this;
+        $this->billingState = $billingState;
+        return $this;
     }
 
     /**
@@ -872,7 +872,7 @@ class MagentoOrder
      */
     public function getBillingCountry()
     {
-      return $this->billingCountry;
+        return $this->billingCountry;
     }
 
     /**
@@ -881,8 +881,8 @@ class MagentoOrder
      */
     public function setBillingCountry($billingCountry)
     {
-      $this->billingCountry = $billingCountry;
-      return $this;
+        $this->billingCountry = $billingCountry;
+        return $this;
     }
 
     /**
@@ -890,7 +890,7 @@ class MagentoOrder
      */
     public function getBillingCompanyName()
     {
-      return $this->billingCompanyName;
+        return $this->billingCompanyName;
     }
 
     /**
@@ -899,8 +899,8 @@ class MagentoOrder
      */
     public function setBillingCompanyName($billingCompanyName)
     {
-      $this->billingCompanyName = $billingCompanyName;
-      return $this;
+        $this->billingCompanyName = $billingCompanyName;
+        return $this;
     }
 
     /**
@@ -908,7 +908,7 @@ class MagentoOrder
      */
     public function getBillingPhone()
     {
-      return $this->billingPhone;
+        return $this->billingPhone;
     }
 
     /**
@@ -917,8 +917,8 @@ class MagentoOrder
      */
     public function setBillingPhone($billingPhone)
     {
-      $this->billingPhone = $billingPhone;
-      return $this;
+        $this->billingPhone = $billingPhone;
+        return $this;
     }
 
     /**
@@ -926,7 +926,7 @@ class MagentoOrder
      */
     public function getBillingEmailAddress()
     {
-      return $this->billingEmailAddress;
+        return $this->billingEmailAddress;
     }
 
     /**
@@ -935,8 +935,8 @@ class MagentoOrder
      */
     public function setBillingEmailAddress($billingEmailAddress)
     {
-      $this->billingEmailAddress = $billingEmailAddress;
-      return $this;
+        $this->billingEmailAddress = $billingEmailAddress;
+        return $this;
     }
 
     /**
@@ -944,7 +944,7 @@ class MagentoOrder
      */
     public function getShippingFirstname()
     {
-      return $this->shippingFirstname;
+        return $this->shippingFirstname;
     }
 
     /**
@@ -953,8 +953,8 @@ class MagentoOrder
      */
     public function setShippingFirstname($shippingFirstname)
     {
-      $this->shippingFirstname = $shippingFirstname;
-      return $this;
+        $this->shippingFirstname = $shippingFirstname;
+        return $this;
     }
 
     /**
@@ -962,7 +962,7 @@ class MagentoOrder
      */
     public function getShippingMiddlename()
     {
-      return $this->shippingMiddlename;
+        return $this->shippingMiddlename;
     }
 
     /**
@@ -971,8 +971,8 @@ class MagentoOrder
      */
     public function setShippingMiddlename($shippingMiddlename)
     {
-      $this->shippingMiddlename = $shippingMiddlename;
-      return $this;
+        $this->shippingMiddlename = $shippingMiddlename;
+        return $this;
     }
 
     /**
@@ -980,7 +980,7 @@ class MagentoOrder
      */
     public function getShippingTitle()
     {
-      return $this->shippingTitle;
+        return $this->shippingTitle;
     }
 
     /**
@@ -989,8 +989,8 @@ class MagentoOrder
      */
     public function setShippingTitle($shippingTitle)
     {
-      $this->shippingTitle = $shippingTitle;
-      return $this;
+        $this->shippingTitle = $shippingTitle;
+        return $this;
     }
 
     /**
@@ -998,7 +998,7 @@ class MagentoOrder
      */
     public function getShippingLastname()
     {
-      return $this->shippingLastname;
+        return $this->shippingLastname;
     }
 
     /**
@@ -1007,8 +1007,8 @@ class MagentoOrder
      */
     public function setShippingLastname($shippingLastname)
     {
-      $this->shippingLastname = $shippingLastname;
-      return $this;
+        $this->shippingLastname = $shippingLastname;
+        return $this;
     }
 
     /**
@@ -1016,7 +1016,7 @@ class MagentoOrder
      */
     public function getShippingAddress()
     {
-      return $this->shippingAddress;
+        return $this->shippingAddress;
     }
 
     /**
@@ -1025,8 +1025,8 @@ class MagentoOrder
      */
     public function setShippingAddress($shippingAddress)
     {
-      $this->shippingAddress = $shippingAddress;
-      return $this;
+        $this->shippingAddress = $shippingAddress;
+        return $this;
     }
 
     /**
@@ -1034,7 +1034,7 @@ class MagentoOrder
      */
     public function getShippingZipCode()
     {
-      return $this->shippingZipCode;
+        return $this->shippingZipCode;
     }
 
     /**
@@ -1043,8 +1043,8 @@ class MagentoOrder
      */
     public function setShippingZipCode($shippingZipCode)
     {
-      $this->shippingZipCode = $shippingZipCode;
-      return $this;
+        $this->shippingZipCode = $shippingZipCode;
+        return $this;
     }
 
     /**
@@ -1052,7 +1052,7 @@ class MagentoOrder
      */
     public function getShippingPoBox()
     {
-      return $this->shippingPoBox;
+        return $this->shippingPoBox;
     }
 
     /**
@@ -1061,8 +1061,8 @@ class MagentoOrder
      */
     public function setShippingPoBox($shippingPoBox)
     {
-      $this->shippingPoBox = $shippingPoBox;
-      return $this;
+        $this->shippingPoBox = $shippingPoBox;
+        return $this;
     }
 
     /**
@@ -1070,7 +1070,7 @@ class MagentoOrder
      */
     public function getShippingCity()
     {
-      return $this->shippingCity;
+        return $this->shippingCity;
     }
 
     /**
@@ -1079,8 +1079,8 @@ class MagentoOrder
      */
     public function setShippingCity($shippingCity)
     {
-      $this->shippingCity = $shippingCity;
-      return $this;
+        $this->shippingCity = $shippingCity;
+        return $this;
     }
 
     /**
@@ -1088,7 +1088,7 @@ class MagentoOrder
      */
     public function getShippingState()
     {
-      return $this->shippingState;
+        return $this->shippingState;
     }
 
     /**
@@ -1097,8 +1097,8 @@ class MagentoOrder
      */
     public function setShippingState($shippingState)
     {
-      $this->shippingState = $shippingState;
-      return $this;
+        $this->shippingState = $shippingState;
+        return $this;
     }
 
     /**
@@ -1106,7 +1106,7 @@ class MagentoOrder
      */
     public function getShippingCountry()
     {
-      return $this->shippingCountry;
+        return $this->shippingCountry;
     }
 
     /**
@@ -1115,8 +1115,8 @@ class MagentoOrder
      */
     public function setShippingCountry($shippingCountry)
     {
-      $this->shippingCountry = $shippingCountry;
-      return $this;
+        $this->shippingCountry = $shippingCountry;
+        return $this;
     }
 
     /**
@@ -1124,7 +1124,7 @@ class MagentoOrder
      */
     public function getShippingCompanyName()
     {
-      return $this->shippingCompanyName;
+        return $this->shippingCompanyName;
     }
 
     /**
@@ -1133,8 +1133,8 @@ class MagentoOrder
      */
     public function setShippingCompanyName($shippingCompanyName)
     {
-      $this->shippingCompanyName = $shippingCompanyName;
-      return $this;
+        $this->shippingCompanyName = $shippingCompanyName;
+        return $this;
     }
 
     /**
@@ -1142,7 +1142,7 @@ class MagentoOrder
      */
     public function getShippingPhone()
     {
-      return $this->shippingPhone;
+        return $this->shippingPhone;
     }
 
     /**
@@ -1151,8 +1151,8 @@ class MagentoOrder
      */
     public function setShippingPhone($shippingPhone)
     {
-      $this->shippingPhone = $shippingPhone;
-      return $this;
+        $this->shippingPhone = $shippingPhone;
+        return $this;
     }
 
     /**
@@ -1160,7 +1160,7 @@ class MagentoOrder
      */
     public function getPaymentMethod()
     {
-      return $this->paymentMethod;
+        return $this->paymentMethod;
     }
 
     /**
@@ -1169,8 +1169,8 @@ class MagentoOrder
      */
     public function setPaymentMethod($paymentMethod)
     {
-      $this->paymentMethod = $paymentMethod;
-      return $this;
+        $this->paymentMethod = $paymentMethod;
+        return $this;
     }
 
     /**
@@ -1178,7 +1178,7 @@ class MagentoOrder
      */
     public function getShippingMethod()
     {
-      return $this->shippingMethod;
+        return $this->shippingMethod;
     }
 
     /**
@@ -1187,8 +1187,8 @@ class MagentoOrder
      */
     public function setShippingMethod($shippingMethod)
     {
-      $this->shippingMethod = $shippingMethod;
-      return $this;
+        $this->shippingMethod = $shippingMethod;
+        return $this;
     }
 
     /**
@@ -1196,7 +1196,7 @@ class MagentoOrder
      */
     public function getOrderDate()
     {
-      return $this->orderDate;
+        return $this->orderDate;
     }
 
     /**
@@ -1205,8 +1205,8 @@ class MagentoOrder
      */
     public function setOrderDate($orderDate)
     {
-      $this->orderDate = $orderDate;
-      return $this;
+        $this->orderDate = $orderDate;
+        return $this;
     }
 
     /**
@@ -1214,7 +1214,7 @@ class MagentoOrder
      */
     public function getProducts()
     {
-      return $this->products;
+        return $this->products;
     }
 
     /**
@@ -1223,8 +1223,8 @@ class MagentoOrder
      */
     public function setProducts($products)
     {
-      $this->products = $products;
-      return $this;
+        $this->products = $products;
+        return $this;
     }
 
     /**
@@ -1232,7 +1232,7 @@ class MagentoOrder
      */
     public function getBillingPrefix()
     {
-      return $this->billingPrefix;
+        return $this->billingPrefix;
     }
 
     /**
@@ -1241,8 +1241,8 @@ class MagentoOrder
      */
     public function setBillingPrefix($billingPrefix)
     {
-      $this->billingPrefix = $billingPrefix;
-      return $this;
+        $this->billingPrefix = $billingPrefix;
+        return $this;
     }
 
     /**
@@ -1250,7 +1250,7 @@ class MagentoOrder
      */
     public function getBillingSuffix()
     {
-      return $this->billingSuffix;
+        return $this->billingSuffix;
     }
 
     /**
@@ -1259,8 +1259,8 @@ class MagentoOrder
      */
     public function setBillingSuffix($billingSuffix)
     {
-      $this->billingSuffix = $billingSuffix;
-      return $this;
+        $this->billingSuffix = $billingSuffix;
+        return $this;
     }
 
     /**
@@ -1268,7 +1268,7 @@ class MagentoOrder
      */
     public function getShippingPrefix()
     {
-      return $this->shippingPrefix;
+        return $this->shippingPrefix;
     }
 
     /**
@@ -1277,8 +1277,8 @@ class MagentoOrder
      */
     public function setShippingPrefix($shippingPrefix)
     {
-      $this->shippingPrefix = $shippingPrefix;
-      return $this;
+        $this->shippingPrefix = $shippingPrefix;
+        return $this;
     }
 
     /**
@@ -1286,7 +1286,7 @@ class MagentoOrder
      */
     public function getShippingSuffix()
     {
-      return $this->shippingSuffix;
+        return $this->shippingSuffix;
     }
 
     /**
@@ -1295,8 +1295,8 @@ class MagentoOrder
      */
     public function setShippingSuffix($shippingSuffix)
     {
-      $this->shippingSuffix = $shippingSuffix;
-      return $this;
+        $this->shippingSuffix = $shippingSuffix;
+        return $this;
     }
 
 }

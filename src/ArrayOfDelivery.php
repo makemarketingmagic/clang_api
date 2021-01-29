@@ -10,10 +10,10 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Delivery = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function getDelivery()
     {
-      return $this->Delivery;
+        return $this->Delivery;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function setDelivery(array $Delivery = null)
     {
-      $this->Delivery = $Delivery;
-      return $this;
+        $this->Delivery = $Delivery;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Delivery[$offset]);
+        return isset($this->Delivery[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Delivery[$offset];
+        return $this->Delivery[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Delivery[] = $value;
-      } else {
-        $this->Delivery[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Delivery[] = $value;
+        } else {
+            $this->Delivery[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Delivery[$offset]);
+        unset($this->Delivery[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Delivery);
+        return current($this->Delivery);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Delivery);
+        next($this->Delivery);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Delivery);
+        return key($this->Delivery);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Delivery);
+        reset($this->Delivery);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfDelivery implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Delivery);
+        return count($this->Delivery);
     }
 
 }

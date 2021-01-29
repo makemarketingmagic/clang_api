@@ -10,10 +10,10 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     protected $MagentoProduct = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function getMagentoProduct()
     {
-      return $this->MagentoProduct;
+        return $this->MagentoProduct;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function setMagentoProduct(array $MagentoProduct = null)
     {
-      $this->MagentoProduct = $MagentoProduct;
-      return $this;
+        $this->MagentoProduct = $MagentoProduct;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->MagentoProduct[$offset]);
+        return isset($this->MagentoProduct[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->MagentoProduct[$offset];
+        return $this->MagentoProduct[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->MagentoProduct[] = $value;
-      } else {
-        $this->MagentoProduct[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->MagentoProduct[] = $value;
+        } else {
+            $this->MagentoProduct[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->MagentoProduct[$offset]);
+        unset($this->MagentoProduct[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->MagentoProduct);
+        return current($this->MagentoProduct);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->MagentoProduct);
+        next($this->MagentoProduct);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->MagentoProduct);
+        return key($this->MagentoProduct);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->MagentoProduct);
+        reset($this->MagentoProduct);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfMagentoProduct implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->MagentoProduct);
+        return count($this->MagentoProduct);
     }
 
 }

@@ -21,8 +21,8 @@ class customer_getByUserNameAndPasswordResponse
      */
     public function __construct($code, $msg)
     {
-      $this->code = $code;
-      $this->msg = $msg;
+        $this->code = $code;
+        $this->msg = $msg;
     }
 
     /**
@@ -30,7 +30,7 @@ class customer_getByUserNameAndPasswordResponse
      */
     public function getCode()
     {
-      return $this->code;
+        return $this->code;
     }
 
     /**
@@ -39,8 +39,8 @@ class customer_getByUserNameAndPasswordResponse
      */
     public function setCode($code)
     {
-      $this->code = $code;
-      return $this;
+        $this->code = $code;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class customer_getByUserNameAndPasswordResponse
      */
     public function getMsg()
     {
-      return $this->msg;
+        return $this->msg;
     }
 
     /**
@@ -57,8 +57,8 @@ class customer_getByUserNameAndPasswordResponse
      */
     public function setMsg($msg)
     {
-      $this->msg = $msg;
-      return $this;
+        $this->msg = $msg;
+        return $this;
     }
 
 }

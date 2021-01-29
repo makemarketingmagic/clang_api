@@ -33,10 +33,10 @@ class account_addToCustomer
      */
     public function __construct($uuid, $customerId, $accountId, $network)
     {
-      $this->uuid = $uuid;
-      $this->customerId = $customerId;
-      $this->accountId = $accountId;
-      $this->network = $network;
+        $this->uuid = $uuid;
+        $this->customerId = $customerId;
+        $this->accountId = $accountId;
+        $this->network = $network;
     }
 
     /**
@@ -44,7 +44,7 @@ class account_addToCustomer
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -53,8 +53,8 @@ class account_addToCustomer
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -62,7 +62,7 @@ class account_addToCustomer
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -71,8 +71,8 @@ class account_addToCustomer
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -80,7 +80,7 @@ class account_addToCustomer
      */
     public function getAccountId()
     {
-      return $this->accountId;
+        return $this->accountId;
     }
 
     /**
@@ -89,8 +89,8 @@ class account_addToCustomer
      */
     public function setAccountId($accountId)
     {
-      $this->accountId = $accountId;
-      return $this;
+        $this->accountId = $accountId;
+        return $this;
     }
 
     /**
@@ -98,7 +98,7 @@ class account_addToCustomer
      */
     public function getNetwork()
     {
-      return $this->network;
+        return $this->network;
     }
 
     /**
@@ -107,8 +107,8 @@ class account_addToCustomer
      */
     public function setNetwork($network)
     {
-      $this->network = $network;
-      return $this;
+        $this->network = $network;
+        return $this;
     }
 
 }

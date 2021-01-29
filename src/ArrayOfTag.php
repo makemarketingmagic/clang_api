@@ -10,10 +10,10 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Tag = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function getTag()
     {
-      return $this->Tag;
+        return $this->Tag;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function setTag(array $Tag = null)
     {
-      $this->Tag = $Tag;
-      return $this;
+        $this->Tag = $Tag;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Tag[$offset]);
+        return isset($this->Tag[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Tag[$offset];
+        return $this->Tag[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Tag[] = $value;
-      } else {
-        $this->Tag[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Tag[] = $value;
+        } else {
+            $this->Tag[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Tag[$offset]);
+        unset($this->Tag[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Tag);
+        return current($this->Tag);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Tag);
+        next($this->Tag);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Tag);
+        return key($this->Tag);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Tag);
+        reset($this->Tag);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfTag implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Tag);
+        return count($this->Tag);
     }
 
 }

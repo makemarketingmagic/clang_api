@@ -27,9 +27,9 @@ class mailing_getByDate
      */
     public function __construct($uuid, $fromDate, $toDate)
     {
-      $this->uuid = $uuid;
-      $this->fromDate = $fromDate;
-      $this->toDate = $toDate;
+        $this->uuid = $uuid;
+        $this->fromDate = $fromDate;
+        $this->toDate = $toDate;
     }
 
     /**
@@ -37,7 +37,7 @@ class mailing_getByDate
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class mailing_getByDate
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class mailing_getByDate
      */
     public function getFromDate()
     {
-      return $this->fromDate;
+        return $this->fromDate;
     }
 
     /**
@@ -64,8 +64,8 @@ class mailing_getByDate
      */
     public function setFromDate($fromDate)
     {
-      $this->fromDate = $fromDate;
-      return $this;
+        $this->fromDate = $fromDate;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class mailing_getByDate
      */
     public function getToDate()
     {
-      return $this->toDate;
+        return $this->toDate;
     }
 
     /**
@@ -82,8 +82,8 @@ class mailing_getByDate
      */
     public function setToDate($toDate)
     {
-      $this->toDate = $toDate;
-      return $this;
+        $this->toDate = $toDate;
+        return $this;
     }
 
 }

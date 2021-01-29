@@ -30,10 +30,10 @@ class CampaignStatistics
      */
     protected $uniqueMobilePhoneNumbers = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -41,7 +41,7 @@ class CampaignStatistics
      */
     public function getSmsableCustomers()
     {
-      return $this->smsableCustomers;
+        return $this->smsableCustomers;
     }
 
     /**
@@ -50,8 +50,8 @@ class CampaignStatistics
      */
     public function setSmsableCustomers($smsableCustomers)
     {
-      $this->smsableCustomers = $smsableCustomers;
-      return $this;
+        $this->smsableCustomers = $smsableCustomers;
+        return $this;
     }
 
     /**
@@ -59,7 +59,7 @@ class CampaignStatistics
      */
     public function getUniqueCustomers()
     {
-      return $this->uniqueCustomers;
+        return $this->uniqueCustomers;
     }
 
     /**
@@ -68,8 +68,8 @@ class CampaignStatistics
      */
     public function setUniqueCustomers($uniqueCustomers)
     {
-      $this->uniqueCustomers = $uniqueCustomers;
-      return $this;
+        $this->uniqueCustomers = $uniqueCustomers;
+        return $this;
     }
 
     /**
@@ -77,7 +77,7 @@ class CampaignStatistics
      */
     public function getMailableCustomers()
     {
-      return $this->mailableCustomers;
+        return $this->mailableCustomers;
     }
 
     /**
@@ -86,8 +86,8 @@ class CampaignStatistics
      */
     public function setMailableCustomers($mailableCustomers)
     {
-      $this->mailableCustomers = $mailableCustomers;
-      return $this;
+        $this->mailableCustomers = $mailableCustomers;
+        return $this;
     }
 
     /**
@@ -95,7 +95,7 @@ class CampaignStatistics
      */
     public function getUniqueEmailAddresses()
     {
-      return $this->uniqueEmailAddresses;
+        return $this->uniqueEmailAddresses;
     }
 
     /**
@@ -104,8 +104,8 @@ class CampaignStatistics
      */
     public function setUniqueEmailAddresses($uniqueEmailAddresses)
     {
-      $this->uniqueEmailAddresses = $uniqueEmailAddresses;
-      return $this;
+        $this->uniqueEmailAddresses = $uniqueEmailAddresses;
+        return $this;
     }
 
     /**
@@ -113,7 +113,7 @@ class CampaignStatistics
      */
     public function getUniqueMobilePhoneNumbers()
     {
-      return $this->uniqueMobilePhoneNumbers;
+        return $this->uniqueMobilePhoneNumbers;
     }
 
     /**
@@ -122,8 +122,8 @@ class CampaignStatistics
      */
     public function setUniqueMobilePhoneNumbers($uniqueMobilePhoneNumbers)
     {
-      $this->uniqueMobilePhoneNumbers = $uniqueMobilePhoneNumbers;
-      return $this;
+        $this->uniqueMobilePhoneNumbers = $uniqueMobilePhoneNumbers;
+        return $this;
     }
 
 }

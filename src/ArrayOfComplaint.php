@@ -10,10 +10,10 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Complaint = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function getComplaint()
     {
-      return $this->Complaint;
+        return $this->Complaint;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function setComplaint(array $Complaint = null)
     {
-      $this->Complaint = $Complaint;
-      return $this;
+        $this->Complaint = $Complaint;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Complaint[$offset]);
+        return isset($this->Complaint[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Complaint[$offset];
+        return $this->Complaint[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Complaint[] = $value;
-      } else {
-        $this->Complaint[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Complaint[] = $value;
+        } else {
+            $this->Complaint[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Complaint[$offset]);
+        unset($this->Complaint[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Complaint);
+        return current($this->Complaint);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Complaint);
+        next($this->Complaint);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Complaint);
+        return key($this->Complaint);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Complaint);
+        reset($this->Complaint);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfComplaint implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Complaint);
+        return count($this->Complaint);
     }
 
 }

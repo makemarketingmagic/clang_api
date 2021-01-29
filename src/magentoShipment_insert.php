@@ -21,8 +21,8 @@ class magentoShipment_insert
      */
     public function __construct($uuid, $shipment)
     {
-      $this->uuid = $uuid;
-      $this->shipment = $shipment;
+        $this->uuid = $uuid;
+        $this->shipment = $shipment;
     }
 
     /**
@@ -30,7 +30,7 @@ class magentoShipment_insert
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class magentoShipment_insert
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class magentoShipment_insert
      */
     public function getShipment()
     {
-      return $this->shipment;
+        return $this->shipment;
     }
 
     /**
@@ -57,8 +57,8 @@ class magentoShipment_insert
      */
     public function setShipment($shipment)
     {
-      $this->shipment = $shipment;
-      return $this;
+        $this->shipment = $shipment;
+        return $this;
     }
 
 }

@@ -21,8 +21,8 @@ class group_getById
      */
     public function __construct($uuid, $groupId)
     {
-      $this->uuid = $uuid;
-      $this->groupId = $groupId;
+        $this->uuid = $uuid;
+        $this->groupId = $groupId;
     }
 
     /**
@@ -30,7 +30,7 @@ class group_getById
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class group_getById
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class group_getById
      */
     public function getGroupId()
     {
-      return $this->groupId;
+        return $this->groupId;
     }
 
     /**
@@ -57,8 +57,8 @@ class group_getById
      */
     public function setGroupId($groupId)
     {
-      $this->groupId = $groupId;
-      return $this;
+        $this->groupId = $groupId;
+        return $this;
     }
 
 }

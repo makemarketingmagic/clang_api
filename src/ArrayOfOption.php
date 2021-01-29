@@ -10,10 +10,10 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Option = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function getOption()
     {
-      return $this->Option;
+        return $this->Option;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function setOption(array $Option = null)
     {
-      $this->Option = $Option;
-      return $this;
+        $this->Option = $Option;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Option[$offset]);
+        return isset($this->Option[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Option[$offset];
+        return $this->Option[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Option[] = $value;
-      } else {
-        $this->Option[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Option[] = $value;
+        } else {
+            $this->Option[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Option[$offset]);
+        unset($this->Option[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Option);
+        return current($this->Option);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Option);
+        next($this->Option);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Option);
+        return key($this->Option);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Option);
+        reset($this->Option);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfOption implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Option);
+        return count($this->Option);
     }
 
 }

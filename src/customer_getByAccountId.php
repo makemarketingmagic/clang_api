@@ -27,9 +27,9 @@ class customer_getByAccountId
      */
     public function __construct($uuid, $accountId, $network)
     {
-      $this->uuid = $uuid;
-      $this->accountId = $accountId;
-      $this->network = $network;
+        $this->uuid = $uuid;
+        $this->accountId = $accountId;
+        $this->network = $network;
     }
 
     /**
@@ -37,7 +37,7 @@ class customer_getByAccountId
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class customer_getByAccountId
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class customer_getByAccountId
      */
     public function getAccountId()
     {
-      return $this->accountId;
+        return $this->accountId;
     }
 
     /**
@@ -64,8 +64,8 @@ class customer_getByAccountId
      */
     public function setAccountId($accountId)
     {
-      $this->accountId = $accountId;
-      return $this;
+        $this->accountId = $accountId;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class customer_getByAccountId
      */
     public function getNetwork()
     {
-      return $this->network;
+        return $this->network;
     }
 
     /**
@@ -82,8 +82,8 @@ class customer_getByAccountId
      */
     public function setNetwork($network)
     {
-      $this->network = $network;
-      return $this;
+        $this->network = $network;
+        return $this;
     }
 
 }

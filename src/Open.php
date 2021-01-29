@@ -30,10 +30,10 @@ class Open
      */
     protected $browserInformation = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -41,7 +41,7 @@ class Open
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -50,8 +50,8 @@ class Open
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -59,7 +59,7 @@ class Open
      */
     public function getCustomerId()
     {
-      return $this->customerId;
+        return $this->customerId;
     }
 
     /**
@@ -68,8 +68,8 @@ class Open
      */
     public function setCustomerId($customerId)
     {
-      $this->customerId = $customerId;
-      return $this;
+        $this->customerId = $customerId;
+        return $this;
     }
 
     /**
@@ -77,7 +77,7 @@ class Open
      */
     public function getMailingId()
     {
-      return $this->mailingId;
+        return $this->mailingId;
     }
 
     /**
@@ -86,8 +86,8 @@ class Open
      */
     public function setMailingId($mailingId)
     {
-      $this->mailingId = $mailingId;
-      return $this;
+        $this->mailingId = $mailingId;
+        return $this;
     }
 
     /**
@@ -95,7 +95,7 @@ class Open
      */
     public function getOpenedAt()
     {
-      return $this->openedAt;
+        return $this->openedAt;
     }
 
     /**
@@ -104,8 +104,8 @@ class Open
      */
     public function setOpenedAt($openedAt)
     {
-      $this->openedAt = $openedAt;
-      return $this;
+        $this->openedAt = $openedAt;
+        return $this;
     }
 
     /**
@@ -113,7 +113,7 @@ class Open
      */
     public function getBrowserInformation()
     {
-      return $this->browserInformation;
+        return $this->browserInformation;
     }
 
     /**
@@ -122,8 +122,8 @@ class Open
      */
     public function setBrowserInformation($browserInformation)
     {
-      $this->browserInformation = $browserInformation;
-      return $this;
+        $this->browserInformation = $browserInformation;
+        return $this;
     }
 
 }

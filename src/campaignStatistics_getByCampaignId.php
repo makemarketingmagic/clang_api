@@ -21,8 +21,8 @@ class campaignStatistics_getByCampaignId
      */
     public function __construct($uuid, $campaignId)
     {
-      $this->uuid = $uuid;
-      $this->campaignId = $campaignId;
+        $this->uuid = $uuid;
+        $this->campaignId = $campaignId;
     }
 
     /**
@@ -30,7 +30,7 @@ class campaignStatistics_getByCampaignId
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class campaignStatistics_getByCampaignId
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class campaignStatistics_getByCampaignId
      */
     public function getCampaignId()
     {
-      return $this->campaignId;
+        return $this->campaignId;
     }
 
     /**
@@ -57,8 +57,8 @@ class campaignStatistics_getByCampaignId
      */
     public function setCampaignId($campaignId)
     {
-      $this->campaignId = $campaignId;
-      return $this;
+        $this->campaignId = $campaignId;
+        return $this;
     }
 
 }

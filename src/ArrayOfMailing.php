@@ -10,10 +10,10 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Mailing = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function getMailing()
     {
-      return $this->Mailing;
+        return $this->Mailing;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function setMailing(array $Mailing = null)
     {
-      $this->Mailing = $Mailing;
-      return $this;
+        $this->Mailing = $Mailing;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Mailing[$offset]);
+        return isset($this->Mailing[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Mailing[$offset];
+        return $this->Mailing[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Mailing[] = $value;
-      } else {
-        $this->Mailing[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Mailing[] = $value;
+        } else {
+            $this->Mailing[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Mailing[$offset]);
+        unset($this->Mailing[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Mailing);
+        return current($this->Mailing);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Mailing);
+        next($this->Mailing);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Mailing);
+        return key($this->Mailing);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Mailing);
+        reset($this->Mailing);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfMailing implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Mailing);
+        return count($this->Mailing);
     }
 
 }

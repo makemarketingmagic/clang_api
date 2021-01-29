@@ -15,10 +15,10 @@ class Account
      */
     protected $accountId = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -26,7 +26,7 @@ class Account
      */
     public function getNetwork()
     {
-      return $this->network;
+        return $this->network;
     }
 
     /**
@@ -35,8 +35,8 @@ class Account
      */
     public function setNetwork($network)
     {
-      $this->network = $network;
-      return $this;
+        $this->network = $network;
+        return $this;
     }
 
     /**
@@ -44,7 +44,7 @@ class Account
      */
     public function getAccountId()
     {
-      return $this->accountId;
+        return $this->accountId;
     }
 
     /**
@@ -53,8 +53,8 @@ class Account
      */
     public function setAccountId($accountId)
     {
-      $this->accountId = $accountId;
-      return $this;
+        $this->accountId = $accountId;
+        return $this;
     }
 
 }

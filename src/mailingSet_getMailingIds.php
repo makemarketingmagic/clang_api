@@ -33,10 +33,10 @@ class mailingSet_getMailingIds
      */
     public function __construct($uuid, $resourceId, $offset, $size)
     {
-      $this->uuid = $uuid;
-      $this->resourceId = $resourceId;
-      $this->offset = $offset;
-      $this->size = $size;
+        $this->uuid = $uuid;
+        $this->resourceId = $resourceId;
+        $this->offset = $offset;
+        $this->size = $size;
     }
 
     /**
@@ -44,7 +44,7 @@ class mailingSet_getMailingIds
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -53,8 +53,8 @@ class mailingSet_getMailingIds
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -62,7 +62,7 @@ class mailingSet_getMailingIds
      */
     public function getResourceId()
     {
-      return $this->resourceId;
+        return $this->resourceId;
     }
 
     /**
@@ -71,8 +71,8 @@ class mailingSet_getMailingIds
      */
     public function setResourceId($resourceId)
     {
-      $this->resourceId = $resourceId;
-      return $this;
+        $this->resourceId = $resourceId;
+        return $this;
     }
 
     /**
@@ -80,7 +80,7 @@ class mailingSet_getMailingIds
      */
     public function getOffset()
     {
-      return $this->offset;
+        return $this->offset;
     }
 
     /**
@@ -89,8 +89,8 @@ class mailingSet_getMailingIds
      */
     public function setOffset($offset)
     {
-      $this->offset = $offset;
-      return $this;
+        $this->offset = $offset;
+        return $this;
     }
 
     /**
@@ -98,7 +98,7 @@ class mailingSet_getMailingIds
      */
     public function getSize()
     {
-      return $this->size;
+        return $this->size;
     }
 
     /**
@@ -107,8 +107,8 @@ class mailingSet_getMailingIds
      */
     public function setSize($size)
     {
-      $this->size = $size;
-      return $this;
+        $this->size = $size;
+        return $this;
     }
 
 }

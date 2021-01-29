@@ -27,9 +27,9 @@ class magento_customerInsertUnique
      */
     public function __construct($uuid, $customer, $websiteId)
     {
-      $this->uuid = $uuid;
-      $this->customer = $customer;
-      $this->websiteId = $websiteId;
+        $this->uuid = $uuid;
+        $this->customer = $customer;
+        $this->websiteId = $websiteId;
     }
 
     /**
@@ -37,7 +37,7 @@ class magento_customerInsertUnique
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class magento_customerInsertUnique
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class magento_customerInsertUnique
      */
     public function getCustomer()
     {
-      return $this->customer;
+        return $this->customer;
     }
 
     /**
@@ -64,8 +64,8 @@ class magento_customerInsertUnique
      */
     public function setCustomer($customer)
     {
-      $this->customer = $customer;
-      return $this;
+        $this->customer = $customer;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class magento_customerInsertUnique
      */
     public function getWebsiteId()
     {
-      return $this->websiteId;
+        return $this->websiteId;
     }
 
     /**
@@ -82,8 +82,8 @@ class magento_customerInsertUnique
      */
     public function setWebsiteId($websiteId)
     {
-      $this->websiteId = $websiteId;
-      return $this;
+        $this->websiteId = $websiteId;
+        return $this;
     }
 
 }

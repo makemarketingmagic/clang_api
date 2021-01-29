@@ -21,8 +21,8 @@ class mailing_getById
      */
     public function __construct($uuid, $mailingId)
     {
-      $this->uuid = $uuid;
-      $this->mailingId = $mailingId;
+        $this->uuid = $uuid;
+        $this->mailingId = $mailingId;
     }
 
     /**
@@ -30,7 +30,7 @@ class mailing_getById
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class mailing_getById
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class mailing_getById
      */
     public function getMailingId()
     {
-      return $this->mailingId;
+        return $this->mailingId;
     }
 
     /**
@@ -57,8 +57,8 @@ class mailing_getById
      */
     public function setMailingId($mailingId)
     {
-      $this->mailingId = $mailingId;
-      return $this;
+        $this->mailingId = $mailingId;
+        return $this;
     }
 
 }

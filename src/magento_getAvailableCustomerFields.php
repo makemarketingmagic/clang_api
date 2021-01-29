@@ -21,8 +21,8 @@ class magento_getAvailableCustomerFields
      */
     public function __construct($uuid, $lang)
     {
-      $this->uuid = $uuid;
-      $this->lang = $lang;
+        $this->uuid = $uuid;
+        $this->lang = $lang;
     }
 
     /**
@@ -30,7 +30,7 @@ class magento_getAvailableCustomerFields
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class magento_getAvailableCustomerFields
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class magento_getAvailableCustomerFields
      */
     public function getLang()
     {
-      return $this->lang;
+        return $this->lang;
     }
 
     /**
@@ -57,8 +57,8 @@ class magento_getAvailableCustomerFields
      */
     public function setLang($lang)
     {
-      $this->lang = $lang;
-      return $this;
+        $this->lang = $lang;
+        return $this;
     }
 
 }

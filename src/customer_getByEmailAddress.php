@@ -21,8 +21,8 @@ class customer_getByEmailAddress
      */
     public function __construct($uuid, $emailAddress)
     {
-      $this->uuid = $uuid;
-      $this->emailAddress = $emailAddress;
+        $this->uuid = $uuid;
+        $this->emailAddress = $emailAddress;
     }
 
     /**
@@ -30,7 +30,7 @@ class customer_getByEmailAddress
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class customer_getByEmailAddress
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class customer_getByEmailAddress
      */
     public function getEmailAddress()
     {
-      return $this->emailAddress;
+        return $this->emailAddress;
     }
 
     /**
@@ -57,8 +57,8 @@ class customer_getByEmailAddress
      */
     public function setEmailAddress($emailAddress)
     {
-      $this->emailAddress = $emailAddress;
-      return $this;
+        $this->emailAddress = $emailAddress;
+        return $this;
     }
 
 }

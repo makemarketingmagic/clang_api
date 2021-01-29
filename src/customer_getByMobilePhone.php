@@ -21,8 +21,8 @@ class customer_getByMobilePhone
      */
     public function __construct($uuid, $mobilePhone)
     {
-      $this->uuid = $uuid;
-      $this->mobilePhone = $mobilePhone;
+        $this->uuid = $uuid;
+        $this->mobilePhone = $mobilePhone;
     }
 
     /**
@@ -30,7 +30,7 @@ class customer_getByMobilePhone
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class customer_getByMobilePhone
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class customer_getByMobilePhone
      */
     public function getMobilePhone()
     {
-      return $this->mobilePhone;
+        return $this->mobilePhone;
     }
 
     /**
@@ -57,8 +57,8 @@ class customer_getByMobilePhone
      */
     public function setMobilePhone($mobilePhone)
     {
-      $this->mobilePhone = $mobilePhone;
-      return $this;
+        $this->mobilePhone = $mobilePhone;
+        return $this;
     }
 
 }

@@ -65,10 +65,10 @@ class Sms
      */
     protected $textBlocks = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -76,7 +76,7 @@ class Sms
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -85,8 +85,8 @@ class Sms
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -94,7 +94,7 @@ class Sms
      */
     public function getCampaignId()
     {
-      return $this->campaignId;
+        return $this->campaignId;
     }
 
     /**
@@ -103,8 +103,8 @@ class Sms
      */
     public function setCampaignId($campaignId)
     {
-      $this->campaignId = $campaignId;
-      return $this;
+        $this->campaignId = $campaignId;
+        return $this;
     }
 
     /**
@@ -112,7 +112,7 @@ class Sms
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -121,8 +121,8 @@ class Sms
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -130,7 +130,7 @@ class Sms
      */
     public function getFromName()
     {
-      return $this->fromName;
+        return $this->fromName;
     }
 
     /**
@@ -139,8 +139,8 @@ class Sms
      */
     public function setFromName($fromName)
     {
-      $this->fromName = $fromName;
-      return $this;
+        $this->fromName = $fromName;
+        return $this;
     }
 
     /**
@@ -148,7 +148,7 @@ class Sms
      */
     public function getPlainText()
     {
-      return $this->plainText;
+        return $this->plainText;
     }
 
     /**
@@ -157,8 +157,8 @@ class Sms
      */
     public function setPlainText($plainText)
     {
-      $this->plainText = $plainText;
-      return $this;
+        $this->plainText = $plainText;
+        return $this;
     }
 
     /**
@@ -166,7 +166,7 @@ class Sms
      */
     public function getEnableUnicodeSupport()
     {
-      return $this->enableUnicodeSupport;
+        return $this->enableUnicodeSupport;
     }
 
     /**
@@ -175,8 +175,8 @@ class Sms
      */
     public function setEnableUnicodeSupport($enableUnicodeSupport)
     {
-      $this->enableUnicodeSupport = $enableUnicodeSupport;
-      return $this;
+        $this->enableUnicodeSupport = $enableUnicodeSupport;
+        return $this;
     }
 
     /**
@@ -184,7 +184,7 @@ class Sms
      */
     public function getMaxSmsMessages()
     {
-      return $this->maxSmsMessages;
+        return $this->maxSmsMessages;
     }
 
     /**
@@ -193,8 +193,8 @@ class Sms
      */
     public function setMaxSmsMessages($maxSmsMessages)
     {
-      $this->maxSmsMessages = $maxSmsMessages;
-      return $this;
+        $this->maxSmsMessages = $maxSmsMessages;
+        return $this;
     }
 
     /**
@@ -202,7 +202,7 @@ class Sms
      */
     public function getCreatedBy()
     {
-      return $this->createdBy;
+        return $this->createdBy;
     }
 
     /**
@@ -211,8 +211,8 @@ class Sms
      */
     public function setCreatedBy($createdBy)
     {
-      $this->createdBy = $createdBy;
-      return $this;
+        $this->createdBy = $createdBy;
+        return $this;
     }
 
     /**
@@ -220,7 +220,7 @@ class Sms
      */
     public function getCreatedAt()
     {
-      return $this->createdAt;
+        return $this->createdAt;
     }
 
     /**
@@ -229,8 +229,8 @@ class Sms
      */
     public function setCreatedAt($createdAt)
     {
-      $this->createdAt = $createdAt;
-      return $this;
+        $this->createdAt = $createdAt;
+        return $this;
     }
 
     /**
@@ -238,7 +238,7 @@ class Sms
      */
     public function getModifiedBy()
     {
-      return $this->modifiedBy;
+        return $this->modifiedBy;
     }
 
     /**
@@ -247,8 +247,8 @@ class Sms
      */
     public function setModifiedBy($modifiedBy)
     {
-      $this->modifiedBy = $modifiedBy;
-      return $this;
+        $this->modifiedBy = $modifiedBy;
+        return $this;
     }
 
     /**
@@ -256,7 +256,7 @@ class Sms
      */
     public function getModifiedAt()
     {
-      return $this->modifiedAt;
+        return $this->modifiedAt;
     }
 
     /**
@@ -265,8 +265,8 @@ class Sms
      */
     public function setModifiedAt($modifiedAt)
     {
-      $this->modifiedAt = $modifiedAt;
-      return $this;
+        $this->modifiedAt = $modifiedAt;
+        return $this;
     }
 
     /**
@@ -274,7 +274,7 @@ class Sms
      */
     public function getTextBlocks()
     {
-      return $this->textBlocks;
+        return $this->textBlocks;
     }
 
     /**
@@ -283,8 +283,8 @@ class Sms
      */
     public function setTextBlocks($textBlocks)
     {
-      $this->textBlocks = $textBlocks;
-      return $this;
+        $this->textBlocks = $textBlocks;
+        return $this;
     }
 
 }

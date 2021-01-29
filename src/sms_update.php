@@ -21,8 +21,8 @@ class sms_update
      */
     public function __construct($uuid, $sms)
     {
-      $this->uuid = $uuid;
-      $this->sms = $sms;
+        $this->uuid = $uuid;
+        $this->sms = $sms;
     }
 
     /**
@@ -30,7 +30,7 @@ class sms_update
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class sms_update
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class sms_update
      */
     public function getSms()
     {
-      return $this->sms;
+        return $this->sms;
     }
 
     /**
@@ -57,8 +57,8 @@ class sms_update
      */
     public function setSms($sms)
     {
-      $this->sms = $sms;
-      return $this;
+        $this->sms = $sms;
+        return $this;
     }
 
 }

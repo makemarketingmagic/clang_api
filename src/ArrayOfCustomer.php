@@ -10,10 +10,10 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Customer = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,7 +21,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function getCustomer()
     {
-      return $this->Customer;
+        return $this->Customer;
     }
 
     /**
@@ -30,8 +30,8 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function setCustomer(array $Customer = null)
     {
-      $this->Customer = $Customer;
-      return $this;
+        $this->Customer = $Customer;
+        return $this;
     }
 
     /**
@@ -42,7 +42,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Customer[$offset]);
+        return isset($this->Customer[$offset]);
     }
 
     /**
@@ -53,7 +53,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Customer[$offset];
+        return $this->Customer[$offset];
     }
 
     /**
@@ -65,11 +65,11 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Customer[] = $value;
-      } else {
-        $this->Customer[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Customer[] = $value;
+        } else {
+            $this->Customer[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +80,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Customer[$offset]);
+        unset($this->Customer[$offset]);
     }
 
     /**
@@ -90,7 +90,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Customer);
+        return current($this->Customer);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Customer);
+        next($this->Customer);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Customer);
+        return key($this->Customer);
     }
 
     /**
@@ -121,7 +121,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +132,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Customer);
+        reset($this->Customer);
     }
 
     /**
@@ -142,7 +142,7 @@ class ArrayOfCustomer implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Customer);
+        return count($this->Customer);
     }
 
 }

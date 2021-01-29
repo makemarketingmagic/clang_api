@@ -105,10 +105,10 @@ class Email
      */
     protected $textContent = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -116,7 +116,7 @@ class Email
      */
     public function getDefaultMailingType()
     {
-      return $this->defaultMailingType;
+        return $this->defaultMailingType;
     }
 
     /**
@@ -125,8 +125,8 @@ class Email
      */
     public function setDefaultMailingType($defaultMailingType)
     {
-      $this->defaultMailingType = $defaultMailingType;
-      return $this;
+        $this->defaultMailingType = $defaultMailingType;
+        return $this;
     }
 
     /**
@@ -134,7 +134,7 @@ class Email
      */
     public function getFolder()
     {
-      return $this->folder;
+        return $this->folder;
     }
 
     /**
@@ -143,8 +143,8 @@ class Email
      */
     public function setFolder($folder)
     {
-      $this->folder = $folder;
-      return $this;
+        $this->folder = $folder;
+        return $this;
     }
 
     /**
@@ -152,7 +152,7 @@ class Email
      */
     public function getClass()
     {
-      return $this->class;
+        return $this->class;
     }
 
     /**
@@ -161,8 +161,8 @@ class Email
      */
     public function setClass($class)
     {
-      $this->class = $class;
-      return $this;
+        $this->class = $class;
+        return $this;
     }
 
     /**
@@ -170,7 +170,7 @@ class Email
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -179,8 +179,8 @@ class Email
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -188,7 +188,7 @@ class Email
      */
     public function getType()
     {
-      return $this->type;
+        return $this->type;
     }
 
     /**
@@ -197,8 +197,8 @@ class Email
      */
     public function setType($type)
     {
-      $this->type = $type;
-      return $this;
+        $this->type = $type;
+        return $this;
     }
 
     /**
@@ -206,7 +206,7 @@ class Email
      */
     public function getTemplateId()
     {
-      return $this->templateId;
+        return $this->templateId;
     }
 
     /**
@@ -215,8 +215,8 @@ class Email
      */
     public function setTemplateId($templateId)
     {
-      $this->templateId = $templateId;
-      return $this;
+        $this->templateId = $templateId;
+        return $this;
     }
 
     /**
@@ -224,7 +224,7 @@ class Email
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -233,8 +233,8 @@ class Email
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -242,7 +242,7 @@ class Email
      */
     public function getCampaignId()
     {
-      return $this->campaignId;
+        return $this->campaignId;
     }
 
     /**
@@ -251,8 +251,8 @@ class Email
      */
     public function setCampaignId($campaignId)
     {
-      $this->campaignId = $campaignId;
-      return $this;
+        $this->campaignId = $campaignId;
+        return $this;
     }
 
     /**
@@ -260,7 +260,7 @@ class Email
      */
     public function getFromAddress()
     {
-      return $this->fromAddress;
+        return $this->fromAddress;
     }
 
     /**
@@ -269,8 +269,8 @@ class Email
      */
     public function setFromAddress($fromAddress)
     {
-      $this->fromAddress = $fromAddress;
-      return $this;
+        $this->fromAddress = $fromAddress;
+        return $this;
     }
 
     /**
@@ -278,7 +278,7 @@ class Email
      */
     public function getFromName()
     {
-      return $this->fromName;
+        return $this->fromName;
     }
 
     /**
@@ -287,8 +287,8 @@ class Email
      */
     public function setFromName($fromName)
     {
-      $this->fromName = $fromName;
-      return $this;
+        $this->fromName = $fromName;
+        return $this;
     }
 
     /**
@@ -296,7 +296,7 @@ class Email
      */
     public function getReplyToAddress()
     {
-      return $this->replyToAddress;
+        return $this->replyToAddress;
     }
 
     /**
@@ -305,8 +305,8 @@ class Email
      */
     public function setReplyToAddress($replyToAddress)
     {
-      $this->replyToAddress = $replyToAddress;
-      return $this;
+        $this->replyToAddress = $replyToAddress;
+        return $this;
     }
 
     /**
@@ -314,7 +314,7 @@ class Email
      */
     public function getReplyToName()
     {
-      return $this->replyToName;
+        return $this->replyToName;
     }
 
     /**
@@ -323,8 +323,8 @@ class Email
      */
     public function setReplyToName($replyToName)
     {
-      $this->replyToName = $replyToName;
-      return $this;
+        $this->replyToName = $replyToName;
+        return $this;
     }
 
     /**
@@ -332,7 +332,7 @@ class Email
      */
     public function getSubject()
     {
-      return $this->subject;
+        return $this->subject;
     }
 
     /**
@@ -341,8 +341,8 @@ class Email
      */
     public function setSubject($subject)
     {
-      $this->subject = $subject;
-      return $this;
+        $this->subject = $subject;
+        return $this;
     }
 
     /**
@@ -350,7 +350,7 @@ class Email
      */
     public function getCreatedBy()
     {
-      return $this->createdBy;
+        return $this->createdBy;
     }
 
     /**
@@ -359,8 +359,8 @@ class Email
      */
     public function setCreatedBy($createdBy)
     {
-      $this->createdBy = $createdBy;
-      return $this;
+        $this->createdBy = $createdBy;
+        return $this;
     }
 
     /**
@@ -368,7 +368,7 @@ class Email
      */
     public function getCreatedAt()
     {
-      return $this->createdAt;
+        return $this->createdAt;
     }
 
     /**
@@ -377,8 +377,8 @@ class Email
      */
     public function setCreatedAt($createdAt)
     {
-      $this->createdAt = $createdAt;
-      return $this;
+        $this->createdAt = $createdAt;
+        return $this;
     }
 
     /**
@@ -386,7 +386,7 @@ class Email
      */
     public function getModifiedBy()
     {
-      return $this->modifiedBy;
+        return $this->modifiedBy;
     }
 
     /**
@@ -395,8 +395,8 @@ class Email
      */
     public function setModifiedBy($modifiedBy)
     {
-      $this->modifiedBy = $modifiedBy;
-      return $this;
+        $this->modifiedBy = $modifiedBy;
+        return $this;
     }
 
     /**
@@ -404,7 +404,7 @@ class Email
      */
     public function getModifiedAt()
     {
-      return $this->modifiedAt;
+        return $this->modifiedAt;
     }
 
     /**
@@ -413,8 +413,8 @@ class Email
      */
     public function setModifiedAt($modifiedAt)
     {
-      $this->modifiedAt = $modifiedAt;
-      return $this;
+        $this->modifiedAt = $modifiedAt;
+        return $this;
     }
 
     /**
@@ -422,7 +422,7 @@ class Email
      */
     public function getHtmlContent()
     {
-      return $this->htmlContent;
+        return $this->htmlContent;
     }
 
     /**
@@ -431,8 +431,8 @@ class Email
      */
     public function setHtmlContent($htmlContent)
     {
-      $this->htmlContent = $htmlContent;
-      return $this;
+        $this->htmlContent = $htmlContent;
+        return $this;
     }
 
     /**
@@ -440,7 +440,7 @@ class Email
      */
     public function getHtmlBlocks()
     {
-      return $this->htmlBlocks;
+        return $this->htmlBlocks;
     }
 
     /**
@@ -449,8 +449,8 @@ class Email
      */
     public function setHtmlBlocks($htmlBlocks)
     {
-      $this->htmlBlocks = $htmlBlocks;
-      return $this;
+        $this->htmlBlocks = $htmlBlocks;
+        return $this;
     }
 
     /**
@@ -458,7 +458,7 @@ class Email
      */
     public function getTextContent()
     {
-      return $this->textContent;
+        return $this->textContent;
     }
 
     /**
@@ -467,8 +467,8 @@ class Email
      */
     public function setTextContent($textContent)
     {
-      $this->textContent = $textContent;
-      return $this;
+        $this->textContent = $textContent;
+        return $this;
     }
 
 }

@@ -27,9 +27,9 @@ class sms_sendToProfile
      */
     public function __construct($uuid, $smsId, $profileId)
     {
-      $this->uuid = $uuid;
-      $this->smsId = $smsId;
-      $this->profileId = $profileId;
+        $this->uuid = $uuid;
+        $this->smsId = $smsId;
+        $this->profileId = $profileId;
     }
 
     /**
@@ -37,7 +37,7 @@ class sms_sendToProfile
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class sms_sendToProfile
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class sms_sendToProfile
      */
     public function getSmsId()
     {
-      return $this->smsId;
+        return $this->smsId;
     }
 
     /**
@@ -64,8 +64,8 @@ class sms_sendToProfile
      */
     public function setSmsId($smsId)
     {
-      $this->smsId = $smsId;
-      return $this;
+        $this->smsId = $smsId;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class sms_sendToProfile
      */
     public function getProfileId()
     {
-      return $this->profileId;
+        return $this->profileId;
     }
 
     /**
@@ -82,8 +82,8 @@ class sms_sendToProfile
      */
     public function setProfileId($profileId)
     {
-      $this->profileId = $profileId;
-      return $this;
+        $this->profileId = $profileId;
+        return $this;
     }
 
 }

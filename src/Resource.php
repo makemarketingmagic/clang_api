@@ -25,10 +25,10 @@ class Resource
      */
     protected $size = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -36,7 +36,7 @@ class Resource
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -45,8 +45,8 @@ class Resource
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -54,7 +54,7 @@ class Resource
      */
     public function getType()
     {
-      return $this->type;
+        return $this->type;
     }
 
     /**
@@ -63,8 +63,8 @@ class Resource
      */
     public function setType($type)
     {
-      $this->type = $type;
-      return $this;
+        $this->type = $type;
+        return $this;
     }
 
     /**
@@ -72,7 +72,7 @@ class Resource
      */
     public function getStatus()
     {
-      return $this->status;
+        return $this->status;
     }
 
     /**
@@ -81,8 +81,8 @@ class Resource
      */
     public function setStatus($status)
     {
-      $this->status = $status;
-      return $this;
+        $this->status = $status;
+        return $this;
     }
 
     /**
@@ -90,7 +90,7 @@ class Resource
      */
     public function getSize()
     {
-      return $this->size;
+        return $this->size;
     }
 
     /**
@@ -99,8 +99,8 @@ class Resource
      */
     public function setSize($size)
     {
-      $this->size = $size;
-      return $this;
+        $this->size = $size;
+        return $this;
     }
 
 }

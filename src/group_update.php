@@ -21,8 +21,8 @@ class group_update
      */
     public function __construct($uuid, $group)
     {
-      $this->uuid = $uuid;
-      $this->group = $group;
+        $this->uuid = $uuid;
+        $this->group = $group;
     }
 
     /**
@@ -30,7 +30,7 @@ class group_update
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -39,8 +39,8 @@ class group_update
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -48,7 +48,7 @@ class group_update
      */
     public function getGroup()
     {
-      return $this->group;
+        return $this->group;
     }
 
     /**
@@ -57,8 +57,8 @@ class group_update
      */
     public function setGroup($group)
     {
-      $this->group = $group;
-      return $this;
+        $this->group = $group;
+        return $this;
     }
 
 }

@@ -33,10 +33,10 @@ class magento_customerInsertBulkUnique
      */
     public function __construct($uuid, $customers, $websiteId, $websiteName)
     {
-      $this->uuid = $uuid;
-      $this->customers = $customers;
-      $this->websiteId = $websiteId;
-      $this->websiteName = $websiteName;
+        $this->uuid = $uuid;
+        $this->customers = $customers;
+        $this->websiteId = $websiteId;
+        $this->websiteName = $websiteName;
     }
 
     /**
@@ -44,7 +44,7 @@ class magento_customerInsertBulkUnique
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -53,8 +53,8 @@ class magento_customerInsertBulkUnique
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -62,7 +62,7 @@ class magento_customerInsertBulkUnique
      */
     public function getCustomers()
     {
-      return $this->customers;
+        return $this->customers;
     }
 
     /**
@@ -71,8 +71,8 @@ class magento_customerInsertBulkUnique
      */
     public function setCustomers($customers)
     {
-      $this->customers = $customers;
-      return $this;
+        $this->customers = $customers;
+        return $this;
     }
 
     /**
@@ -80,7 +80,7 @@ class magento_customerInsertBulkUnique
      */
     public function getWebsiteId()
     {
-      return $this->websiteId;
+        return $this->websiteId;
     }
 
     /**
@@ -89,8 +89,8 @@ class magento_customerInsertBulkUnique
      */
     public function setWebsiteId($websiteId)
     {
-      $this->websiteId = $websiteId;
-      return $this;
+        $this->websiteId = $websiteId;
+        return $this;
     }
 
     /**
@@ -98,7 +98,7 @@ class magento_customerInsertBulkUnique
      */
     public function getWebsiteName()
     {
-      return $this->websiteName;
+        return $this->websiteName;
     }
 
     /**
@@ -107,8 +107,8 @@ class magento_customerInsertBulkUnique
      */
     public function setWebsiteName($websiteName)
     {
-      $this->websiteName = $websiteName;
-      return $this;
+        $this->websiteName = $websiteName;
+        return $this;
     }
 
 }

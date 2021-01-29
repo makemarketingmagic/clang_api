@@ -27,9 +27,9 @@ class magentoProduct_upsert
      */
     public function __construct($uuid, $product, $abandoned)
     {
-      $this->uuid = $uuid;
-      $this->product = $product;
-      $this->abandoned = $abandoned;
+        $this->uuid = $uuid;
+        $this->product = $product;
+        $this->abandoned = $abandoned;
     }
 
     /**
@@ -37,7 +37,7 @@ class magentoProduct_upsert
      */
     public function getUuid()
     {
-      return $this->uuid;
+        return $this->uuid;
     }
 
     /**
@@ -46,8 +46,8 @@ class magentoProduct_upsert
      */
     public function setUuid($uuid)
     {
-      $this->uuid = $uuid;
-      return $this;
+        $this->uuid = $uuid;
+        return $this;
     }
 
     /**
@@ -55,7 +55,7 @@ class magentoProduct_upsert
      */
     public function getProduct()
     {
-      return $this->product;
+        return $this->product;
     }
 
     /**
@@ -64,8 +64,8 @@ class magentoProduct_upsert
      */
     public function setProduct($product)
     {
-      $this->product = $product;
-      return $this;
+        $this->product = $product;
+        return $this;
     }
 
     /**
@@ -73,7 +73,7 @@ class magentoProduct_upsert
      */
     public function getAbandoned()
     {
-      return $this->abandoned;
+        return $this->abandoned;
     }
 
     /**
@@ -82,8 +82,8 @@ class magentoProduct_upsert
      */
     public function setAbandoned($abandoned)
     {
-      $this->abandoned = $abandoned;
-      return $this;
+        $this->abandoned = $abandoned;
+        return $this;
     }
 
 }

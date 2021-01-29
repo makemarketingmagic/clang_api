@@ -115,10 +115,10 @@ class Mailing
      */
     protected $complaints = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -126,7 +126,7 @@ class Mailing
      */
     public function getPlannedFor()
     {
-      return $this->plannedFor;
+        return $this->plannedFor;
     }
 
     /**
@@ -135,8 +135,8 @@ class Mailing
      */
     public function setPlannedFor($plannedFor)
     {
-      $this->plannedFor = $plannedFor;
-      return $this;
+        $this->plannedFor = $plannedFor;
+        return $this;
     }
 
     /**
@@ -144,7 +144,7 @@ class Mailing
      */
     public function getUniqueClicks()
     {
-      return $this->uniqueClicks;
+        return $this->uniqueClicks;
     }
 
     /**
@@ -153,8 +153,8 @@ class Mailing
      */
     public function setUniqueClicks($uniqueClicks)
     {
-      $this->uniqueClicks = $uniqueClicks;
-      return $this;
+        $this->uniqueClicks = $uniqueClicks;
+        return $this;
     }
 
     /**
@@ -162,7 +162,7 @@ class Mailing
      */
     public function getUniqueOpens()
     {
-      return $this->uniqueOpens;
+        return $this->uniqueOpens;
     }
 
     /**
@@ -171,8 +171,8 @@ class Mailing
      */
     public function setUniqueOpens($uniqueOpens)
     {
-      $this->uniqueOpens = $uniqueOpens;
-      return $this;
+        $this->uniqueOpens = $uniqueOpens;
+        return $this;
     }
 
     /**
@@ -180,7 +180,7 @@ class Mailing
      */
     public function getReceived()
     {
-      return $this->received;
+        return $this->received;
     }
 
     /**
@@ -189,8 +189,8 @@ class Mailing
      */
     public function setReceived($received)
     {
-      $this->received = $received;
-      return $this;
+        $this->received = $received;
+        return $this;
     }
 
     /**
@@ -198,7 +198,7 @@ class Mailing
      */
     public function getCampaignId()
     {
-      return $this->campaignId;
+        return $this->campaignId;
     }
 
     /**
@@ -207,8 +207,8 @@ class Mailing
      */
     public function setCampaignId($campaignId)
     {
-      $this->campaignId = $campaignId;
-      return $this;
+        $this->campaignId = $campaignId;
+        return $this;
     }
 
     /**
@@ -216,7 +216,7 @@ class Mailing
      */
     public function getCampaignName()
     {
-      return $this->campaignName;
+        return $this->campaignName;
     }
 
     /**
@@ -225,8 +225,8 @@ class Mailing
      */
     public function setCampaignName($campaignName)
     {
-      $this->campaignName = $campaignName;
-      return $this;
+        $this->campaignName = $campaignName;
+        return $this;
     }
 
     /**
@@ -234,7 +234,7 @@ class Mailing
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -243,8 +243,8 @@ class Mailing
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -252,7 +252,7 @@ class Mailing
      */
     public function getContentName()
     {
-      return $this->contentName;
+        return $this->contentName;
     }
 
     /**
@@ -261,8 +261,8 @@ class Mailing
      */
     public function setContentName($contentName)
     {
-      $this->contentName = $contentName;
-      return $this;
+        $this->contentName = $contentName;
+        return $this;
     }
 
     /**
@@ -270,7 +270,7 @@ class Mailing
      */
     public function getSourceType()
     {
-      return $this->sourceType;
+        return $this->sourceType;
     }
 
     /**
@@ -279,8 +279,8 @@ class Mailing
      */
     public function setSourceType($sourceType)
     {
-      $this->sourceType = $sourceType;
-      return $this;
+        $this->sourceType = $sourceType;
+        return $this;
     }
 
     /**
@@ -288,7 +288,7 @@ class Mailing
      */
     public function getSourceName()
     {
-      return $this->sourceName;
+        return $this->sourceName;
     }
 
     /**
@@ -297,8 +297,8 @@ class Mailing
      */
     public function setSourceName($sourceName)
     {
-      $this->sourceName = $sourceName;
-      return $this;
+        $this->sourceName = $sourceName;
+        return $this;
     }
 
     /**
@@ -306,7 +306,7 @@ class Mailing
      */
     public function getCustomers()
     {
-      return $this->customers;
+        return $this->customers;
     }
 
     /**
@@ -315,8 +315,8 @@ class Mailing
      */
     public function setCustomers($customers)
     {
-      $this->customers = $customers;
-      return $this;
+        $this->customers = $customers;
+        return $this;
     }
 
     /**
@@ -324,7 +324,7 @@ class Mailing
      */
     public function getThrottle()
     {
-      return $this->throttle;
+        return $this->throttle;
     }
 
     /**
@@ -333,8 +333,8 @@ class Mailing
      */
     public function setThrottle($throttle)
     {
-      $this->throttle = $throttle;
-      return $this;
+        $this->throttle = $throttle;
+        return $this;
     }
 
     /**
@@ -342,7 +342,7 @@ class Mailing
      */
     public function getStatus()
     {
-      return $this->status;
+        return $this->status;
     }
 
     /**
@@ -351,8 +351,8 @@ class Mailing
      */
     public function setStatus($status)
     {
-      $this->status = $status;
-      return $this;
+        $this->status = $status;
+        return $this;
     }
 
     /**
@@ -360,7 +360,7 @@ class Mailing
      */
     public function getLinks()
     {
-      return $this->links;
+        return $this->links;
     }
 
     /**
@@ -369,8 +369,8 @@ class Mailing
      */
     public function setLinks($links)
     {
-      $this->links = $links;
-      return $this;
+        $this->links = $links;
+        return $this;
     }
 
     /**
@@ -378,7 +378,7 @@ class Mailing
      */
     public function getType()
     {
-      return $this->type;
+        return $this->type;
     }
 
     /**
@@ -387,8 +387,8 @@ class Mailing
      */
     public function setType($type)
     {
-      $this->type = $type;
-      return $this;
+        $this->type = $type;
+        return $this;
     }
 
     /**
@@ -396,7 +396,7 @@ class Mailing
      */
     public function getDescription()
     {
-      return $this->description;
+        return $this->description;
     }
 
     /**
@@ -405,8 +405,8 @@ class Mailing
      */
     public function setDescription($description)
     {
-      $this->description = $description;
-      return $this;
+        $this->description = $description;
+        return $this;
     }
 
     /**
@@ -414,7 +414,7 @@ class Mailing
      */
     public function getStartedAt()
     {
-      return $this->startedAt;
+        return $this->startedAt;
     }
 
     /**
@@ -423,8 +423,8 @@ class Mailing
      */
     public function setStartedAt($startedAt)
     {
-      $this->startedAt = $startedAt;
-      return $this;
+        $this->startedAt = $startedAt;
+        return $this;
     }
 
     /**
@@ -432,7 +432,7 @@ class Mailing
      */
     public function getEndedAt()
     {
-      return $this->endedAt;
+        return $this->endedAt;
     }
 
     /**
@@ -441,8 +441,8 @@ class Mailing
      */
     public function setEndedAt($endedAt)
     {
-      $this->endedAt = $endedAt;
-      return $this;
+        $this->endedAt = $endedAt;
+        return $this;
     }
 
     /**
@@ -450,7 +450,7 @@ class Mailing
      */
     public function getBounces()
     {
-      return $this->bounces;
+        return $this->bounces;
     }
 
     /**
@@ -459,8 +459,8 @@ class Mailing
      */
     public function setBounces($bounces)
     {
-      $this->bounces = $bounces;
-      return $this;
+        $this->bounces = $bounces;
+        return $this;
     }
 
     /**
@@ -468,7 +468,7 @@ class Mailing
      */
     public function getOpens()
     {
-      return $this->opens;
+        return $this->opens;
     }
 
     /**
@@ -477,8 +477,8 @@ class Mailing
      */
     public function setOpens($opens)
     {
-      $this->opens = $opens;
-      return $this;
+        $this->opens = $opens;
+        return $this;
     }
 
     /**
@@ -486,7 +486,7 @@ class Mailing
      */
     public function getClicks()
     {
-      return $this->clicks;
+        return $this->clicks;
     }
 
     /**
@@ -495,8 +495,8 @@ class Mailing
      */
     public function setClicks($clicks)
     {
-      $this->clicks = $clicks;
-      return $this;
+        $this->clicks = $clicks;
+        return $this;
     }
 
     /**
@@ -504,7 +504,7 @@ class Mailing
      */
     public function getComplaints()
     {
-      return $this->complaints;
+        return $this->complaints;
     }
 
     /**
@@ -513,8 +513,8 @@ class Mailing
      */
     public function setComplaints($complaints)
     {
-      $this->complaints = $complaints;
-      return $this;
+        $this->complaints = $complaints;
+        return $this;
     }
 
 }

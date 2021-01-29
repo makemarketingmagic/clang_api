@@ -20,10 +20,10 @@ class Tag
      */
     protected $weight = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -31,7 +31,7 @@ class Tag
      */
     public function getId()
     {
-      return $this->id;
+        return $this->id;
     }
 
     /**
@@ -40,8 +40,8 @@ class Tag
      */
     public function setId($id)
     {
-      $this->id = $id;
-      return $this;
+        $this->id = $id;
+        return $this;
     }
 
     /**
@@ -49,7 +49,7 @@ class Tag
      */
     public function getName()
     {
-      return $this->name;
+        return $this->name;
     }
 
     /**
@@ -58,8 +58,8 @@ class Tag
      */
     public function setName($name)
     {
-      $this->name = $name;
-      return $this;
+        $this->name = $name;
+        return $this;
     }
 
     /**
@@ -67,7 +67,7 @@ class Tag
      */
     public function getWeight()
     {
-      return $this->weight;
+        return $this->weight;
     }
 
     /**
@@ -76,8 +76,8 @@ class Tag
      */
     public function setWeight($weight)
     {
-      $this->weight = $weight;
-      return $this;
+        $this->weight = $weight;
+        return $this;
     }
 
 }
